@@ -18,8 +18,10 @@ library('rstudioapi')
 
 # Set directory to data folder
 cur_dir <- dirname(getSourceEditorContext()$path)
+getwd()
 setwd(cur_dir)
 setwd("../data")
+getwd()
 
 # Read csv
 df <- read_csv('raw_wf_demo.csv')
@@ -57,12 +59,23 @@ df$year = substr(df$month,1,nchar(df$month)-3)
 df <- subset(df, select = -c(month))
 ```
 
+## Only include certain parts of the data
+```{r}
+
+```
+
 ## Save data
 ```{r}
 ## SAVE FULL DF
+getwd()
+cur_dir <- dirname(getSourceEditorContext()$path)
+setwd(cur_dir)
+setwd("../data")
+getwd()
 write.csv(df, "cleaned_wf_demo.csv")
 
 # Save sample df
 # Upload sample dataframe to website
 df_sam <- df[sample(nrow(df), 500), ]
 write.csv(df_sam, "cleaned_wf_demo_sample.csv")
+```
