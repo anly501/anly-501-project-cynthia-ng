@@ -19,10 +19,10 @@ library('rstudioapi')
 # Set directory to data folder
 cur_dir <- dirname(getSourceEditorContext()$path)
 setwd(cur_dir)
-setwd("../../full_data")
+setwd("../data")
 
 # Read csv
-df <- read_csv('wf_demo.csv')
+df <- read_csv('raw_wf_demo.csv')
 ```
 
 ## Clean
@@ -65,5 +65,4 @@ write.csv(df, "cleaned_wf_demo.csv")
 # Save sample df
 # Upload sample dataframe to website
 df_sam <- df[sample(nrow(df), 500), ]
-setwd("../anly-501-project-cynthia-ng/data")
 write.csv(df_sam, "cleaned_wf_demo_sample.csv")
