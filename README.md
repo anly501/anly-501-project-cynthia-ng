@@ -1,2 +1,16 @@
 # 501-project-template
-* include general information here for anyone trying to clone your repository and re-create your results
+
+With the rising exchange of ideas and backgrounds in today’s world comes the increasing emphasis that is placed on the experiences of people from diverse backgrounds. Diversity, equity, and inclusion (DEI) are the collective intention and efforts to ensure that various identities are respected, valued, and included in the workplace and in society. In recent years, companies have increasingly valued DEI initiatives in the workplace. However, with more visibility and embrace of DEI initiatives comes the opportunity to understand to what extent companies are actually implementing their goals and commitment to DEI. In addition, the tech industry, like many other industries, remains a largely male-dominated and white space. As a woman of color, I’m especially interested in learning about how equitable HR practices are in various tech companies, and how we can improve these HR practices.
+This project examines the main question, “How diverse are public companies’ workforces today?” While most people would likely agree on the importance of DEI initiatives, the types, levels, and measurements of DEI approaches vary by individual, leader, and company. Specifically, I’m interested in researching the equitable outcomes as opposed to just the DEI goals or plans in various companies to better understand just how diverse, equitable, or inclusive a company or industry is.
+Also, this project examines the stratifications of race and gender because examining the unique intersection of racism and sexism can provide insights into these two important aspects of identity without compromising depth of analysis. As a woman of color, I have a personal interest in learning more about the intersection of race and gender. It is important to note though that analyzing gender and race in the workplace provides a meaningful slice of DEI, but does not represent or replace analyzing other aspects of identity – including disabilities, age, neurodiversity, and other aspects of diversity. Please also keep in mind that this study should not be generalized across the experiences of people of various race and gender in the workplace.
+This project hypothesizes that target companies are not very diverse, which means an average rating of less than 50%, employee sentiment, and demographics that are less diverse than the national average. To measure these aspects, this project primarily analyzes data related to workforce demographics provided by Revelio Labs. This project also analyzes data gathered through API from Wikipedia, Twitter, and Reddit on workforce dynamics.
+Questions that I plan to address:Which companies do we have data for to analyze their workforce dynamics?
+Where are these companies located?
+What are women’s experiences of inclusivity in the workplace?
+What are the experiences of diversity in the workplace of people of different races and genders?
+How does diversity vary by company?
+How does diversity vary by industry?
+How does workplace culture vary across various racial and social stratifications?
+What metrics can we use to predict whether or not a company is diverse?
+How do diversity metrics align with companies' mission or diversity statements as well as online information about them?
+How can companies improve current DEI approaches?
