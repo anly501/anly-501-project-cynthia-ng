@@ -1,5 +1,3 @@
 .DS_Store
-./data/wf_dynam_geo_breakdown.csv
-./data/wf_dynam_role_breakdown.csv
 ./data/cleaned_wf_demo.csv
-./data/wf_dynam_demo_breakdown.csv
+./data/raw_wf_demo.csv
