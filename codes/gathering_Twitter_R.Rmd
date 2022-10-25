@@ -1,0 +1,105 @@
+---
+title: "Twitter_API_Gathering"
+author: "Cynthia Ng"
+date: "2022-9-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Set up
+
+```{r libraries}
+# Load essential libraries
+library(rtweet) # for scraping tweets
+library(wordcloud2) # for generating really cool looking wordclouds
+library(tm) # for text minning
+library(twitteR)
+require(httr)
+require(jsonlite)
+require(dplyr)
+```
+
+## API Setup
+
+```{r setup}
+# Initialize empty csv to store tweets later
+api = read.csv('Gathering_Twitter_API_Keys.txt')
+
+# Read keys and tokens
+consumer_key = api[api["Type"]=="API Key"][2]
+consumer_secret = api[api["Type"]=="API Key Secret"][2]
+access_token = api[api["Type"]=="Access Token"][2]
+access_secret = api[api["Type"]=="Access Token Secret"][2]
+bearer_token = api[api["Type"]=="Bearer Token"][2]
+
+# Read urls
+requestURL='https://api.twitter.com/oauth/request_token'
+accessURL='https://api.twitter.com/oauth/access_token'
+authURL='https://api.twitter.com/oauth/authorize'
+
+# Setup authentication
+setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
+```
+
+## Search Tweets
+```{r parameters}
+# Call Tweets
+goldmansachs <- twitteR::searchTwitter("Goldman Sachs", n = 200, lang = "en")
+apple <- twitteR::searchTwitter("Apple", n = 200, lang = "en")
+bristolmyerssquibb <- twitteR::searchTwitter("Bristol Myers Squibb", n = 200, lang = "en")
+homedepot <- twitteR::searchTwitter("Home Depot", n = 200, lang = "en")
+accenture <- twitteR::searchTwitter("Accenture", n = 200, lang = "en")
+
+gs_df <- twListToDF(goldmansachs)
+ap_df <- twListToDF(apple)
+bms_df <- twListToDF(bristolmyerssquibb)
+hd_df <- twListToDF(homedepot)
+ac_df <- twListToDF(accenture)
+```
+
+
+## Save tweets as file
+```{r}
+# Save Goldman Sachs Tweets to file
+FName = "../data/GoldmanSachsTweets.txt"
+## Start the file
+MyFile <- file(FName)
+## Write Tweets to file
+cat(unlist(gs), " ", file=MyFile, sep="\n")
+close(MyFile)
+
+# Save Apple Tweets to file
+FName = "../data/AppleTweets.txt"
+## Start the file
+MyFile <- file(FName)
+## Write Tweets to file
+cat(unlist(ap_df), " ", file=MyFile, sep="\n")
+close(MyFile)
+
+# Save bristolmyerssquibb Tweets to file
+FName = "../data/BMSTweets.txt"
+## Start the file
+MyFile <- file(FName)
+## Write Tweets to file
+cat(unlist(bms_df), " ", file=MyFile, sep="\n")
+close(MyFile)
+
+# Save Home Depot Tweets to file
+FName = "../data/HomeDepotTweets.txt"
+## Start the file
+MyFile <- file(FName)
+## Write Tweets to file
+cat(unlist(hd_df), " ", file=MyFile, sep="\n")
+close(MyFile)
+
+# Save Accenture Tweets to file
+FName = "../data/AccentureTweets.txt"
+## Start the file
+MyFile <- file(FName)
+## Write Tweets to file
+cat(unlist(ac_df), " ", file=MyFile, sep="\n")
+close(MyFile)
+```
