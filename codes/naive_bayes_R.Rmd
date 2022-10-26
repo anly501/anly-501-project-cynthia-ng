@@ -41,16 +41,28 @@ summary(mydata)
 
 ## Split into training and testing sets
 ```{r}
+# # SPLIT METHOD 1
 # # Create partition
 # trainIndex = createDataPartition(y = mydata$myresponse, p = 0.8, list = FALSE)
 # train = mydata[trainIndex,]
 # test = mydata
+
+# SPLIT METHOD 2
 set.seed(42)
 index = sample(2,nrow(mydata),prob = c(0.8,0.2),replace=TRUE) #sample training and testing sets
-#training set
+#training set, dataframe
 train = mydata[index==1,]
-#testing set
+#testing set, dataframe
 test = mydata[index==2,]
+
+# # SPLIT METHOD 3
+# split = sample.split(mydata$myresponse, SplitRatio = 0.75)
+# train = subset(mydata, split == TRUE)
+# test = subset(mydata, split == FALSE)
+# 
+# # Feature scaling
+# train[-3] = scale(train[-3])
+# test[-3] = scale(test[-3])
 
 # Check dimensions of train and test
 dim(train)
@@ -65,6 +77,8 @@ X_train <- train$mypredictor
 y_train <- train$myresponse
 X_test <- test$mypredictor
 y_test <- test$myresponse
+head(train)
+head(X_train)
 
 # Check lengths. Lengths of X_train and y_train must equal, while lengths of X_test and y_test must equal.
 length(X_train)
@@ -74,17 +88,17 @@ length(y_test)
 ```
 
 ```{r}
-# Load library
-library(naivebayes)
-class(X_train)
-# create response and feature data
-gnb <- gaussian_naive_bayes(x = data.matrix(X_train), y = y_train)
-
-ypred <- (predict(gnb, newdata = data.matrix(X_test), type = "class")) 
-
-# test accuracy
-accuracy_method1 <- round((sum(ypred==y_test)/length(y_test))*100 , digits = 0)
-paste("Method 1 accuracy: " , accuracy_method1, "%")
+# # Load library
+# library(naivebayes)
+# class(X_train)
+# # create response and feature data
+# gnb <- gaussian_naive_bayes(x = data.matrix(X_train), y = y_train)
+# 
+# ypred <- (predict(gnb, newdata = data.matrix(X_test), type = "class")) 
+# 
+# # test accuracy
+# accuracy_method1 <- round((sum(ypred==y_test)/length(y_test))*100 , digits = 0)
+# paste("Method 1 accuracy: " , accuracy_method1, "%")
 ```
 
 
@@ -96,16 +110,17 @@ library(caTools)
 library(caret)
 library(naivebayes)
 
-# Create X and y
-X = train$mypredictor
-y = train$myresponse
-
 # Fit Naive Bayes Model to training data set
 set.seed(42)
-nb_model = naiveBayes(myresponse ~ ., data=train)
+nb_model = naiveBayes(myresponse ~ ., data=X_train)
 
 # Predict on test data
 y_pred <- predict(nb_model, newdata = test)
+```
+## Accuracy
+```{r}
+accuracy_model <- round((sum(ypred==y_test)/length(y_test))*100 , digits = 0)
+paste("Model accuracy: " , accuracy_method1, "%")
 ```
 
 ## Confusion Matrix
