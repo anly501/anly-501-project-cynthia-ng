@@ -354,10 +354,20 @@ pre code {
 <h2>Naive Bayes in Python with Labeled Text Data <a href="https://github.com/anly501/anly-501-project-cynthia-ng/blob/main/codes/naive_bayes_py.ipynb">(Link to code)</a></h2>
 <h3>Preparing data</h3>
 <p>
-    To gather and prepare the text data, I used data from Twitter gathered by API containing the key words "apple", "goldman sachs", and "home depot". These are three companies I am interested in learning more about in terms of their initiatives in diveristy, equity, and inclusion. I used a lemmatizer to extract the bases of the text data.
+    To gather and prepare the text data, I used data from Twitter gathered by API containing the key words "apple", "goldman sachs", and "home depot". These are three companies I am interested in learning more about in terms of their initiatives in diveristy, equity, and inclusion. Given the three different datasets that contain Tweets that include the three different companies, I want to classify words to the company. 
 </p>
 <p>
-    Furthermore, I used SKLearn's CountVectorizer to assign a column for each vocabulary term and prepare the text data for the Naive Bayes modelling process. 
+    To prepare the data, I used a lemmatizer to extract the bases of the text data, removed punctuation and stopwords, and conducted other data cleaning processes detailed in the data cleaning section. For the Naive Bayes modelling process specifically, I created two columns for each Tweet - the first one is for the Tweets themselves, and the second column contains the name of the company that the Tweets reference. I merged the three dataframes vertically using the concat function from the pandas library. 
+</p>
+<p>
+    Then, I assigned X and y values, where X means the independent or predictor variables and y is the dependent or outcome variable. In the context of this project, X is the given words in a Tweet (df['tweets']) while y is company that the Tweet mentions (df['company']). I used SKLearn's CountVectorizer to assign a column for each vocabulary term and prepare the text data for the Naive Bayes modelling process. Finally, I partitioned the data into training and test sets to prepare for modelling and checked their shapes to make sure they make sense. 
+</p>
+<h3>Modelling and evaluation</h3>
+<p>
+    I used the GaussianNB function provided by Scikit-learn naive_bayes to implement the Gaussian Naive Bayes algorithm for classification. First, I initialized the model, which creates a blueprint for the modelling process to occur. Then, I fitted the intialized model to the training data and then generated y predictions. 
+</p>
+<p>
+    As you can see in the image below, the model achieved an accuracy score of 66.48 for the training data and 65.67 for the test data. 
 </p>
 </div>
 
