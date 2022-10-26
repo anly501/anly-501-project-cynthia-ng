@@ -113,9 +113,11 @@
     <p>Then, I set seed and used the sample function to split the data into X and y training and test sets along a 80%/20% split. I checked the dimensions and lengths of each variable to ensure that they make sense.</p>
     <h3>Modelling and evaluation</h3>
     <p>I used the gaussian_naive_bayes() function from the naivebayes library in R to create model. Then, I used the predict() function to generate ypred, which are y predictions, from X_train.</p>
-    <p>I tested the accuracy score to evaluate the effectiveness of the model.</p>
-    <p>I also generated a confusion matrix to evaluate the stength of the predictions.</p>
-                <img src="../images/naive_bayes_r_confusion_matrix.png" width="2187" height="1351">
+    <p>I tested the accuracy score to evaluate the effectiveness of the model. The accuracy of the model for the training data is higher at 77% than the model for the test data at 20%. This contrasts the model for the text data explained previously where the accuracy of the model for both training are similarly high, t</p>
+                <img src="../images/naive_bayes_r_accuracy.png" width="2187" height="1351">
+    <p>To understand further the accuracy, I also generated a confusion matrix to evaluate the stength of the predictions. If we examine the diagonal which gives true positives and true negatives, we can see that the "native" category gives the highest number of true positives, which implies that the salary of workers who identify as native are the most predictable.</p>
+    <p>It is intruging that there is a score of 0 for the prediction labels "white", which warrants further exploration.</p>
+    <img src="../images/naive_bayes_r_confusion_matrix.png" width="2187" height="1351">
     <p>Overall, I think the model predicted the training data well at 77%, but the testing data poorly at 20%. In the future, I plan to normalize the data first so that the predictions are hopefully more accurate. I plan to also train the model on several other features such as seniority, outflow/inflow, and gender. </p>
     </div>
    </tr>
