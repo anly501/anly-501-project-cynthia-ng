@@ -31,44 +31,60 @@ summary(df)
 ```{r}
 # Create data frame for only predictor and outcome
 df <- df[df$region=='Northern America',]
-mydata <- data.frame(df$ethnicity, df$salary) #select gender and salary
 
-# Omit na values
-mydata<-na.omit(mydata)
+mydata <- data.frame(df$salary, df$ethnicity) #select ethnicity and salary
+colnames(mydata) <- c('mypredictor', 'myresponse')
+
+mydata <- na.omit(mydata)
+summary(mydata)
 ```
 
 ## Split into training and testing sets
 ```{r}
-# Create partition
-trainIndex = createDataPartition(y = mydata$ethnicity, p = 0.8, list = FALSE)
-train = mydata[trainIndex,]
-test = mydata[-trainIndex,]
+# # Create partition
+# trainIndex = createDataPartition(y = mydata$myresponse, p = 0.8, list = FALSE)
+# train = mydata[trainIndex,]
+# test = mydata
+set.seed(42)
+index = sample(2,nrow(mydata),prob = c(0.8,0.2),replace=TRUE) #sample training and testing sets
+#training set
+train = mydata[index==1,]
+#testing set
+test = mydata[index==2,]
 
 # Check dimensions of train and test
 dim(train)
 dim(test)
 
 # Check proportions of predictor in train and test, which should be similar
-table(train$ethnicity) %>% prop.table()
-table(test$ethnicity) %>% prop.table()
+table(train$myresponse) %>% prop.table()
+table(test$myresponse) %>% prop.table()
 
+# Pull X and y from train and test
+X_train <- train$mypredictor
+y_train <- train$myresponse
+X_test <- test$mypredictor
+y_test <- test$myresponse
+
+# Check lengths. Lengths of X_train and y_train must equal, while lengths of X_test and y_test must equal.
+length(X_train)
+length(y_train)
+length(X_test)
+length(y_test)
 ```
 
 ```{r}
+# Load library
+library(naivebayes)
+class(X_train)
 # create response and feature data
-features <- setdiff(names(train), "ethnicity")
-x <- train[, features]
-y <- train$ethnicity
+gnb <- gaussian_naive_bayes(x = data.matrix(X_train), y = y_train)
 
-# train model
-nb.m1 <- train(
-  x = salary,
-  y = ethnicity,
-  method = "nb"
-  )
+ypred <- (predict(gnb, newdata = data.matrix(X_test), type = "class")) 
 
-# results
-confusionMatrix(nb.m1)
+# test accuracy
+accuracy_method1 <- round((sum(ypred==y_test)/length(y_test))*100 , digits = 0)
+paste("Method 1 accuracy: " , accuracy_method1, "%")
 ```
 
 
@@ -78,6 +94,7 @@ confusionMatrix(nb.m1)
 library(e1071)
 library(caTools)
 library(caret)
+library(naivebayes)
 
 # Create X and y
 X = train$mypredictor
