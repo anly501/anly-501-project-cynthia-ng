@@ -100,6 +100,11 @@
         The model achieved an accuracy score of 66.5 for the training data and 65.7 for the test data, which is also visualized in the graph below. This means that around 66.5% of the predicts were correct for the training data and 65.7% of the predictions were correct for the test data. I expected there to be a larger deviation between the accuracy of the predictions on training and test data, so the closeness between the two scores implies that they work at a similar accuracy. 
     </p>
                 <img src="../images/naive_bayes_tweets_accuracy.png" width="640" height="480">
+    <p>
+        Please see the confusion matrix of the model below. A confusion matrix visualizes and summarizes the performance of a classification algorithm. On the y-axis we have the true labels, and on the x-axis we have the predicted labels. The diagonal, which shows the true negatives and true positives, shows that the accuracy of predictions is highest for Tweets mentioning Apple, followed by Goldman Sachs, and finally Home Depot. Furthermore, there is a larger portion of false positives for Apple than for the other two companies. I wonder if it is also beacuse the word "Apple" is not just associated with the company Apple, but also the noun apple which could be associated with Home Depot which sells gardening tools and other things related to apples. Overall, it looks like the model performed fairly well, especially for the prediction of the company Apple. 
+                <img src="../images/naive_bayes_tweets_confusion_matrix.png" width="640" height="480">
+    </p>
+
     </div>
    </tr>
 
