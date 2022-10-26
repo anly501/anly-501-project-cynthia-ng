@@ -103,8 +103,8 @@
                 <img src="../images/naive_bayes_tweets_accuracy.png" width="640" height="480">
     <p>
         Please see the confusion matrix of the model below. A confusion matrix visualizes and summarizes the performance of a classification algorithm. On the y-axis we have the true labels, and on the x-axis we have the predicted labels. The diagonal, which shows the true negatives and true positives, shows that the accuracy of predictions is highest for Tweets mentioning Apple, followed by Goldman Sachs, and finally Home Depot. 
-                <img src="../images/naive_bayes_tweets_confusion_matrix.png" width="640" height="480">
     </p>
+                <img src="../images/naive_bayes_tweets_confusion_matrix.png" width="640" height="480">
     <p> In conclusion, it looks like my model has predicted both training and test data at a rate of 65-66%, which is pretty accurate. When we examine the data further, we see that there is a larger portion of false positives for Apple than for the other two companies. I wonder if it is also beacuse the word "Apple" is not just associated with the company Apple, but also the noun apple which could be associated with Home Depot which sells gardening tools and other things related to apples. Overall, it looks like the model performed fairly well, especially for the prediction of the company Apple. </p>
     <h2>Naive Bayes in R with Record Data <a href="https://github.com/anly501/anly-501-project-cynthia-ng/blob/main/codes/naive_bayes_R.Rmd">(Link to code)</a></h2>
     <h3>Preparing data</h3>
@@ -115,7 +115,8 @@
     <p>I used the gaussian_naive_bayes() function from the naivebayes library in R to create model. Then, I used the predict() function to generate ypred, which are y predictions, from X_train.</p>
     <p>I tested the accuracy score to evaluate the effectiveness of the model.</p>
     <p>I also generated a confusion matrix to evaluate the stength of the predictions.</p>
-    <p>Overall, I think the model predicted the labels well. In the future, I plan to train the model on several other factors such as seniority, outflow/inflow, and gender. </p>
+                <img src="../images/naive_bayes_r_confusion_matrix.png" width="2187" height="1351">
+    <p>Overall, I think the model predicted the training data well at 77%, but the testing data poorly at 20%. In the future, I plan to normalize the data first so that the predictions are hopefully more accurate. I plan to also train the model on several other features such as seniority, outflow/inflow, and gender. </p>
     </div>
    </tr>
 
