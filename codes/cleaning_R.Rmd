@@ -61,7 +61,7 @@ df <- subset(df, select = -c(month))
 
 ## Only include certain parts of the data
 ```{r}
-
+df <- subset(df, year == 2020)
 ```
 
 ## Save data

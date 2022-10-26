@@ -10,12 +10,9 @@ output: html_document
 # Load relevant libraries
 knitr::opts_chunk$set(echo = TRUE)
 library(gmodels)
-library(e1071)
 library(tidyverse)
 library(ggplot2)
 library(rstudioapi)
-library(caret)
-library(caTools) 
 
 # Set directory
 cur_dir <- dirname(getSourceEditorContext()$path)
@@ -33,91 +30,75 @@ summary(df)
 ## Prepare for split
 ```{r}
 # Create data frame for only predictor and outcome
-apple_df <- df[df$company=='Apple',]
-apple_df <- apple_df[apple_df$region=='Northern America',]
-mydata <- data.frame(apple_df$gender, apple_df$salary) #select gender and salary
-colnames(mydata) <- c('mypredictor', 'myresponse') #given names
+df <- df[df$region=='Northern America',]
+mydata <- data.frame(df$ethnicity, df$salary) #select gender and salary
 
-# Holdout method
-numpredictors=dim(mydata)[2]-1
-
-numfac=0
-
-for (i in 1:numpredictors) {
-  if ((is.factor(mydata[,i]))){
-    numfac=numfac+1} 
-}
-
-nobs=dim(mydata)[1]
-RNGkind(sample.kind = "Rounding")
-set.seed(42) #sets the seed for random sampling
-
-prop = prop.table(table(mydata$myresponse))
-length.vector = round(0.8*nobs*prop)
-train_size=sum(length.vector)
-test_size=nobs-train_size
-class.names = as.data.frame(prop)[,1]
-numb.class = length(class.names)
-resample=1
+# Omit na values
+mydata<-na.omit(mydata)
 ```
 
 ## Split into training and testing sets
 ```{r}
+# Create partition
+trainIndex = createDataPartition(y = mydata$ethnicity, p = 0.8, list = FALSE)
+train = mydata[trainIndex,]
+test = mydata[-trainIndex,]
 
-#The 'while' conditional construct below breaks the data into testing(20%) and training(80%) sets assuring that the unique levels
-#of each of the categorical variables is the same in mydata, testing, and training sets. If for a particular partition
-#those levels do not match, then RStudio continues to perform 80-20 random splits untill such partition is found.
+# Check dimensions of train and test
+dim(train)
+dim(test)
 
+# Check proportions of predictor in train and test, which should be similar
+table(train$ethnicity) %>% prop.table()
+table(test$ethnicity) %>% prop.table()
 
-while (resample==1) {
-  
-  train_index = c()
-  
-  for(i in 1:numb.class){
-    index_temp = which(mydata$myresponse==class.names[i])
-    train_index_temp = sample(index_temp, length.vector[i], replace = F)
-    train_index = c(train_index, train_index_temp)
-  }
-  
-  mydata_train=mydata[train_index,] #randomly select the data for training set using the row numbers generated above
-  mydata_test=mydata[-train_index,]#everything not in the training set should go into testing set
-  
-  right_fac=0 #denotes the number of factors with "right" distributions (i.e. - the unique levels match across mydata, test, and train data sets)
-  
-  for (i in 1:numpredictors) {
-    if (is.factor(mydata_train[,i])) {
-      if (setequal(intersect(as.vector(unique(mydata_train[,i])), as.vector(unique(mydata_test[,i]))),as.vector(unique(mydata[,i])))==TRUE)
-        right_fac=right_fac+1
-    }
-  }
-  
-  if (right_fac==numfac) (resample=0) else (resample=1)
-  
-}  
-
-test_predictors=mydata_test
-test_predictors$myresponse=NULL
-myresponse_test=as.data.frame(mydata_test$myresponse)
-colnames(myresponse_test)="myresponse"
-str(test_predictors)
-str(myresponse_test)
-
-dim(mydata_test) #confirms that testing data has only 20% of observations
-dim(mydata_train) #confirms that training data has 80% of observations
-mydata_train
 ```
+
+```{r}
+# create response and feature data
+features <- setdiff(names(train), "ethnicity")
+x <- train[, features]
+y <- train$ethnicity
+
+# train model
+nb.m1 <- train(
+  x = salary,
+  y = ethnicity,
+  method = "nb"
+  )
+
+# results
+confusionMatrix(nb.m1)
+```
+
 
 ## Naive Bayes Model
 ```{r}
-model=naiveBayes(myresponse ~ ., data=mydata_train)
-pred=predict(model, test_predictors)
-tbl=as.data.frame(table(myresponse_test$myresponse,pred))
-percent_correct=round(100*sum(tbl[which(tbl$Var1==tbl$pred),3])/dim(mydata_test)[1],2)
+# Load library for Naive Bayes modelling
+library(e1071)
+library(caTools)
+library(caret)
+
+# Create X and y
+X = train$mypredictor
+y = train$myresponse
+
+# Fit Naive Bayes Model to training data set
+set.seed(42)
+nb_model = naiveBayes(myresponse ~ ., data=train)
+
+# Predict on test data
+y_pred <- predict(nb_model, newdata = test)
 ```
 
 ## Confusion Matrix
 ```{r}
-Confusion_Matrix=CrossTable(myresponse_test$myresponse,pred, dnn=c("True Class","Predicted Class"), prop.chisq=F,prop.t=F, prop.c=F, prop.r=F)
+# Confusion Matrix
+cm <- table(test$myresponse, y_pred)
+cm
+
+# Model Evaluation
+confusionMatrix(cm)
 ```
 
 ## Export prediction data
