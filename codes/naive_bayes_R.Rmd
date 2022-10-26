@@ -41,13 +41,7 @@ summary(mydata)
 
 ## Split into training and testing sets
 ```{r}
-# # SPLIT METHOD 1
-# # Create partition
-# trainIndex = createDataPartition(y = mydata$myresponse, p = 0.8, list = FALSE)
-# train = mydata[trainIndex,]
-# test = mydata
-
-# SPLIT METHOD 2
+# Split
 set.seed(42)
 index = sample(2,nrow(mydata),prob = c(0.8,0.2),replace=TRUE) #sample training and testing sets
 #training set, dataframe
@@ -55,30 +49,26 @@ train = mydata[index==1,]
 #testing set, dataframe
 test = mydata[index==2,]
 
-# # SPLIT METHOD 3
-# split = sample.split(mydata$myresponse, SplitRatio = 0.75)
-# train = subset(mydata, split == TRUE)
-# test = subset(mydata, split == FALSE)
-# 
-# # Feature scaling
-# train[-3] = scale(train[-3])
-# test[-3] = scale(test[-3])
-
 # Check dimensions of train and test
 dim(train)
 dim(test)
+
+# Check what train looks like
+head(train)
 
 # Check proportions of predictor in train and test, which should be similar
 table(train$myresponse) %>% prop.table()
 table(test$myresponse) %>% prop.table()
 
 # Pull X and y from train and test
-X_train <- train$mypredictor
-y_train <- train$myresponse
-X_test <- test$mypredictor
-y_test <- test$myresponse
-head(train)
-head(X_train)
+# Because I only have one X and one y variable each, I hav to group them a dataframe and name them accordingly to avoid the error of no unique columns
+X_train <- data.frame(train[, names(train) %in% c("mypredictor")] )
+names(X_train) <- 'mypredictor'  
+y_train <- train[['myresponse']]
+
+X_test <- data.frame(test[, names(test) %in% c("mypredictor")])
+names(X_test) <- 'mypredictor'  
+y_test <- test[['myresponse']]
 
 # Check lengths. Lengths of X_train and y_train must equal, while lengths of X_test and y_test must equal.
 length(X_train)
@@ -87,61 +77,49 @@ length(X_test)
 length(y_test)
 ```
 
-```{r}
-# # Load library
-# library(naivebayes)
-# class(X_train)
-# # create response and feature data
-# gnb <- gaussian_naive_bayes(x = data.matrix(X_train), y = y_train)
-# 
-# ypred <- (predict(gnb, newdata = data.matrix(X_test), type = "class")) 
-# 
-# # test accuracy
-# accuracy_method1 <- round((sum(ypred==y_test)/length(y_test))*100 , digits = 0)
-# paste("Method 1 accuracy: " , accuracy_method1, "%")
-```
-
-
 ## Naive Bayes Model
 ```{r}
-# Load library for Naive Bayes modelling
-library(e1071)
-library(caTools)
-library(caret)
-library(naivebayes)
+# Train naive bayes model
+gnb <- gaussian_naive_bayes(x = data.matrix(X_train), y = y_train)
 
-# Fit Naive Bayes Model to training data set
-set.seed(42)
-nb_model = naiveBayes(myresponse ~ ., data=X_train)
+y_train_pred <- (predict(gnb, newdata = data.matrix(X_train), type = "class"))
 
-# Predict on test data
-y_pred <- predict(nb_model, newdata = test)
+y_test_pred <- (predict(gnb, newdata = data.matrix(X_test), type = "class"))
 ```
+
 ## Accuracy
 ```{r}
-accuracy_model <- round((sum(ypred==y_test)/length(y_test))*100 , digits = 0)
-paste("Model accuracy: " , accuracy_method1, "%")
+# train accuracy
+train_accuracy <- round((sum(y_train_pred==y_train)/length(y_test))*100 , digits = 0)
+paste("Train method accuracy: " , train_accuracy, "%")
+
+# test accuracy
+test_accuracy <- round((sum(y_test_pred==y_test)/length(y_test))*100 , digits = 0)
+paste("Test method accuracy: " , test_accuracy, "%")
 ```
 
 ## Confusion Matrix
 ```{r}
-# Confusion Matrix
-cm <- table(test$myresponse, y_pred)
+# Create confusion matrix
+cm <- confusionMatrix(y_test_pred, as.factor(y_test))
 cm
 
-# Model Evaluation
-confusionMatrix(cm)
-```
+# Plot confusion matrix
+ggplotConfusionMatrix <- function(m){
+  p <-
+    ggplot(data = as.data.frame(m$table) ,
+           aes(x = Reference, y = Prediction)) +
+    geom_tile(aes(fill = log(Freq)), colour = "Gray") +
+    scale_fill_gradient(low = "Blue", high = "Yellow") +
+    geom_text(aes(x = Reference, y = Prediction, label= Freq)) +
+    theme(legend.position = "none") +
+    ggtitle("Confusion matrix") + theme(plot.title = element_text(hjust = 0.5))
 
-## Export prediction data
-```{r}
-naive_gender_salary=cbind(mydata_test,pred)
-naive_gender_salary$Naive_Bayes_Classification=for_export$pred
-naive_gender_salary$pred=NULL
+  return(p)
+}
 
-View(naive_gender_salary)
+ggplotConfusionMatrix(cm)
 
-# Save in wd
-setwd("../anly-501-project-cynthia-ng/data")
-write.csv(naive_gender_salary, "naive_gender_salary.csv")
+# Save plot
+ggsave("../501-project-website/images/naive_bayes_r_confusion_matrix.png")
 ```
