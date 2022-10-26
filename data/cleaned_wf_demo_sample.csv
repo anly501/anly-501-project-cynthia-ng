@@ -1,501 +1,501 @@
-"","rcid","company","region","seniority","job_category","gender","ethnicity","month","count","inflow","outflow","salary"
-"1",1122234,"Bristol Myers Squibb Co.","Central America and the Caribbean",3,"Sales","male","api","2008-11",0.529183,0.005039,0,16739.4326181094
-"2",494205,"The Home Depot\, Inc.","Northern America",1,"Marketing","female","white","2018-06",328.27555,8.789471,11.674386,16009797.1771066
-"3",1122234,"Bristol Myers Squibb Co.","Northern Europe",6,"Engineer","female","hispanic","2013-12",0,0,0,NA
-"4",20923715,"The Goldman Sachs Group\, Inc.","empty",4,"Sales","female","hispanic","2015-07",0.104663,0.026129,0,7927.13592678647
-"5",494205,"The Home Depot\, Inc.","Northern Europe",4,"Finance","male","hispanic","2009-04",0.003,0,0,291.983393131696
-"6",494205,"The Home Depot\, Inc.","Southern Asia",3,"Engineer","female","hispanic","2011-11",0.37075,0,0,3914.05355404409
-"7",604981,"Databricks\, Inc.","Western Europe",5,"Sales","male","api","2016-02",0,0,0,NA
-"8",1230770,"Accenture Plc","Southern Europe",5,"empty","male","hispanic","2012-05",0.889162,0,0,77921.0274707192
-"9",20923715,"The Goldman Sachs Group\, Inc.","Northern America",5,"Admin","male","white","2012-09",59.142666,0.00303799999999999,2.1e-05,8586555.53335315
-"10",20923715,"The Goldman Sachs Group\, Inc.","Southern America",3,"Engineer","male","white","2017-10",0.861366,6e-06,5e-06,14438.4701717474
-"11",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",5,"Admin","female","native","2020-10",0.030529,0,0,3576.88053711551
-"12",1232095,"Apple\, Inc.","Eastern Europe",2,"empty","male","white","2013-11",0.906966,0,0,31309.1811054863
-"13",1122234,"Bristol Myers Squibb Co.","Arab States",2,"Admin","female","hispanic","2010-04",0,0,0,NA
-"14",1230770,"Accenture Plc","Eastern Asia",3,"Sales","male","multiple","2010-11",6.126623,0.11541,0.00804799999999999,304114.265656788
-"15",494205,"The Home Depot\, Inc.","South-Eastern Asia",1,"Marketing","female","white","2014-06",0.859732,0,0,10887.3539557498
-"16",494205,"The Home Depot\, Inc.","Sub-Saharan Africa",3,"Finance","female","api","2009-07",0.035,0,0,703.991431042555
-"17",1230770,"Accenture Plc","Western Europe",6,"Scientist","male","multiple","2019-08",0.04718,0,0,6174.98996896531
-"18",1232095,"Apple\, Inc.","Southern America",5,"Finance","male","native","2012-01",0.027022,0,0,575.371098277603
-"19",604981,"Databricks\, Inc.","Northern America",4,"Finance","female","black","2014-09",0.004,0,0,570.088749447468
-"20",1230770,"Accenture Plc","Northern Europe",1,"Marketing","female","hispanic","2008-12",2.455887,3e-06,0.200013,86681.7568686758
-"21",494205,"The Home Depot\, Inc.","Central America and the Caribbean",1,"Marketing","male","white","2010-11",2.597335,3e-06,4e-06,65516.8353775727
-"22",1232095,"Apple\, Inc.","Pacific Islands",5,"Engineer","male","hispanic","2016-11",0.14259,0.002075,1e-06,16748.4474619768
-"23",1122234,"Bristol Myers Squibb Co.","Western Europe",1,"Sales","male","api","2011-12",1.766436,0,0,73192.0386550417
-"24",1122234,"Bristol Myers Squibb Co.","Eastern Asia",4,"Finance","male","api","2016-02",14.033012,3.1e-05,1.1e-05,451822.67073737
-"25",1230770,"Accenture Plc","Southern America",5,"Scientist","female","black","2013-09",0.189098,0,0,3055.97079600281
-"26",1122234,"Bristol Myers Squibb Co.","Northern Europe",3,"Scientist","male","api","2012-10",13.359399,0.001011,1.836092,853078.716709341
-"27",1230770,"Accenture Plc","Pacific Islands",3,"Finance","male","hispanic","2018-07",3.855323,1.008042,3.6e-05,218012.295433909
-"28",1230770,"Accenture Plc","South-Eastern Asia",5,"Scientist","female","white","2017-12",0.20504,2.1e-05,2.3e-05,4990.55488004238
-"29",1232095,"Apple\, Inc.","Northern Africa",4,"Engineer","male","native","2008-11",0.429999,0,0,7247.2996938816
-"30",1230770,"Accenture Plc","Northern Europe",4,"empty","female","hispanic","2016-09",0.013909,0,0,1324.77783596168
-"31",1232095,"Apple\, Inc.","Southern Asia",2,"Sales","male","hispanic","2010-02",50.549824,0.051795,5.7e-05,584375.94846759
-"32",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",1,"Finance","male","multiple","2019-01",0.177544,0.005294,7e-06,3358.16430504736
-"33",1232095,"Apple\, Inc.","South-Eastern Asia",3,"Operations","male","native","2019-01",0.783758,0.00645599999999999,4.3e-05,26810.6287219198
-"34",1122234,"Bristol Myers Squibb Co.","Eastern Asia",5,"empty","female","black","2009-08",0,0,0,NA
-"35",1232095,"Apple\, Inc.","Pacific Islands",4,"Marketing","male","black","2021-06",0.446338,0.002134,0.00030499999999999,53825.7505654777
-"36",1230770,"Accenture Plc","Northern Europe",2,"Scientist","female","multiple","2020-03",1.354451,0.056047,0.001472,66822.2607368346
-"37",20923715,"The Goldman Sachs Group\, Inc.","Northern Africa",1,"Operations","male","multiple","2014-09",0.103,0,0,2066.53324878238
-"38",1232095,"Apple\, Inc.","Northern America",3,"Engineer","male","api","2017-07",1942.644499,56.332799,21.957991,227371844.875067
-"39",1230770,"Accenture Plc","Southern Europe",6,"Finance","female","white","2008-11",3.709899,3e-06,1e-06,277791.935877445
-"40",1230770,"Accenture Plc","Western Europe",4,"Engineer","female","black","2015-04",51.121448,0.837116,0.704711,3006972.15397442
-"41",1230770,"Accenture Plc","South-Eastern Asia",2,"Engineer","male","native","2018-01",61.523844,1.887052,0.67378,895555.106501891
-"42",1122234,"Bristol Myers Squibb Co.","Southern Europe",5,"Finance","female","native","2008-09",0.013999,0,0,838.675569106852
-"43",1232095,"Apple\, Inc.","Southern Europe",4,"empty","male","hispanic","2021-01",0.025,0,0,1638.35652977523
-"44",20923715,"The Goldman Sachs Group\, Inc.","Sub-Saharan Africa",3,"empty","male","api","2015-07",0,0,0,NA
-"45",1230770,"Accenture Plc","empty",2,"Scientist","male","black","2014-01",4.726926,0.303572,0.118391,277611.002128612
-"46",20923715,"The Goldman Sachs Group\, Inc.","Eastern Europe",4,"Scientist","male","multiple","2008-09",0,0,0,NA
-"47",1122234,"Bristol Myers Squibb Co.","Eastern Europe",4,"empty","female","black","2014-07",0,0,0,NA
-"48",1122234,"Bristol Myers Squibb Co.","Eastern Asia",5,"Finance","female","multiple","2014-10",0.02521,0,0,1748.62571883968
-"49",1122234,"Bristol Myers Squibb Co.","Pacific Islands",1,"Finance","female","native","2008-12",0.063002,0,0,2716.2428200294
-"50",20923715,"The Goldman Sachs Group\, Inc.","Pacific Islands",1,"Operations","female","native","2018-02",0.028841,0,0.00103199999999999,1894.73160519289
-"51",1232095,"Apple\, Inc.","Northern Europe",1,"Engineer","female","black","2013-04",7.328581,0.014141,0.002039,247617.550818755
-"52",20923715,"The Goldman Sachs Group\, Inc.","Central America and the Caribbean",2,"Engineer","female","black","2020-01",0.48755,0.001257,0.000121,41216.1623297777
-"53",494205,"The Home Depot\, Inc.","Southern Asia",6,"empty","female","hispanic","2020-06",0,0,0,NA
-"54",604981,"Databricks\, Inc.","Northern America",1,"Admin","male","hispanic","2013-07",0.021992,1e-06,1e-06,759.022966777622
-"55",20923715,"The Goldman Sachs Group\, Inc.","Arab States",6,"Finance","female","native","2009-11",0,0,0,NA
-"56",1230770,"Accenture Plc","South-Eastern Asia",6,"Scientist","male","white","2019-12",0,0,0,NA
-"57",1122234,"Bristol Myers Squibb Co.","Sub-Saharan Africa",5,"Engineer","female","hispanic","2012-11",0,0,0,NA
-"58",1232095,"Apple\, Inc.","South-Eastern Asia",1,"Finance","male","white","2015-12",8.20479,1.2e-05,0.097466,63663.6400667949
-"59",1232095,"Apple\, Inc.","Northern Europe",1,"Marketing","male","multiple","2011-05",2.645256,0.020168,0.00203099999999999,82355.3279472351
-"60",1232095,"Apple\, Inc.","Northern Europe",1,"Scientist","male","hispanic","2011-01",0.12507,0.01507,0.014093,3599.07426878796
-"61",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",3,"Marketing","female","api","2016-01",0.029187,0.025187,0,1575.79083563909
-"62",604981,"Databricks\, Inc.","South-Eastern Asia",2,"Engineer","female","black","2012-08",0.005,0,0,89.0862992359496
-"63",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",4,"Engineer","female","native","2009-07",0.00899999999999999,0,0,436.058234515993
-"64",1230770,"Accenture Plc","Sub-Saharan Africa",4,"Marketing","female","black","2013-10",3.940642,1e-06,4e-06,107001.828437157
-"65",1232095,"Apple\, Inc.","Central America and the Caribbean",6,"Sales","male","white","2013-02",1.219964,0,1e-06,258986.532677687
-"66",1230770,"Accenture Plc","Western Europe",6,"empty","male","hispanic","2015-10",0,0,0,NA
-"67",494205,"The Home Depot\, Inc.","Southern Asia",6,"empty","male","hispanic","2015-02",0,0,0,NA
-"68",494205,"The Home Depot\, Inc.","Sub-Saharan Africa",6,"Sales","female","native","2010-07",0,0,0,NA
-"69",1122234,"Bristol Myers Squibb Co.","Southern Europe",3,"Sales","female","api","2019-09",1.106513,0.000297,8.2e-05,55589.3070623445
-"70",20923715,"The Goldman Sachs Group\, Inc.","Northern Africa",5,"Finance","male","hispanic","2013-10",0.325,0,0,7892.85993959402
-"71",1232095,"Apple\, Inc.","Southern Asia",1,"Admin","male","api","2012-11",6736.573661,0.001889,1.399028,43111977.4177913
-"72",1230770,"Accenture Plc","Eastern Asia",6,"Finance","male","hispanic","2015-01",0.036595,0,0.002,3212.28274761986
-"73",1232095,"Apple\, Inc.","Northern Africa",2,"empty","male","multiple","2012-08",0.301123,0,0,3655.92538146561
-"74",20923715,"The Goldman Sachs Group\, Inc.","Eastern Asia",2,"Engineer","female","multiple","2019-07",5.193896,0.369882,0.00186499999999999,236241.139449475
-"75",1122234,"Bristol Myers Squibb Co.","Northern Europe",4,"Operations","male","white","2016-10",15.203399,5e-05,4.4e-05,1145315.60546395
-"76",1230770,"Accenture Plc","Western Europe",1,"empty","male","black","2009-03",0.151,0,0,6236.13043738117
-"77",1232095,"Apple\, Inc.","Northern Africa",2,"Sales","female","multiple","2019-03",26.922387,0.001863,0.00304799999999999,522766.44903443
-"78",604981,"Databricks\, Inc.","South-Eastern Asia",2,"Operations","male","white","2008-01",0,0,0,NA
-"79",494205,"The Home Depot\, Inc.","Southern America",2,"Marketing","female","black","2011-12",0.203,0,0,1323.9787473816
-"80",1122234,"Bristol Myers Squibb Co.","Southern Asia",1,"Marketing","female","native","2018-07",0.00394399999999999,0,0,53.9599142007988
-"81",1122234,"Bristol Myers Squibb Co.","Pacific Islands",1,"empty","female","hispanic","2017-07",0,0,0,NA
-"82",20923715,"The Goldman Sachs Group\, Inc.","Southern America",2,"empty","female","hispanic","2021-01",0,0,0,NA
-"83",1232095,"Apple\, Inc.","Southern Asia",4,"empty","male","hispanic","2019-11",0.050989,0,0,1087.25017230409
-"84",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",2,"Sales","female","white","2016-09",31.459933,6.4e-05,1.024437,2698004.27595495
-"85",1122234,"Bristol Myers Squibb Co.","Northern Africa",2,"Sales","female","hispanic","2012-04",0.335387,0,0,19410.4205204614
-"86",1122234,"Bristol Myers Squibb Co.","Eastern Europe",5,"empty","male","white","2020-07",0,0,0,NA
-"87",20923715,"The Goldman Sachs Group\, Inc.","Central and Western Asia",2,"Sales","female","multiple","2011-04",0.115,0,0,3286.87312172388
-"88",20923715,"The Goldman Sachs Group\, Inc.","Northern America",4,"Operations","female","hispanic","2020-10",13.152364,0.00550699999999999,0.003892,2428253.89442119
-"89",494205,"The Home Depot\, Inc.","Southern Europe",4,"empty","male","multiple","2015-03",0.00899999999999999,0,0,295.640215565367
-"90",1232095,"Apple\, Inc.","Northern America",7,"Sales","male","api","2010-05",0,0,0,NA
-"91",604981,"Databricks\, Inc.","Northern America",1,"Admin","female","native","2013-07",0.011114,1.7e-05,0,483.687147949698
-"92",494205,"The Home Depot\, Inc.","Eastern Europe",1,"Finance","male","native","2021-07",0,0,0,NA
-"93",1230770,"Accenture Plc","Southern Europe",4,"Sales","female","white","2020-08",134.251403,0.895905,0.595109,9847036.77089538
-"94",1230770,"Accenture Plc","empty",5,"Scientist","female","multiple","2013-05",0.037106,0,0,4702.49292610263
-"95",1122234,"Bristol Myers Squibb Co.","Central and Western Asia",2,"Admin","female","native","2012-07",0.009003,0,0,120.666950778509
-"96",1232095,"Apple\, Inc.","Southern Europe",6,"Engineer","male","native","2013-01",0,0,0,NA
-"97",1122234,"Bristol Myers Squibb Co.","Central and Western Asia",1,"Admin","male","hispanic","2015-05",0.025947,0,0,370.661525154693
-"98",1230770,"Accenture Plc","Northern America",1,"Engineer","female","multiple","2020-11",12.183777,0.217572,0.284704,783729.145626888
-"99",1232095,"Apple\, Inc.","Northern Africa",6,"Admin","female","api","2016-11",0.003,0,0,142.90368152947
-"100",1232095,"Apple\, Inc.","Western Europe",3,"Engineer","female","black","2010-03",0.700623,0.011131,1e-06,37704.3258564602
-"101",1232095,"Apple\, Inc.","South-Eastern Asia",4,"Engineer","male","white","2010-01",10.592851,0.012054,0.001003,500655.474955278
-"102",1230770,"Accenture Plc","South-Eastern Asia",6,"empty","male","black","2009-05",0,0,0,NA
-"103",604981,"Databricks\, Inc.","Central and Western Asia",5,"Sales","male","white","2020-11",1.518088,0.00083199999999999,0.00027399999999999,151460.314064293
-"104",20923715,"The Goldman Sachs Group\, Inc.","Northern Europe",3,"Sales","male","black","2014-04",4.897639,0.114318,0.00602,305656.983573881
-"105",494205,"The Home Depot\, Inc.","Southern Asia",4,"Engineer","male","black","2015-08",0.314154,0,0,4207.72612423356
-"106",1122234,"Bristol Myers Squibb Co.","Northern Europe",4,"Scientist","female","native","2020-05",0.26759,0.011746,0.004817,21445.2147808069
-"107",20923715,"The Goldman Sachs Group\, Inc.","Central America and the Caribbean",1,"Marketing","female","hispanic","2011-07",0,0,0,NA
-"108",1230770,"Accenture Plc","Pacific Islands",4,"Engineer","female","api","2013-12",174.620979,4.279515,2.170696,11928330.8883274
-"109",1230770,"Accenture Plc","Pacific Islands",5,"Engineer","female","native","2020-01",0.575114,0.00525799999999999,0.002101,58055.2493589824
-"110",494205,"The Home Depot\, Inc.","Northern Africa",5,"Operations","female","multiple","2016-07",0.002,0,0,34.3289122672804
-"111",1230770,"Accenture Plc","South-Eastern Asia",5,"Sales","male","black","2015-03",2.837841,1e-06,2e-06,145990.646461917
-"112",1230770,"Accenture Plc","Southern America",3,"Scientist","female","white","2013-08",5.543165,1e-06,1e-06,154419.511316176
-"113",1122234,"Bristol Myers Squibb Co.","Northern America",5,"Sales","male","api","2015-11",17.054497,0.468105,0.073803,2340137.32620271
-"114",1232095,"Apple\, Inc.","Southern Asia",2,"Finance","female","native","2012-08",8.300802,0.005053,3e-06,106753.17771023
-"115",1232095,"Apple\, Inc.","Central and Western Asia",2,"Scientist","female","multiple","2017-10",1.278295,1e-05,1.3e-05,32356.5143415358
-"116",604981,"Databricks\, Inc.","Sub-Saharan Africa",3,"Engineer","female","white","2016-08",0,0,0,NA
-"117",1230770,"Accenture Plc","South-Eastern Asia",6,"Scientist","female","native","2010-06",0,0,0,NA
-"118",20923715,"The Goldman Sachs Group\, Inc.","Eastern Asia",5,"Scientist","female","api","2019-09",2.532203,0.00048999999999999,0.00092299999999999,274308.034715849
-"119",494205,"The Home Depot\, Inc.","Southern America",5,"Engineer","male","hispanic","2011-09",0.004,0,0,53.0040709448317
-"120",20923715,"The Goldman Sachs Group\, Inc.","Northern Africa",2,"Engineer","male","native","2010-05",0.048003,0,0,559.382633511871
-"121",1232095,"Apple\, Inc.","Southern Europe",5,"Finance","female","black","2021-07",0.013475,0,0,1372.15537161224
-"122",1232095,"Apple\, Inc.","Southern Asia",6,"Scientist","male","multiple","2021-02",0.066237,0,0,3446.32139174073
-"123",1232095,"Apple\, Inc.","Northern Europe",3,"Scientist","male","black","2018-04",0.950967,0.003202,2.3e-05,96714.6706286497
-"124",1122234,"Bristol Myers Squibb Co.","Arab States",1,"empty","male","black","2009-11",0,0,0,NA
-"125",1232095,"Apple\, Inc.","Northern America",6,"empty","male","native","2012-02",0,0,0,NA
-"126",1232095,"Apple\, Inc.","Northern Europe",4,"Admin","male","api","2011-03",2.16602,0.002024,0.00511599999999999,219283.858696002
-"127",1232095,"Apple\, Inc.","Arab States",4,"Finance","male","api","2017-07",3.552409,0.00417399999999999,1.2e-05,178312.956127141
-"128",1232095,"Apple\, Inc.","Central and Western Asia",5,"Admin","female","multiple","2019-08",0.196127,0,0,8624.2572961951
-"129",1230770,"Accenture Plc","Pacific Islands",2,"Admin","female","black","2015-04",8.154895,0.279346,0.115752,599491.817379588
-"130",20923715,"The Goldman Sachs Group\, Inc.","Southern Asia",1,"empty","male","black","2010-11",0,0,0,NA
-"131",1232095,"Apple\, Inc.","Eastern Europe",3,"Finance","female","multiple","2011-08",0.195998,0,0,4292.55626301912
-"132",494205,"The Home Depot\, Inc.","Southern America",3,"Operations","female","hispanic","2010-07",0.912001,0,0,19116.2272516543
-"133",1122234,"Bristol Myers Squibb Co.","Sub-Saharan Africa",2,"Sales","male","black","2019-09",21.756133,0.002359,0.00218499999999999,287803.011560891
-"134",494205,"The Home Depot\, Inc.","empty",1,"Marketing","male","multiple","2017-12",1.349649,1.9e-05,1.3e-05,44180.5447904098
-"135",1230770,"Accenture Plc","Southern America",5,"Admin","male","hispanic","2010-05",7.812936,1e-06,5e-06,202881.024090612
-"136",1122234,"Bristol Myers Squibb Co.","Northern America",3,"Finance","male","multiple","2013-12",1.362951,0.053338,0.085285,108781.679485119
-"137",1122234,"Bristol Myers Squibb Co.","empty",6,"Operations","male","api","2017-05",1.154573,2.5e-05,0.00410099999999999,105901.94808365
-"138",604981,"Databricks\, Inc.","South-Eastern Asia",3,"Marketing","female","black","2015-01",0,0,0,NA
-"139",1230770,"Accenture Plc","Southern Asia",5,"Operations","female","white","2010-01",13.343075,0.193307,0.043124,261731.856875533
-"140",1232095,"Apple\, Inc.","Central America and the Caribbean",2,"Finance","male","white","2012-12",7.920526,1e-05,4e-06,361457.522844945
-"141",494205,"The Home Depot\, Inc.","Central America and the Caribbean",2,"Engineer","male","native","2009-01",0.221074,0.039126,0.00802199999999999,9815.18186797694
-"142",1122234,"Bristol Myers Squibb Co.","empty",1,"Admin","male","multiple","2013-01",0.384172,0.00901599999999999,0.043074,6878.18962220384
-"143",20923715,"The Goldman Sachs Group\, Inc.","Northern Africa",4,"Engineer","female","hispanic","2014-12",0.00899999999999999,0,0,118.098275279302
-"144",1230770,"Accenture Plc","Southern America",1,"Operations","female","black","2012-04",2.573764,1e-06,0.009053,25587.8017926692
-"145",20923715,"The Goldman Sachs Group\, Inc.","Southern America",4,"empty","female","multiple","2013-11",0.006,0,0,157.793520849596
-"146",1122234,"Bristol Myers Squibb Co.","Northern America",6,"Sales","female","native","2014-07",0.021147,0,0,3336.8180852998
-"147",1230770,"Accenture Plc","Northern Africa",5,"Sales","male","black","2016-05",1.01269,3e-06,1e-06,74044.8702259821
-"148",1232095,"Apple\, Inc.","Eastern Europe",4,"Admin","male","white","2021-07",17.048936,0.027986,0.010883,1142941.22941167
-"149",1122234,"Bristol Myers Squibb Co.","Western Europe",5,"empty","female","hispanic","2020-11",0,0,0,NA
-"150",1230770,"Accenture Plc","Northern America",5,"Sales","female","white","2013-09",268.091169,6.995427,2.372796,38280196.5392408
-"151",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",6,"Operations","male","black","2012-10",0.030984,0.005032,0,4216.02369118947
-"152",1232095,"Apple\, Inc.","Northern Europe",5,"Scientist","male","hispanic","2013-04",0.673582,2e-06,0,41454.7384952578
-"153",1232095,"Apple\, Inc.","Southern America",3,"Marketing","male","multiple","2010-01",1.282985,0,0,18039.2825069865
-"154",1230770,"Accenture Plc","Eastern Asia",3,"empty","female","white","2013-12",0.081172,0,0,3038.41593884752
-"155",1230770,"Accenture Plc","Pacific Islands",2,"Marketing","male","black","2015-02",1.007031,0.031184,3e-06,57208.6388408781
-"156",1232095,"Apple\, Inc.","Northern America",4,"Operations","female","hispanic","2016-10",22.597035,1.077976,0.012364,2289994.46971602
-"157",1232095,"Apple\, Inc.","Northern Europe",3,"empty","male","hispanic","2021-05",0.316683,0.00028299999999999,0.00517899999999999,21063.082453494
-"158",20923715,"The Goldman Sachs Group\, Inc.","Northern America",4,"Finance","female","white","2014-07",849.782228,9.175106,8.339032,123213797.230411
-"159",1122234,"Bristol Myers Squibb Co.","Southern Asia",2,"Admin","female","api","2017-08",6.183064,3.8e-05,4.6e-05,77084.3163859127
-"160",494205,"The Home Depot\, Inc.","empty",2,"Operations","female","native","2019-06",0.375885,3.7e-05,0.007601,16016.5975724726
-"161",494205,"The Home Depot\, Inc.","Eastern Europe",2,"Engineer","male","hispanic","2012-03",0.127929,0,0,6306.87544067721
-"162",20923715,"The Goldman Sachs Group\, Inc.","Southern Asia",5,"Engineer","male","api","2019-01",63.247477,4.654702,3.364259,1092072.32349302
-"163",604981,"Databricks\, Inc.","Eastern Europe",3,"Engineer","female","native","2019-10",0.00107099999999999,0,0,210.603560547531
-"164",1230770,"Accenture Plc","Southern Europe",5,"Marketing","male","native","2020-06",0.459737,0.00033799999999999,0.000164,33987.209223949
-"165",1230770,"Accenture Plc","Eastern Europe",6,"Marketing","male","hispanic","2014-06",0.071278,0,0,3401.32975050702
-"166",494205,"The Home Depot\, Inc.","Central and Western Asia",4,"Finance","male","api","2019-01",0,0,0,NA
-"167",20923715,"The Goldman Sachs Group\, Inc.","Central and Western Asia",2,"Sales","male","native","2017-04",0.072271,0,0,4310.48682023598
-"168",1122234,"Bristol Myers Squibb Co.","Northern America",3,"Finance","male","black","2015-08",6.12686,0.312371,0.241636,561039.196532095
-"169",1230770,"Accenture Plc","Northern Europe",1,"Finance","female","black","2013-08",10.415909,0.237725,1.533443,292237.437265379
-"170",494205,"The Home Depot\, Inc.","Southern Asia",4,"Finance","male","multiple","2013-11",0.016,0,0,163.669417206052
-"171",1122234,"Bristol Myers Squibb Co.","Eastern Europe",2,"Admin","female","multiple","2019-07",0.060522,4e-06,7e-06,2173.37141104084
-"172",604981,"Databricks\, Inc.","Western Europe",3,"Finance","female","hispanic","2012-09",0,0,0,NA
-"173",1230770,"Accenture Plc","Northern Africa",4,"Scientist","female","api","2021-07",0,0,0,NA
-"174",1122234,"Bristol Myers Squibb Co.","Eastern Asia",5,"Finance","male","multiple","2012-01",0.146049,0,0.079147,6806.19623547756
-"175",494205,"The Home Depot\, Inc.","empty",2,"Marketing","female","native","2021-09",0.095085,0.000154,0.001225,4466.028739441
-"176",1230770,"Accenture Plc","Eastern Europe",3,"Marketing","male","multiple","2014-02",0.078953,0,0.00702999999999999,2346.96924260647
-"177",1122234,"Bristol Myers Squibb Co.","Northern Europe",1,"Operations","male","hispanic","2013-02",0.049263,0,1e-06,2025.03830081823
-"178",1232095,"Apple\, Inc.","Central and Western Asia",5,"Operations","female","hispanic","2020-06",0.044873,0,0,2060.46198555456
-"179",1230770,"Accenture Plc","empty",5,"empty","female","white","2015-01",0.010893,0,0,1072.86675702275
-"180",20923715,"The Goldman Sachs Group\, Inc.","Sub-Saharan Africa",1,"Finance","female","black","2020-03",27.430328,0.00655999999999999,0.00445399999999999,435305.289104741
-"181",1230770,"Accenture Plc","South-Eastern Asia",4,"Sales","female","black","2013-10",5.396184,0.304134,0.069407,165978.879410499
-"182",1122234,"Bristol Myers Squibb Co.","Southern America",5,"empty","female","white","2018-11",0.00307699999999999,0,0.00307699999999999,127.7681351591
-"183",494205,"The Home Depot\, Inc.","Eastern Europe",2,"Finance","female","hispanic","2015-10",1.034045,1e-06,1e-06,20872.7752910485
-"184",1232095,"Apple\, Inc.","South-Eastern Asia",1,"empty","female","api","2008-11",20.27692,0.003078,3e-05,96301.4841526421
-"185",494205,"The Home Depot\, Inc.","Northern America",4,"Engineer","female","white","2014-02",90.982212,0.764679,0.08254,8166079.58373988
-"186",604981,"Databricks\, Inc.","Southern Asia",5,"Sales","male","api","2016-01",0,0,0,NA
-"187",1230770,"Accenture Plc","Northern America",4,"Sales","female","native","2018-06",4.83582,0.053712,0.132864,522955.074554142
-"188",604981,"Databricks\, Inc.","Eastern Europe",4,"Sales","female","white","2013-02",0,0,0,NA
-"189",1122234,"Bristol Myers Squibb Co.","South-Eastern Asia",3,"Finance","female","white","2017-10",0.171555,0.001036,5e-06,8377.85958705696
-"190",1122234,"Bristol Myers Squibb Co.","Pacific Islands",3,"Sales","male","native","2014-03",0.032035,0,0.00200799999999999,2780.84717530846
-"191",1230770,"Accenture Plc","Sub-Saharan Africa",1,"Sales","male","api","2013-01",11.560323,0.021056,0.00802899999999999,161152.925488259
-"192",1232095,"Apple\, Inc.","Central and Western Asia",3,"Operations","male","black","2012-10",0.431288,0,4e-06,10790.0817390316
-"193",494205,"The Home Depot\, Inc.","Southern America",5,"Marketing","male","api","2017-02",0,0,0,NA
-"194",1230770,"Accenture Plc","Central America and the Caribbean",5,"Finance","male","hispanic","2014-01",3.665672,0.665234,3e-06,82076.9029349553
-"195",20923715,"The Goldman Sachs Group\, Inc.","Central and Western Asia",2,"Finance","female","hispanic","2015-11",0.15158,0,1e-06,3650.37813511583
-"196",1122234,"Bristol Myers Squibb Co.","Eastern Asia",1,"empty","female","black","2009-04",0,0,0,NA
-"197",1122234,"Bristol Myers Squibb Co.","empty",4,"Scientist","male","black","2018-03",2.927202,0.662873,0.128088,279118.763494551
-"198",494205,"The Home Depot\, Inc.","Arab States",6,"Operations","male","api","2013-05",0.075,0,0,15105.7193058291
-"199",494205,"The Home Depot\, Inc.","empty",3,"Marketing","female","hispanic","2010-02",0,0,0,NA
-"200",1122234,"Bristol Myers Squibb Co.","South-Eastern Asia",3,"Operations","male","api","2020-06",4.162081,0.001815,0.00120499999999999,108273.894218
-"201",1122234,"Bristol Myers Squibb Co.","Eastern Asia",4,"Engineer","female","hispanic","2013-06",0.040113,0,0,1243.27109667799
-"202",1232095,"Apple\, Inc.","Southern America",5,"Admin","male","hispanic","2009-03",15.254885,1.8e-05,2.1e-05,598691.634176443
-"203",20923715,"The Goldman Sachs Group\, Inc.","Northern Europe",1,"empty","female","native","2021-06",0.005165,0,0,139.576936497404
-"204",1122234,"Bristol Myers Squibb Co.","Pacific Islands",2,"Scientist","male","hispanic","2009-07",1.127993,0,0,77089.3924313491
-"205",1232095,"Apple\, Inc.","Pacific Islands",3,"empty","male","black","2010-04",0,0,0,NA
-"206",1232095,"Apple\, Inc.","Arab States",1,"Operations","female","hispanic","2017-10",1.278076,8e-06,7e-06,38118.4734130887
-"207",20923715,"The Goldman Sachs Group\, Inc.","Northern Europe",3,"Sales","male","multiple","2011-03",0.746334,0,0,46271.2147095348
-"208",604981,"Databricks\, Inc.","Southern Asia",4,"Sales","female","api","2011-12",1.181542,3.4e-05,3.4e-05,144118.619452868
-"209",1230770,"Accenture Plc","Northern Europe",2,"Scientist","female","black","2018-03",2.250411,8.6e-05,0.013431,109645.660477802
-"210",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",4,"Sales","female","black","2017-05",0.01599,0,0,1289.38399757299
-"211",1230770,"Accenture Plc","Eastern Europe",2,"Admin","male","multiple","2014-08",1.214491,0.035095,0.06222,38235.5348646858
-"212",1230770,"Accenture Plc","South-Eastern Asia",6,"Admin","female","hispanic","2020-05",0.068437,0,0,6992.80772022827
-"213",1122234,"Bristol Myers Squibb Co.","Southern America",1,"Scientist","female","multiple","2011-12",2.105529,0.007041,0.035127,22332.8351254111
-"214",494205,"The Home Depot\, Inc.","Northern America",5,"empty","female","black","2018-02",0.001,0,0,69.8849686842675
-"215",1232095,"Apple\, Inc.","Sub-Saharan Africa",5,"Scientist","male","white","2015-07",1.155608,1e-06,4e-06,49837.2435290788
-"216",1230770,"Accenture Plc","Southern Asia",2,"Sales","female","black","2013-02",30.554757,0.665344,0.010064,445043.036328737
-"217",1230770,"Accenture Plc","Southern America",4,"empty","female","black","2019-07",0.914987,0.001137,0.002102,21251.6661773637
-"218",1122234,"Bristol Myers Squibb Co.","Eastern Europe",1,"Finance","male","white","2016-06",1.384491,2e-06,2e-06,38451.2340742862
-"219",20923715,"The Goldman Sachs Group\, Inc.","Pacific Islands",1,"empty","female","hispanic","2012-05",0,0,0,NA
-"220",1122234,"Bristol Myers Squibb Co.","Southern America",1,"Sales","female","hispanic","2009-03",41.126655,0.903852,1.535878,552696.734541766
-"221",1230770,"Accenture Plc","Northern Africa",4,"Marketing","female","api","2012-11",0.01198,0,0,262.16563706073
-"222",1232095,"Apple\, Inc.","Eastern Europe",5,"Admin","female","native","2020-01",0.023,0,0,1838.78446812257
-"223",1122234,"Bristol Myers Squibb Co.","Northern Europe",1,"Engineer","male","multiple","2011-07",1.424951,0.023094,1e-06,56382.7081475538
-"224",1230770,"Accenture Plc","Eastern Europe",4,"Operations","male","white","2013-10",265.135006,2.481168,5.527544,10936482.1488775
-"225",494205,"The Home Depot\, Inc.","Northern Africa",4,"Finance","male","black","2011-06",0.007993,0,0,81.2416495311557
-"226",494205,"The Home Depot\, Inc.","Northern America",1,"Admin","male","hispanic","2021-03",108.647322,2.298556,2.667009,4680621.0144347
-"227",20923715,"The Goldman Sachs Group\, Inc.","empty",6,"Marketing","female","black","2013-07",0,0,0,NA
-"228",494205,"The Home Depot\, Inc.","Eastern Europe",2,"Engineer","female","native","2019-03",0.014,0,0,439.189982631547
-"229",604981,"Databricks\, Inc.","Central America and the Caribbean",1,"Engineer","female","black","2020-11",0,0,0,NA
-"230",1232095,"Apple\, Inc.","Pacific Islands",2,"Operations","male","hispanic","2018-06",6.229205,0.551626,0.00133099999999999,596847.658934723
-"231",20923715,"The Goldman Sachs Group\, Inc.","Southern America",3,"empty","female","multiple","2018-05",0,0,0,NA
-"232",1232095,"Apple\, Inc.","Central and Western Asia",4,"Scientist","male","white","2018-09",5.400885,0.00027,0.000253,208694.628680562
-"233",604981,"Databricks\, Inc.","empty",4,"Admin","female","white","2016-10",0,0,0,NA
-"234",1232095,"Apple\, Inc.","Southern Asia",2,"Admin","male","black","2012-12",97.293631,0.019331,0.019271,1244518.9384095
-"235",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",1,"Admin","female","api","2008-02",3.754078,0.012078,1e-06,99084.1477637508
-"236",494205,"The Home Depot\, Inc.","Pacific Islands",3,"Admin","male","api","2017-09",0.100312,1e-06,1e-06,7077.2090542722
-"237",1232095,"Apple\, Inc.","South-Eastern Asia",3,"Engineer","male","black","2011-01",5.996528,1e-06,0.055397,100255.134584467
-"238",1230770,"Accenture Plc","Sub-Saharan Africa",1,"Finance","female","native","2011-05",1.215906,0.001,0,21281.2205159794
-"239",604981,"Databricks\, Inc.","Southern Asia",4,"Engineer","female","multiple","2013-03",0,0,0,NA
-"240",604981,"Databricks\, Inc.","Eastern Asia",3,"Engineer","male","native","2017-12",0.001,0,0,22.592121675203
-"241",1232095,"Apple\, Inc.","Southern America",6,"Sales","male","hispanic","2015-09",0.073664,0,0,3560.62155612587
-"242",1232095,"Apple\, Inc.","Western Europe",5,"Finance","female","native","2017-08",0.003026,0,0,449.718913201817
-"243",1230770,"Accenture Plc","Southern America",6,"Admin","female","multiple","2017-03",0.305284,2e-06,2e-06,9600.02916675367
-"244",494205,"The Home Depot\, Inc.","Pacific Islands",4,"Finance","male","white","2013-02",0.002,0,0,108.802362209207
-"245",1122234,"Bristol Myers Squibb Co.","Southern Asia",4,"Engineer","female","multiple","2008-07",0.361859,0,0,4324.69637724602
-"246",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",2,"empty","female","white","2012-02",0.466867,1e-06,0,50323.8667244399
-"247",1230770,"Accenture Plc","empty",2,"Finance","male","api","2009-03",72.422618,5.9e-05,0.507331,1118517.41004408
-"248",1232095,"Apple\, Inc.","Northern Europe",3,"Sales","male","multiple","2011-06",7.048773,0.00100599999999999,9e-06,403953.187516722
-"249",1232095,"Apple\, Inc.","Eastern Asia",1,"Finance","female","api","2017-07",17.006384,0.000126,0.000107,349776.751812726
-"250",1230770,"Accenture Plc","Central and Western Asia",1,"Sales","female","native","2018-09",0.339416,0.00302,0.002016,7321.92007654909
-"251",1230770,"Accenture Plc","Western Europe",7,"Admin","male","native","2016-07",0,0,0,NA
-"252",1122234,"Bristol Myers Squibb Co.","Northern America",4,"Admin","male","white","2008-08",84.649435,0.802108,3.97278,8497764.7728318
-"253",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",3,"empty","female","api","2008-11",0,0,0,NA
-"254",494205,"The Home Depot\, Inc.","Pacific Islands",4,"Marketing","female","white","2014-09",0.00195899999999999,0,1e-06,184.127055531058
-"255",1232095,"Apple\, Inc.","empty",2,"Engineer","male","hispanic","2021-09",126.77415,6.268383,2.867336,9818968.54064322
-"256",1232095,"Apple\, Inc.","Northern America",2,"Engineer","female","white","2012-12",847.122166,4.272334,16.89837,69651639.7945223
-"257",494205,"The Home Depot\, Inc.","Southern Europe",1,"Sales","male","native","2016-02",0.699009,0.057517,1e-06,21289.7268140114
-"258",1122234,"Bristol Myers Squibb Co.","Pacific Islands",4,"Engineer","male","multiple","2017-05",0.07587,0,0,7251.75317263234
-"259",20923715,"The Goldman Sachs Group\, Inc.","Northern Europe",4,"empty","male","white","2012-02",2.833073,1e-06,1e-06,244775.055264867
-"260",1230770,"Accenture Plc","South-Eastern Asia",1,"empty","male","hispanic","2012-09",5.911529,1e-06,1e-06,59327.4856517364
-"261",1230770,"Accenture Plc","Eastern Europe",1,"empty","male","multiple","2021-09",0.00294299999999999,0,0,108.818353048912
-"262",604981,"Databricks\, Inc.","Arab States",1,"Admin","female","native","2010-03",0,0,0,NA
-"263",1122234,"Bristol Myers Squibb Co.","Southern Europe",3,"Finance","male","api","2009-02",0.914484,1e-06,0,42504.6427290973
-"264",494205,"The Home Depot\, Inc.","Northern America",6,"Engineer","female","black","2013-12",0.344701,0,0,42849.5941849012
-"265",1122234,"Bristol Myers Squibb Co.","Southern Europe",5,"Engineer","female","hispanic","2012-10",0.885109,0,0,60053.0570225436
-"266",20923715,"The Goldman Sachs Group\, Inc.","Southern Asia",5,"empty","female","api","2010-02",0,0,0,NA
-"267",20923715,"The Goldman Sachs Group\, Inc.","Eastern Europe",6,"Engineer","female","api","2016-02",0,0,0,NA
-"268",494205,"The Home Depot\, Inc.","Southern Europe",4,"Scientist","male","multiple","2016-01",0,0,0,NA
-"269",1230770,"Accenture Plc","Eastern Asia",2,"Scientist","male","api","2015-11",22.674611,3.6e-05,1.241613,766702.656202987
-"270",494205,"The Home Depot\, Inc.","empty",3,"Marketing","male","api","2011-07",3.263326,1e-06,1e-06,74699.6817878438
-"271",494205,"The Home Depot\, Inc.","Central and Western Asia",1,"Operations","female","multiple","2010-11",0.158599,0,0,2488.20191136657
-"272",1230770,"Accenture Plc","Arab States",4,"empty","female","api","2018-12",0.003,0,0,124.478027798393
-"273",1232095,"Apple\, Inc.","Eastern Europe",1,"Scientist","female","black","2020-09",0.681272,0.000121,0.000114,18605.5668075482
-"274",1232095,"Apple\, Inc.","Western Europe",4,"Engineer","female","native","2008-06",0.03,0,0,2527.61684970638
-"275",494205,"The Home Depot\, Inc.","Southern Asia",2,"Marketing","female","black","2018-12",0.131101,3e-06,4e-06,1466.37464448202
-"276",1230770,"Accenture Plc","Sub-Saharan Africa",1,"Finance","male","native","2021-04",1.702075,0.030793,0.00161,35142.1922987816
-"277",1122234,"Bristol Myers Squibb Co.","Arab States",2,"Marketing","female","multiple","2008-04",0,0,0,NA
-"278",1230770,"Accenture Plc","empty",3,"Scientist","male","hispanic","2018-05",2.650568,5.2e-05,4.5e-05,164808.044151346
-"279",20923715,"The Goldman Sachs Group\, Inc.","Southern America",3,"Admin","female","native","2010-09",0.072023,0,0,838.736919134429
-"280",20923715,"The Goldman Sachs Group\, Inc.","Pacific Islands",2,"Operations","male","native","2012-04",0.020977,0,0,1726.34709708257
-"281",1230770,"Accenture Plc","Central America and the Caribbean",4,"Engineer","male","black","2009-07",2.326433,0.012078,0.004039,62758.3288363233
-"282",1122234,"Bristol Myers Squibb Co.","Northern Europe",3,"Finance","male","black","2014-01",0.533126,0,0,23722.0643411014
-"283",1122234,"Bristol Myers Squibb Co.","Northern America",5,"Finance","male","multiple","2019-01",2.382591,0.07574,0.047425,309229.807334154
-"284",494205,"The Home Depot\, Inc.","Sub-Saharan Africa",1,"Finance","female","native","2019-06",0.00594499999999999,0,0,31.0253094377503
-"285",20923715,"The Goldman Sachs Group\, Inc.","Northern Africa",5,"Sales","female","multiple","2020-01",0.006,0,0,121.974232133596
-"286",20923715,"The Goldman Sachs Group\, Inc.","Southern Asia",5,"Finance","female","white","2010-01",6.34522,0.16821,0,202279.071271363
-"287",604981,"Databricks\, Inc.","Central America and the Caribbean",4,"Engineer","male","black","2011-05",0,0,0,NA
-"288",1122234,"Bristol Myers Squibb Co.","Central America and the Caribbean",3,"Finance","male","native","2010-05",0.035031,0,0,574.975598650315
-"289",1230770,"Accenture Plc","Arab States",6,"Admin","male","white","2021-08",0.170836,0,0,18749.1377124895
-"290",1230770,"Accenture Plc","Northern Africa",2,"Admin","female","hispanic","2014-01",0.41881,0,0,5399.58601998472
-"291",20923715,"The Goldman Sachs Group\, Inc.","Central America and the Caribbean",2,"Admin","male","multiple","2015-04",0.113,0,0,10825.5997773482
-"292",1122234,"Bristol Myers Squibb Co.","Northern America",5,"Engineer","male","black","2013-09",23.792249,0.002013,0.778463,2654250.96114571
-"293",1230770,"Accenture Plc","Sub-Saharan Africa",6,"empty","female","native","2020-04",0,0,0,NA
-"294",20923715,"The Goldman Sachs Group\, Inc.","empty",3,"Operations","male","white","2017-12",3.489455,4.1e-05,0.00730299999999999,178827.940075359
-"295",494205,"The Home Depot\, Inc.","Central and Western Asia",5,"Operations","female","white","2017-05",0.930009,4e-06,3e-06,143384.015056075
-"296",494205,"The Home Depot\, Inc.","Arab States",1,"Operations","female","api","2021-09",1.289009,0.001079,0.001573,39923.3775930311
-"297",20923715,"The Goldman Sachs Group\, Inc.","Eastern Europe",5,"Engineer","male","hispanic","2010-01",0.054,0,0,2313.80313293697
-"298",1232095,"Apple\, Inc.","Southern Asia",6,"Engineer","female","black","2011-03",0.054,0,0,1843.96907999945
-"299",494205,"The Home Depot\, Inc.","empty",5,"Admin","male","white","2019-01",3.30923,0.000119,0.000111,308453.350570027
-"300",1232095,"Apple\, Inc.","Central America and the Caribbean",3,"Marketing","female","native","2012-12",0.026103,0,0,568.289683959795
-"301",20923715,"The Goldman Sachs Group\, Inc.","Northern Africa",1,"Engineer","female","white","2012-02",5.293999,1e-06,1e-06,58901.1988212352
-"302",1232095,"Apple\, Inc.","Pacific Islands",6,"Admin","male","white","2021-07",0,0,0,NA
-"303",1122234,"Bristol Myers Squibb Co.","Western Europe",3,"Operations","male","white","2018-09",23.901522,0.001681,1.057181,2180506.14006224
-"304",1232095,"Apple\, Inc.","Central America and the Caribbean",3,"Admin","female","native","2020-01",0.145012,0,0,8568.42795191249
-"305",1122234,"Bristol Myers Squibb Co.","Pacific Islands",2,"Marketing","male","multiple","2020-05",0.031976,5e-05,4.4e-05,1748.73596921067
-"306",20923715,"The Goldman Sachs Group\, Inc.","Central and Western Asia",3,"Marketing","male","white","2013-03",0,0,0,NA
-"307",1230770,"Accenture Plc","Central America and the Caribbean",5,"empty","male","black","2017-10",0.051,0,0,1445.77502435232
-"308",1232095,"Apple\, Inc.","Eastern Europe",5,"Marketing","male","multiple","2017-11",0.031411,0.00213599999999999,0,1808.92648799499
-"309",494205,"The Home Depot\, Inc.","Southern Asia",1,"Scientist","male","multiple","2013-11",0.562268,0,0,3194.96565682632
-"310",20923715,"The Goldman Sachs Group\, Inc.","Southern Asia",5,"Admin","female","white","2014-10",2.560309,1e-06,3e-06,54442.3509809958
-"311",20923715,"The Goldman Sachs Group\, Inc.","Eastern Europe",6,"Engineer","male","api","2019-12",0.010316,0,0,568.264994198699
-"312",494205,"The Home Depot\, Inc.","Southern America",2,"Scientist","male","black","2017-12",0.304989,2e-06,2e-06,3745.89470014299
-"313",1232095,"Apple\, Inc.","Eastern Asia",3,"Finance","male","api","2020-10",39.077671,0.015532,0.011743,1478715.66594408
-"314",1122234,"Bristol Myers Squibb Co.","Southern America",4,"Sales","male","api","2021-06",0.60552,0.00198199999999999,0.00103,11442.1488934763
-"315",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",5,"Operations","female","black","2014-05",2.239897,0,0,219775.681800197
-"316",494205,"The Home Depot\, Inc.","Northern Europe",2,"Scientist","male","white","2012-11",0.010983,0,0,400.751977537209
-"317",20923715,"The Goldman Sachs Group\, Inc.","empty",1,"Marketing","male","multiple","2016-12",0.110148,0,1e-06,2262.32780800016
-"318",1230770,"Accenture Plc","Western Europe",2,"Engineer","female","hispanic","2015-09",32.12014,0.608091,2.579498,1565897.11314885
-"319",1122234,"Bristol Myers Squibb Co.","Northern Africa",1,"Engineer","male","hispanic","2015-04",0.004342,0,0,50.4384183487777
-"320",1122234,"Bristol Myers Squibb Co.","Sub-Saharan Africa",3,"Operations","female","black","2013-08",0.672,0,0,19880.4185064519
-"321",1230770,"Accenture Plc","Southern Europe",6,"Marketing","male","multiple","2008-09",0.035,0,0,3864.07171125425
-"322",1230770,"Accenture Plc","Northern Europe",1,"Finance","male","white","2013-02",29.481115,1.777284,0.225258,1009226.20188044
-"323",1230770,"Accenture Plc","Central and Western Asia",3,"Scientist","female","native","2017-11",0.037,0,0,1611.17788103059
-"324",604981,"Databricks\, Inc.","Arab States",6,"Admin","female","api","2015-12",0,0,0,NA
-"325",1232095,"Apple\, Inc.","Sub-Saharan Africa",3,"Engineer","female","multiple","2019-04",0.951417,3.1e-05,2.3e-05,21620.0546088468
-"326",1230770,"Accenture Plc","Arab States",5,"Finance","male","native","2014-11",0.035084,0,0,2247.39314061294
-"327",1232095,"Apple\, Inc.","Southern Asia",5,"Marketing","female","multiple","2013-10",0.601529,0,0,18283.9068884071
-"328",604981,"Databricks\, Inc.","Western Europe",6,"Engineer","female","white","2018-11",0.899197,8.9e-05,3e-06,84441.6175910845
-"329",20923715,"The Goldman Sachs Group\, Inc.","Southern Asia",5,"Marketing","male","api","2010-11",2.519,0,1e-06,79286.5439070675
-"330",20923715,"The Goldman Sachs Group\, Inc.","Eastern Asia",3,"Sales","female","native","2013-02",0.075943,0,0,3089.11133151882
-"331",1122234,"Bristol Myers Squibb Co.","Western Europe",4,"Finance","female","hispanic","2012-08",0.689874,0,0,71521.1348948729
-"332",1232095,"Apple\, Inc.","Southern Europe",1,"Scientist","male","multiple","2019-07",0.178208,0,1.7e-05,3940.38450151187
-"333",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",4,"Admin","female","black","2015-08",0.177006,0,0,7470.14433754624
-"334",1122234,"Bristol Myers Squibb Co.","Eastern Europe",3,"Operations","female","black","2011-08",0.002,0,0,108.377276886993
-"335",1230770,"Accenture Plc","South-Eastern Asia",7,"Admin","female","hispanic","2017-03",0,0,0,NA
-"336",1230770,"Accenture Plc","Southern Asia",1,"Admin","male","api","2017-09",1550.742809,5.118028,4.203416,12019405.4598487
-"337",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",2,"empty","male","api","2021-06",0,0,0,NA
-"338",494205,"The Home Depot\, Inc.","Eastern Asia",1,"Engineer","female","white","2018-02",0.606335,1.9e-05,9e-06,11818.2061182538
-"339",494205,"The Home Depot\, Inc.","Sub-Saharan Africa",1,"Engineer","female","native","2013-09",0.088938,0,0,578.635779498995
-"340",1232095,"Apple\, Inc.","Central America and the Caribbean",5,"Scientist","male","black","2014-08",0.02366,0,0,1525.03457710682
-"341",1122234,"Bristol Myers Squibb Co.","Southern America",1,"Marketing","male","native","2014-03",0.059819,0,0,687.988690701188
-"342",1122234,"Bristol Myers Squibb Co.","Northern America",5,"empty","female","white","2009-04",2.331348,2e-06,1e-06,251303.551266278
-"343",1122234,"Bristol Myers Squibb Co.","empty",2,"Sales","female","black","2017-02",12.145163,0.001087,0.370392,746164.803788814
-"344",20923715,"The Goldman Sachs Group\, Inc.","Pacific Islands",6,"Admin","male","white","2011-07",0,0,0,NA
-"345",1230770,"Accenture Plc","South-Eastern Asia",1,"Operations","female","multiple","2018-04",2.44581,0.044535,0.00303799999999999,32829.4302780119
-"346",1122234,"Bristol Myers Squibb Co.","Southern Asia",4,"Sales","male","white","2013-09",2.482527,0,0,87783.2898402073
-"347",1232095,"Apple\, Inc.","South-Eastern Asia",6,"Admin","male","native","2014-05",0.007026,0,0,993.113158466132
-"348",1230770,"Accenture Plc","Western Europe",2,"Admin","female","api","2012-11",13.699358,0.099547,0.119737,686773.904520999
-"349",1232095,"Apple\, Inc.","Northern Africa",5,"Sales","male","multiple","2017-04",0.610169,1e-06,1e-06,19914.0320922572
-"350",1232095,"Apple\, Inc.","South-Eastern Asia",3,"empty","male","white","2012-04",0.100242,0,0,2097.86475723296
-"351",1122234,"Bristol Myers Squibb Co.","Eastern Europe",2,"Finance","female","api","2021-07",0.54633,0.001011,0.000849,12007.5788619303
-"352",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",4,"Finance","female","white","2009-07",45.207152,0.981178,2.38728,3467049.53838768
-"353",604981,"Databricks\, Inc.","Sub-Saharan Africa",2,"Sales","male","api","2012-07",0.332934,1.1e-05,1.1e-05,5739.73460058821
-"354",1232095,"Apple\, Inc.","Pacific Islands",1,"Operations","female","multiple","2019-01",1.2793,0.092209,5.7e-05,62940.147184068
-"355",1230770,"Accenture Plc","Northern Africa",5,"Marketing","male","multiple","2015-06",0.00699699999999999,0,0,138.518073462549
-"356",494205,"The Home Depot\, Inc.","Northern America",2,"Sales","female","api","2011-05",104.881171,0.159805,0.125898,5327840.60237332
-"357",20923715,"The Goldman Sachs Group\, Inc.","Northern Europe",3,"Admin","male","white","2013-06",24.834404,1.066759,5e-06,1364494.37831838
-"358",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",3,"Finance","female","multiple","2019-02",0.178005,9e-06,6e-06,9371.24275710217
-"359",1232095,"Apple\, Inc.","Southern America",2,"Admin","male","native","2012-09",1.349283,0.00100099999999999,1e-06,24056.9054942281
-"360",1230770,"Accenture Plc","South-Eastern Asia",6,"Finance","female","hispanic","2014-12",0.0822,0,0,2780.6701862144
-"361",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",4,"Admin","male","api","2011-07",0.060992,0,0,3168.18105447287
-"362",494205,"The Home Depot\, Inc.","Arab States",1,"empty","female","black","2008-01",0,0,0,NA
-"363",494205,"The Home Depot\, Inc.","Sub-Saharan Africa",1,"empty","female","white","2012-03",0,0,0,NA
-"364",20923715,"The Goldman Sachs Group\, Inc.","empty",5,"Admin","male","native","2019-10",0.040528,7e-06,1e-05,3543.52188410378
-"365",1232095,"Apple\, Inc.","Southern Europe",5,"Sales","male","native","2015-08",0.225782,0,0,18408.8919866299
-"366",1122234,"Bristol Myers Squibb Co.","Southern America",3,"Scientist","female","multiple","2010-01",3.509879,0.076116,0.042061,47840.4650891592
-"367",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",6,"Marketing","female","hispanic","2012-03",0,0,0,NA
-"368",1232095,"Apple\, Inc.","Southern Asia",2,"Sales","female","white","2019-06",342.928566,0.04165,0.023733,7180697.81366592
-"369",20923715,"The Goldman Sachs Group\, Inc.","Central America and the Caribbean",3,"Scientist","male","api","2020-08",0.011,0,0,570.378367243694
-"370",494205,"The Home Depot\, Inc.","South-Eastern Asia",3,"Sales","female","multiple","2016-06",0.495002,1e-06,1e-06,9126.02906638632
-"371",1232095,"Apple\, Inc.","empty",1,"Sales","male","api","2008-10",187.539489,3.432845,0.00759,3116431.49605206
-"372",494205,"The Home Depot\, Inc.","Central America and the Caribbean",2,"Marketing","male","white","2014-11",2.709763,1e-06,1e-06,114106.303247046
-"373",1230770,"Accenture Plc","Northern Africa",2,"Marketing","female","hispanic","2017-07",0.13086,0,0,1472.07782950274
-"374",604981,"Databricks\, Inc.","Northern America",2,"empty","male","black","2010-10",0,0,0,NA
-"375",1122234,"Bristol Myers Squibb Co.","Central America and the Caribbean",1,"Operations","female","hispanic","2012-05",10.153026,0.069317,1.237229,203210.396142559
-"376",1230770,"Accenture Plc","empty",5,"Finance","male","native","2020-09",0.119304,0,0,8023.43175386044
-"377",494205,"The Home Depot\, Inc.","Eastern Asia",2,"Operations","female","multiple","2021-07",1.919257,0.001083,0.002242,44036.702410594
-"378",1122234,"Bristol Myers Squibb Co.","Arab States",4,"Sales","male","white","2016-04",9.786621,3.1e-05,1.6e-05,819977.495978506
-"379",494205,"The Home Depot\, Inc.","Southern Asia",2,"empty","male","white","2015-06",0.002,0,0,14.5281608912392
-"380",20923715,"The Goldman Sachs Group\, Inc.","Northern America",3,"Finance","female","multiple","2017-07",24.733495,1.285982,0.516198,3080889.40802525
-"381",1232095,"Apple\, Inc.","Pacific Islands",3,"Finance","male","white","2014-10",7.714649,6e-06,1e-05,637378.944643444
-"382",1232095,"Apple\, Inc.","Central and Western Asia",1,"empty","male","hispanic","2016-04",0.051,0,0,504.484989651656
-"383",604981,"Databricks\, Inc.","Northern America",4,"Marketing","female","native","2009-01",0,0,0,NA
-"384",20923715,"The Goldman Sachs Group\, Inc.","Pacific Islands",4,"Marketing","female","api","2014-04",0.016992,0,0,1623.98352637367
-"385",1122234,"Bristol Myers Squibb Co.","South-Eastern Asia",2,"Sales","female","white","2021-03",5.174117,0.004903,0.006007,174342.449357522
-"386",20923715,"The Goldman Sachs Group\, Inc.","empty",1,"Marketing","male","black","2011-11",0.221457,0,0,9850.97875449197
-"387",1230770,"Accenture Plc","Southern America",4,"Engineer","female","white","2018-01",307.015636,13.429788,2.377396,5353166.1302989
-"388",1232095,"Apple\, Inc.","Northern America",4,"Engineer","female","black","2016-08",75.429442,0.560223,0.125463,8083785.54127717
-"389",604981,"Databricks\, Inc.","empty",5,"Admin","male","hispanic","2011-09",0,0,0,NA
-"390",604981,"Databricks\, Inc.","South-Eastern Asia",1,"Sales","male","hispanic","2012-03",0,0,0,NA
-"391",494205,"The Home Depot\, Inc.","South-Eastern Asia",6,"Operations","female","api","2016-02",0,0,0,NA
-"392",1122234,"Bristol Myers Squibb Co.","Arab States",3,"Marketing","female","native","2011-09",0,0,0,NA
-"393",604981,"Databricks\, Inc.","Western Europe",3,"Marketing","male","black","2018-05",0,0,0,NA
-"394",1230770,"Accenture Plc","Western Europe",2,"Engineer","female","api","2016-09",110.068891,1.548943,2.803323,5984901.6001192
-"395",1232095,"Apple\, Inc.","Southern America",3,"Admin","female","api","2010-05",2.385032,1e-06,2e-06,41760.8215858176
-"396",1122234,"Bristol Myers Squibb Co.","Northern Africa",1,"Scientist","male","hispanic","2013-05",0.031005,0,0,443.92353288421
-"397",1230770,"Accenture Plc","Southern Asia",5,"Finance","female","native","2020-01",0.454365,0.003258,0.032007,7623.02009749525
-"398",494205,"The Home Depot\, Inc.","Arab States",4,"Sales","female","hispanic","2020-05",0.036024,0,0,1693.24144153026
-"399",1230770,"Accenture Plc","Pacific Islands",2,"Operations","male","hispanic","2016-05",1.495562,0.020241,3e-06,96816.1536832706
-"400",1230770,"Accenture Plc","Southern Europe",6,"Marketing","female","multiple","2016-10",0.043032,0,0,2618.49057732577
-"401",1122234,"Bristol Myers Squibb Co.","Southern America",4,"Finance","male","multiple","2009-11",0.038819,0,0.019118,572.239022784387
-"402",1122234,"Bristol Myers Squibb Co.","Northern America",6,"Operations","male","native","2011-02",0.034056,0,0,5454.22197062582
-"403",604981,"Databricks\, Inc.","South-Eastern Asia",5,"Marketing","male","white","2017-04",0,0,0,NA
-"404",1122234,"Bristol Myers Squibb Co.","Northern Africa",5,"Operations","male","hispanic","2016-02",0.001953,0,0,31.3917483259703
-"405",494205,"The Home Depot\, Inc.","Northern Africa",1,"empty","female","api","2011-12",0,0,0,NA
-"406",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",5,"Scientist","male","api","2014-04",0.035003,0,0,2110.67190230846
-"407",1232095,"Apple\, Inc.","empty",3,"Marketing","female","hispanic","2016-10",3.06795,3.3e-05,0.011273,156637.785024208
-"408",1122234,"Bristol Myers Squibb Co.","South-Eastern Asia",3,"Scientist","female","native","2014-08",0.01394,0,0,449.964755613273
-"409",20923715,"The Goldman Sachs Group\, Inc.","Northern Europe",3,"Operations","male","native","2016-10",0.100666,0,0,7110.40304595925
-"410",20923715,"The Goldman Sachs Group\, Inc.","Eastern Europe",1,"Operations","female","hispanic","2020-05",0.023794,3.1e-05,0,607.680960719131
-"411",20923715,"The Goldman Sachs Group\, Inc.","Northern Europe",1,"Operations","female","multiple","2020-04",0.326299,7.3e-05,5.6e-05,12699.7814813294
-"412",494205,"The Home Depot\, Inc.","empty",3,"Operations","female","black","2021-04",3.917006,0.00260599999999999,0.406108,191669.295440042
-"413",494205,"The Home Depot\, Inc.","Sub-Saharan Africa",5,"Engineer","female","api","2010-11",0,0,0,NA
-"414",1122234,"Bristol Myers Squibb Co.","South-Eastern Asia",3,"Sales","male","hispanic","2018-07",1.018619,2.6e-05,2.2e-05,25389.9513459036
-"415",20923715,"The Goldman Sachs Group\, Inc.","Southern Asia",5,"Marketing","male","hispanic","2021-08",0.014298,0,0,530.790070435483
-"416",1122234,"Bristol Myers Squibb Co.","Eastern Europe",4,"Finance","female","hispanic","2017-08",0.049605,1e-06,1e-06,2158.88032850019
-"417",494205,"The Home Depot\, Inc.","empty",6,"Operations","female","api","2016-09",0,0,0,NA
-"418",1232095,"Apple\, Inc.","Sub-Saharan Africa",5,"Admin","male","multiple","2019-07",1.201054,6.6e-05,5e-05,42475.0408927901
-"419",20923715,"The Goldman Sachs Group\, Inc.","Southern America",4,"Sales","female","api","2012-01",0.08425,0,0,2284.36553065333
-"420",20923715,"The Goldman Sachs Group\, Inc.","Eastern Europe",5,"Scientist","female","hispanic","2014-10",0,0,0,NA
-"421",1230770,"Accenture Plc","Pacific Islands",1,"Admin","female","api","2008-01",4.136,0,0.057132,180623.89171719
-"422",1232095,"Apple\, Inc.","Eastern Europe",5,"Sales","male","hispanic","2018-04",1.580918,1.8e-05,0.034561,148318.93999863
-"423",1230770,"Accenture Plc","Sub-Saharan Africa",5,"Admin","female","api","2011-08",0.594522,0.135377,0.00402499999999999,18764.9146891967
-"424",494205,"The Home Depot\, Inc.","Southern America",2,"Operations","male","black","2012-08",0.386026,0,0,4151.20908759707
-"425",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",2,"Finance","female","black","2021-03",1.58644,0.003617,0.004277,92452.2736311977
-"426",1230770,"Accenture Plc","Western Europe",1,"empty","male","multiple","2016-02",0,0,0,NA
-"427",1232095,"Apple\, Inc.","Western Europe",4,"Finance","female","multiple","2017-07",0.068044,0,0,3998.88860974567
-"428",1232095,"Apple\, Inc.","Eastern Europe",5,"Marketing","female","api","2013-06",0.581977,0,0,29771.2596520574
-"429",604981,"Databricks\, Inc.","Pacific Islands",5,"Engineer","male","hispanic","2009-02",0,0,0,NA
-"430",1230770,"Accenture Plc","Southern America",1,"Sales","female","multiple","2011-04",14.873828,2e-06,0.06841,127638.412541301
-"431",494205,"The Home Depot\, Inc.","Northern Europe",2,"Marketing","female","white","2015-11",5.033415,6e-06,3e-06,243053.938979854
-"432",1230770,"Accenture Plc","Eastern Asia",6,"empty","female","black","2021-01",0,0,0,NA
-"433",1230770,"Accenture Plc","Central America and the Caribbean",3,"Marketing","female","white","2011-11",5.287972,2e-06,3e-06,185239.084126703
-"434",1232095,"Apple\, Inc.","South-Eastern Asia",2,"Finance","female","api","2021-02",317.034251,1.44498,0.179164,6820598.11664873
-"435",1122234,"Bristol Myers Squibb Co.","Western Europe",3,"Operations","female","hispanic","2015-09",1.391578,0.004033,1e-06,88579.7621889047
-"436",494205,"The Home Depot\, Inc.","Eastern Asia",1,"Marketing","male","white","2018-03",0.284991,5e-06,3e-06,3867.55371991119
-"437",1230770,"Accenture Plc","Northern Europe",3,"Admin","female","hispanic","2018-12",20.760929,0.076387,0.599972,1238881.80547916
-"438",1122234,"Bristol Myers Squibb Co.","Southern Europe",4,"Admin","male","black","2009-06",0.027814,0,0,1414.43761801225
-"439",1232095,"Apple\, Inc.","Northern Africa",3,"Operations","female","black","2018-04",0.910847,9e-06,8e-06,24854.7479017242
-"440",20923715,"The Goldman Sachs Group\, Inc.","South-Eastern Asia",1,"Marketing","male","black","2015-08",0.096765,0,0,1076.20389262492
-"441",1122234,"Bristol Myers Squibb Co.","empty",2,"empty","male","native","2008-07",0.002,0,0,94.9229058183216
-"442",1230770,"Accenture Plc","Southern Asia",1,"empty","female","hispanic","2018-05",0.370407,0.004026,1.1e-05,2648.24293889418
-"443",1230770,"Accenture Plc","empty",2,"empty","male","native","2018-07",0.196305,0,0.001,4416.67972103931
-"444",1122234,"Bristol Myers Squibb Co.","Southern Asia",5,"Admin","male","white","2011-05",0,0,0,NA
-"445",1232095,"Apple\, Inc.","Northern America",3,"Admin","male","api","2013-10",35.146012,0.00508999999999999,4.4e-05,2868302.289228
-"446",604981,"Databricks\, Inc.","Southern Asia",4,"Sales","female","native","2021-02",0.002029,5e-06,1.6e-05,320.208186721383
-"447",494205,"The Home Depot\, Inc.","Eastern Asia",3,"Operations","male","white","2019-11",0.616548,5e-05,4.4e-05,18017.2990426024
-"448",1230770,"Accenture Plc","Eastern Asia",3,"Sales","male","multiple","2009-05",5.197104,0.358112,2e-06,249687.98113441
-"449",1232095,"Apple\, Inc.","empty",5,"Scientist","male","hispanic","2019-08",0.298344,3e-05,2.6e-05,3814.69802628477
-"450",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",1,"Sales","male","hispanic","2019-10",0.690651,7.4e-05,4.7e-05,26545.4098038419
-"451",1232095,"Apple\, Inc.","Sub-Saharan Africa",3,"Marketing","male","black","2019-12",38.054573,0.002396,0.002256,591718.305455907
-"452",1232095,"Apple\, Inc.","Eastern Europe",5,"Scientist","male","multiple","2013-12",0,0,0,NA
-"453",1122234,"Bristol Myers Squibb Co.","Northern Europe",4,"Operations","female","api","2009-01",0.025011,0,0,1344.1531033617
-"454",20923715,"The Goldman Sachs Group\, Inc.","Eastern Europe",3,"Admin","female","multiple","2013-10",0.022063,0,0,787.783610972652
-"455",1122234,"Bristol Myers Squibb Co.","Eastern Europe",3,"Sales","female","multiple","2011-07",0.11305,0.021086,0,3833.92408579728
-"456",1230770,"Accenture Plc","empty",1,"Operations","female","api","2012-01",6.990619,0.012027,1e-06,80352.0013650356
-"457",1232095,"Apple\, Inc.","Western Europe",2,"Scientist","female","multiple","2014-12",0.443292,0,0.019238,25798.576433321
-"458",1232095,"Apple\, Inc.","Northern America",3,"Scientist","male","native","2020-08",1.219925,0.009284,0.010174,151764.195917954
-"459",1230770,"Accenture Plc","Pacific Islands",1,"Engineer","male","multiple","2010-02",1.131811,0.012041,1e-06,45032.5980278695
-"460",20923715,"The Goldman Sachs Group\, Inc.","empty",1,"Operations","female","hispanic","2018-02",1.944618,2.2e-05,1.9e-05,33237.8989992599
-"461",1232095,"Apple\, Inc.","South-Eastern Asia",4,"empty","female","api","2020-12",1.035868,0.019237,0.000212,40290.4331744909
-"462",1230770,"Accenture Plc","Central America and the Caribbean",1,"Operations","male","black","2017-03",0.395166,5e-06,2e-06,8519.14431418437
-"463",1230770,"Accenture Plc","Southern America",2,"empty","male","hispanic","2009-09",7.789284,3e-06,1e-06,127250.619536904
-"464",1122234,"Bristol Myers Squibb Co.","Eastern Asia",1,"Sales","male","hispanic","2016-05",0.768867,5e-06,2e-06,34203.9789980431
-"465",1232095,"Apple\, Inc.","Arab States",1,"Marketing","male","api","2011-08",29.869377,7e-06,1.2e-05,899128.287386575
-"466",1230770,"Accenture Plc","Sub-Saharan Africa",2,"Operations","male","black","2020-03",60.44635,0.331632,0.013086,1016401.67501622
-"467",1230770,"Accenture Plc","Northern Africa",4,"Admin","female","white","2017-12",11.666387,0.000218,0.000152,238269.206447415
-"468",494205,"The Home Depot\, Inc.","Northern Europe",2,"Admin","female","black","2020-02",3.542896,0.00516699999999999,0.000484,193824.001729549
-"469",20923715,"The Goldman Sachs Group\, Inc.","Arab States",3,"Engineer","female","white","2017-11",1.072164,8e-06,6e-06,58294.4588235194
-"470",494205,"The Home Depot\, Inc.","Northern Europe",5,"Engineer","male","native","2016-11",0.004956,0,0,221.188998247298
-"471",604981,"Databricks\, Inc.","empty",2,"Scientist","male","black","2017-06",0,0,0,NA
-"472",1232095,"Apple\, Inc.","Northern Europe",7,"Sales","male","white","2016-01",0.586977,0,0,90258.698908287
-"473",1122234,"Bristol Myers Squibb Co.","Eastern Europe",3,"Operations","female","multiple","2012-07",0.028013,0,0,1223.24451012181
-"474",1230770,"Accenture Plc","Western Europe",5,"Operations","female","native","2010-08",0.547848,0,0.002,54340.2238356176
-"475",1230770,"Accenture Plc","Southern Asia",6,"empty","female","black","2020-01",0,0,0,NA
-"476",1232095,"Apple\, Inc.","Western Europe",1,"Operations","male","black","2018-09",6.476141,0.017139,0.000107,313495.397426277
-"477",1122234,"Bristol Myers Squibb Co.","Northern Europe",4,"Marketing","female","hispanic","2009-12",0.022479,0,0,1888.24655079074
-"478",20923715,"The Goldman Sachs Group\, Inc.","Central America and the Caribbean",4,"empty","female","api","2012-12",0,0,0,NA
-"479",20923715,"The Goldman Sachs Group\, Inc.","Pacific Islands",2,"Engineer","male","native","2014-08",0.347527,0,0.081123,20788.266804334
-"480",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",4,"Operations","female","hispanic","2008-07",0.16599,0,0,10196.8977060384
-"481",494205,"The Home Depot\, Inc.","Central and Western Asia",3,"Finance","female","white","2015-04",0.983126,2e-06,0,60882.8743057405
-"482",494205,"The Home Depot\, Inc.","Arab States",3,"empty","male","black","2010-10",0,0,0,NA
-"483",1230770,"Accenture Plc","Central and Western Asia",6,"Operations","female","native","2016-06",0,0,0,NA
-"484",1122234,"Bristol Myers Squibb Co.","Northern Europe",1,"Scientist","male","black","2012-10",0.841206,0,0.004022,48472.6408919537
-"485",20923715,"The Goldman Sachs Group\, Inc.","Southern America",4,"empty","female","native","2014-02",0.005,0,0,127.376057911971
-"486",20923715,"The Goldman Sachs Group\, Inc.","Northern Europe",6,"Scientist","female","native","2016-08",0,0,0,NA
-"487",20923715,"The Goldman Sachs Group\, Inc.","Southern America",6,"Operations","male","white","2019-12",0.005034,0,0,171.285588959917
-"488",1122234,"Bristol Myers Squibb Co.","Southern America",5,"Admin","female","white","2019-12",3.1e-05,3.1e-05,3.1e-05,NA
-"489",1230770,"Accenture Plc","Southern America",5,"empty","male","native","2021-02",0.020622,0,0,678.297860281898
-"490",20923715,"The Goldman Sachs Group\, Inc.","Western Europe",4,"Engineer","male","white","2020-03",33.217682,0.009567,0.00659899999999999,2373876.37761223
-"491",20923715,"The Goldman Sachs Group\, Inc.","Southern Europe",5,"Admin","female","white","2012-12",0.847993,0,0,87382.6728539604
-"492",20923715,"The Goldman Sachs Group\, Inc.","Southern Asia",2,"Marketing","female","hispanic","2021-05",0.152137,0.001256,0.00046799999999999,1878.52033770771
-"493",494205,"The Home Depot\, Inc.","Central and Western Asia",5,"Sales","female","multiple","2017-02",0,0,0,NA
-"494",1122234,"Bristol Myers Squibb Co.","Arab States",1,"Finance","female","native","2012-07",0.002948,0,0,117.786988399514
-"495",1232095,"Apple\, Inc.","Eastern Asia",1,"Sales","male","multiple","2012-03",15.102394,0.223941,0.381725,455861.361418148
-"496",1230770,"Accenture Plc","Central and Western Asia",3,"Scientist","female","native","2015-06",0.037,0,0,1445.00642980183
-"497",1230770,"Accenture Plc","empty",3,"Marketing","male","white","2012-06",28.398981,0.490391,0.811094,1663032.2919385
-"498",1232095,"Apple\, Inc.","Southern Asia",4,"Engineer","male","api","2017-05",235.668573,0.844387,0.879254,3976099.1376837
-"499",494205,"The Home Depot\, Inc.","empty",2,"Admin","male","black","2021-03",5.482491,0.011338,0.002836,165381.130648781
-"500",494205,"The Home Depot\, Inc.","Central America and the Caribbean",6,"Sales","male","black","2014-11",0,0,0,NA
+"","company","region","seniority","job_category","gender","ethnicity","count","inflow","outflow","salary","year"
+"1","Apple","Eastern Asia",5,"Sales","male","native",0.147079,0.001,0,8570.28847206771,"2014"
+"2","Accenture Plc","Northern Europe",6,"Marketing","female","native",0.007,0,0,577.052427507456,"2008"
+"3","The Goldman Sachs Group","Pacific Islands",6,"Finance","male","native",0.047017,0,0,6253.01359952015,"2015"
+"4","Bristol Myers Squibb Co.","Pacific Islands",3,"Finance","female","multiple",0,0,0,NA,"2011"
+"5","Accenture Plc","Pacific Islands",4,"Admin","female","black",2.466187,0.00100099999999999,2e-06,250912.629411675,"2012"
+"6","The Goldman Sachs Group","Central America and the Caribbean",3,"Scientist","male","multiple",0.007,0,0,245.87092885783,"2009"
+"7","Accenture Plc","South-Eastern Asia",5,"Sales","female","hispanic",3.432391,0.024007,0.003092,151755.384146015,"2018"
+"8","The Home Depot","Pacific Islands",5,"Admin","male","api",0,0,0,NA,"2021"
+"9","Apple","Southern Asia",5,"empty","female","multiple",0,0,0,NA,"2018"
+"10","The Goldman Sachs Group","Northern America",3,"Admin","female","api",9.194028,3e-06,0.006013,906201.016945823,"2012"
+"11","Accenture Plc","Northern Europe",6,"Marketing","female","native",0.007,0,0,595.649600388307,"2010"
+"12","The Goldman Sachs Group","Sub-Saharan Africa",6,"Operations","male","hispanic",0.003,0,0,92.409528639268,"2011"
+"13","Bristol Myers Squibb Co.",NA,1,"Marketing","female","black",1.299946,0.00250899999999999,0.00535599999999999,45748.4496488803,"2021"
+"14","Apple","Northern Europe",6,"Engineer","male","multiple",0.116174,0,0,12419.0936567936,"2010"
+"15","Bristol Myers Squibb Co.","Southern Asia",5,"empty","female","white",0,0,0,NA,"2020"
+"16","Accenture Plc","Southern Europe",5,"Finance","female","native",0.13028,0.020749,0.001,9185.40223360584,"2018"
+"17","The Goldman Sachs Group","South-Eastern Asia",1,"Engineer","male","hispanic",0.763133,0.114298,3e-06,20378.9021240477,"2018"
+"18","The Goldman Sachs Group","Northern Europe",4,"Operations","male","multiple",0.641669,7e-06,1.1e-05,47774.4422173498,"2017"
+"19","The Goldman Sachs Group",NA,2,"Marketing","male","api",1.51797,9.1e-05,5.7e-05,38569.6095284195,"2018"
+"20","Accenture Plc","Sub-Saharan Africa",4,"Operations","female","multiple",5.273501,0.144618,2e-06,148018.738821831,"2008"
+"21","Accenture Plc","South-Eastern Asia",2,"Sales","female","api",369.378538,10.263165,8.925162,6598250.650833,"2016"
+"22","Accenture Plc","Southern America",4,"Engineer","female","native",3.426142,0.078448,0.093684,61976.174265229,"2017"
+"23","The Goldman Sachs Group","Eastern Europe",4,"empty","female","api",0,0,0,NA,"2016"
+"24","The Goldman Sachs Group","Western Europe",4,"empty","male","hispanic",0,0,0,NA,"2019"
+"25","Accenture Plc","Arab States",2,"Scientist","female","hispanic",0.494703,0,0,28139.6637577753,"2015"
+"26","The Goldman Sachs Group",NA,4,"Sales","male","api",3.816024,0,1e-06,188522.190108962,"2009"
+"27","Bristol Myers Squibb Co.","Southern Europe",3,"Finance","male","multiple",0.013736,0,0,617.443379463539,"2012"
+"28","Apple","Central and Western Asia",5,"Marketing","female","api",0.034,0,0,811.747652390529,"2011"
+"29","Apple","Northern Europe",2,"Finance","male","white",111.360051,4.477717,0.865912,5547485.25160852,"2016"
+"30","Apple",NA,1,"Operations","female","white",10.8934,0.006144,0.000854,350403.24570205,"2019"
+"31","Apple","Sub-Saharan Africa",3,"Operations","female","native",0.032,0,0,423.432619800982,"2008"
+"32","Accenture Plc","Southern Europe",6,"Engineer","female","multiple",0.668243,0,0.020153,35096.7664506317,"2009"
+"33","The Goldman Sachs Group","Central America and the Caribbean",4,"Operations","male","white",0.654,0,0,14263.7621668153,"2009"
+"34","Accenture Plc","Southern Europe",3,"Admin","male","multiple",0.743304,0.012126,0.025198,44043.5687846501,"2016"
+"35","Bristol Myers Squibb Co.","Northern America",5,"Admin","male","hispanic",1.21104,0,0.00201499999999999,152218.765903094,"2011"
+"36","The Home Depot","Southern Europe",1,"Marketing","female","white",9.295698,1e-06,2e-06,216390.06067903,"2014"
+"37","Apple","Western Europe",3,"Operations","female","multiple",0.250016,0,0,15666.3595120605,"2011"
+"38","Apple","Southern Asia",3,"Operations","male","hispanic",1.290555,0,1e-06,26169.7532655386,"2015"
+"39","The Home Depot","Northern Africa",1,"Operations","male","hispanic",2.895995,0.609945,0.047285,88369.5620538245,"2013"
+"40","Apple",NA,2,"Sales","male","white",1753.39781,48.719514,30.71784,94460447.5058869,"2015"
+"41","The Goldman Sachs Group","Pacific Islands",5,"Scientist","male","native",0.008,0,0,823.398545933525,"2012"
+"42","Apple","Central and Western Asia",6,"Operations","male","black",0.158962,0,0,11631.5265431062,"2019"
+"43","Databricks","Northern Europe",1,"Admin","female","native",0,0,0,NA,"2018"
+"44","Accenture Plc","Eastern Asia",7,"Engineer","female","api",0,0,0,NA,"2008"
+"45","The Home Depot",NA,3,"Sales","male","hispanic",22.47488,0.608657,0.00704399999999999,760303.312706495,"2014"
+"46","The Home Depot","Eastern Asia",3,"Admin","female","white",0.266,0,0,5522.29641522792,"2008"
+"47","The Goldman Sachs Group","South-Eastern Asia",1,"Marketing","female","multiple",0.317886,0,0,10604.9391511362,"2012"
+"48","Accenture Plc","Sub-Saharan Africa",6,"Finance","female","white",1.431602,1e-06,0,63606.6717988587,"2012"
+"49","Apple","Eastern Europe",1,"Marketing","male","white",44.994829,1.7e-05,5.3e-05,969515.685787524,"2008"
+"50","Accenture Plc","Eastern Asia",5,"Admin","male","hispanic",0.687436,0,0,54987.554190073,"2013"
+"51","Apple","Pacific Islands",1,"Operations","male","multiple",2.161494,8.4e-05,7.6e-05,101226.911496666,"2019"
+"52","The Goldman Sachs Group","Southern America",5,"Sales","female","api",0.101017,3e-06,2e-06,1792.1777884311,"2018"
+"53","Bristol Myers Squibb Co.","Eastern Europe",1,"Sales","male","api",0.097958,0,0,2394.37143158107,"2011"
+"54","Apple","Eastern Europe",1,"Engineer","female","black",0.283255,2e-06,2e-06,9929.47957827544,"2017"
+"55","Accenture Plc","Southern America",3,"Marketing","female","api",9.60208,0.608176,0.271185,155279.378245522,"2019"
+"56","The Goldman Sachs Group","Northern Africa",1,"Finance","male","white",1.978256,8.5e-05,0.000103,20130.3979174833,"2019"
+"57","Bristol Myers Squibb Co.","Central and Western Asia",2,"Scientist","female","hispanic",0.17724,0,0,1952.98748569173,"2011"
+"58","Bristol Myers Squibb Co.","Northern America",3,"Engineer","male","white",339.218689,6.134163,3.526188,30432210.4418502,"2015"
+"59","The Goldman Sachs Group","Sub-Saharan Africa",1,"empty","male","api",0,0,0,NA,"2009"
+"60","The Home Depot","Northern Europe",3,"Marketing","male","multiple",0.014,0,0,628.73775310252,"2020"
+"61","Apple","Northern Europe",5,"Engineer","female","white",22.346332,1.040313,0.000669,2424883.69638067,"2018"
+"62","Databricks",NA,2,"Operations","male","black",0.003177,1e-06,0,265.246453160478,"2019"
+"63","Accenture Plc","Pacific Islands",2,"Admin","female","black",6.305928,0.075317,0.001533,488602.691743904,"2019"
+"64","Apple","Sub-Saharan Africa",3,"Engineer","male","api",4.859922,1e-06,3e-06,62406.9892289043,"2010"
+"65","Accenture Plc","Arab States",1,"Marketing","male","native",0.181125,0.000219,0.000238,5698.76687348416,"2020"
+"66","Apple","Western Europe",2,"empty","male","api",0.075405,0,0,3941.57903367428,"2016"
+"67","Bristol Myers Squibb Co.","Pacific Islands",5,"Operations","female","hispanic",0.007974,0,0,789.369311373869,"2012"
+"68","The Home Depot","Sub-Saharan Africa",5,"Finance","female","white",0.107011,1.8e-05,1.7e-05,16583.38449797,"2020"
+"69","The Home Depot","Eastern Asia",1,"Admin","female","native",0.037014,0,0,734.831942666288,"2014"
+"70","Apple","Central and Western Asia",6,"empty","male","native",0,0,0,NA,"2021"
+"71","Accenture Plc","South-Eastern Asia",6,"Sales","male","black",1.572298,0,0.007028,112708.385327108,"2012"
+"72","Accenture Plc","Southern America",3,"Scientist","female","api",0.409921,1e-06,1e-06,6384.48593234599,"2016"
+"73","Databricks","Northern America",3,"Engineer","female","hispanic",2.606053,0.555815,0.027865,314021.734713957,"2021"
+"74","Apple",NA,1,"Admin","male","multiple",12.318739,0.166119,0.00312599999999999,190394.817078994,"2017"
+"75","The Home Depot","Eastern Asia",2,"Engineer","male","native",0.054545,0,0,1444.01284899423,"2021"
+"76","Bristol Myers Squibb Co.","Central and Western Asia",5,"Admin","male","native",0.00199,0,0,79.7596668236574,"2014"
+"77","Databricks","Southern Asia",2,"empty","male","native",0,0,0,NA,"2021"
+"78","Accenture Plc","Southern Asia",5,"empty","male","api",30.492908,0.778245,1.349639,586928.94704787,"2018"
+"79","Accenture Plc","Southern America",5,"Scientist","male","api",0.386116,0,0,10999.1713304306,"2015"
+"80","The Goldman Sachs Group","Pacific Islands",3,"Engineer","male","native",0.06311,1e-06,0.003078,4192.59979341077,"2017"
+"81","The Goldman Sachs Group","Arab States",6,"Operations","female","black",0,0,0,NA,"2013"
+"82","The Goldman Sachs Group","Arab States",4,"Scientist","male","api",2e-06,0,0,NA,"2019"
+"83","The Home Depot","Central and Western Asia",2,"Scientist","female","black",0,0,0,NA,"2011"
+"84","The Goldman Sachs Group","Northern Europe",1,"Operations","female","white",11.193395,2e-06,3e-06,329422.405881509,"2010"
+"85","The Home Depot","Southern America",3,"Sales","female","multiple",0.090029,6e-06,4e-06,1868.74459193791,"2019"
+"86","Apple","Western Europe",5,"Admin","female","black",0.355332,4e-06,1.5e-05,57295.9785301867,"2018"
+"87","Bristol Myers Squibb Co.","Southern America",1,"Scientist","male","hispanic",17.946857,0.000246,0.000253,298947.082694825,"2017"
+"88","The Goldman Sachs Group","Central America and the Caribbean",6,"Finance","male","api",0,0,0,NA,"2018"
+"89","Apple",NA,5,"Scientist","female","native",0,0,0,NA,"2008"
+"90","Databricks",NA,1,"Engineer","female","hispanic",0,0,0,NA,"2011"
+"91","Bristol Myers Squibb Co.","Northern Europe",1,"Operations","female","hispanic",0.990879,1e-06,2e-06,28118.3950980328,"2011"
+"92","Accenture Plc","Southern Europe",1,"Operations","female","multiple",0.659436,0.000142,0.00313199999999999,17541.4292591384,"2019"
+"93","The Home Depot","Northern Europe",3,"Sales","male","native",0.077787,0,0.00200899999999999,5010.29577958602,"2013"
+"94","The Home Depot",NA,2,"Admin","female","white",37.095534,8e-06,0.008044,1251257.47258522,"2014"
+"95","The Home Depot","Southern Europe",5,"empty","male","native",0,0,0,NA,"2011"
+"96","Accenture Plc","Western Europe",4,"Scientist","male","black",0.417811,0,0.055371,21577.6416414693,"2008"
+"97","Accenture Plc","Eastern Europe",3,"Sales","female","hispanic",4.801697,0.111078,0.152736,258783.816446813,"2018"
+"98","The Goldman Sachs Group","Eastern Europe",6,"Sales","male","multiple",0.00500999999999999,0,0,847.09335594862,"2009"
+"99","Accenture Plc","Northern Europe",4,"Admin","female","api",8.914729,7e-06,0.035251,557462.865961882,"2009"
+"100","Apple","Arab States",1,"empty","female","api",1.149992,0,0,27861.3281790029,"2009"
+"101","The Home Depot","Eastern Europe",4,"Finance","female","hispanic",0.03306,0,0,2804.54810523601,"2013"
+"102","Apple","Eastern Asia",6,"empty","female","hispanic",0.001,0,0,51.932698583907,"2009"
+"103","Apple","Northern Africa",3,"Admin","male","multiple",12.827923,5e-06,1.2e-05,198756.664153513,"2008"
+"104","The Goldman Sachs Group","Southern Asia",3,"Scientist","male","white",0.928496,1e-06,2e-06,29653.6436071379,"2015"
+"105","The Goldman Sachs Group","Northern Europe",6,"Admin","male","native",0.01008,0,0,1158.29190632173,"2021"
+"106","The Home Depot","Sub-Saharan Africa",3,"Finance","female","black",4.003797,1e-06,1e-06,51770.009243161,"2012"
+"107","Apple","Eastern Asia",6,"empty","male","white",0.002,0,0,76.8320811099922,"2009"
+"108","Accenture Plc","Arab States",5,"empty","male","black",0.13546,0,0,10852.6307808327,"2020"
+"109","Bristol Myers Squibb Co.","Northern Africa",2,"Sales","male","api",9.302834,4e-06,0.708334,114513.100394113,"2008"
+"110","The Goldman Sachs Group","Northern Africa",4,"Sales","female","multiple",0.152,0,0,10040.6653693267,"2008"
+"111","The Goldman Sachs Group","Sub-Saharan Africa",1,"Engineer","male","hispanic",0.041043,0,0,413.847501744366,"2012"
+"112","The Home Depot","South-Eastern Asia",5,"Operations","female","native",0.017,0,0,1074.8842239681,"2015"
+"113","Accenture Plc","Sub-Saharan Africa",5,"Operations","female","black",15.306715,0.001034,0.00110399999999999,631597.80267189,"2019"
+"114","The Home Depot","Central and Western Asia",3,"Sales","female","api",0.010826,0,0,548.103450702408,"2020"
+"115","Apple",NA,1,"Finance","male","white",11.060056,0.001012,1.79309,306607.777216677,"2015"
+"116","Apple","Arab States",3,"Sales","male","white",694.657689,0.625645,0.001608,33518253.7222675,"2016"
+"117","Accenture Plc","Pacific Islands",1,"Admin","female","multiple",2.884995,0,1e-06,112163.793660657,"2011"
+"118","The Goldman Sachs Group","Central America and the Caribbean",5,"empty","female","black",0,0,0,NA,"2012"
+"119","Accenture Plc","Northern Europe",5,"Sales","female","native",0.710018,0.006,0.03412,68749.2340859899,"2014"
+"120","The Goldman Sachs Group","Southern Europe",3,"Admin","male","native",0.021202,0,0,1344.39565359263,"2019"
+"121","The Goldman Sachs Group","Northern America",2,"Scientist","female","white",27.185255,2.682346,0.27761,2441089.07145388,"2019"
+"122","Apple","Sub-Saharan Africa",2,"Admin","male","api",30.082858,0.00015699999999999,0.00016699999999999,484430.996374885,"2017"
+"123","Bristol Myers Squibb Co.","Arab States",4,"Sales","female","api",0.032348,2.2e-05,2.4e-05,2427.36093159806,"2020"
+"124","Bristol Myers Squibb Co.","South-Eastern Asia",1,"empty","male","api",0,0,0,NA,"2010"
+"125","The Goldman Sachs Group","Southern America",4,"Marketing","female","native",0,0,0,NA,"2016"
+"126","Bristol Myers Squibb Co.","Northern Europe",2,"Operations","male","api",0.73081,0.001061,2.4e-05,38496.5528148208,"2018"
+"127","Bristol Myers Squibb Co.","Western Europe",4,"Sales","female","hispanic",1.980233,0.00112999999999999,4.9e-05,177787.220959811,"2018"
+"128","Accenture Plc","Southern Asia",3,"Admin","female","api",866.56748,3.853505,2.265216,9282855.32398876,"2008"
+"129","The Goldman Sachs Group","Southern Europe",2,"Operations","male","api",0.271134,0,0,18525.6080306065,"2012"
+"130","Apple","Eastern Europe",1,"Sales","female","white",705.787817,0.000666,0.000629,15358731.5864122,"2015"
+"131","The Home Depot","Southern America",1,"Finance","male","api",0.00098599999999999,0,0,19.1647713438416,"2017"
+"132","Accenture Plc","South-Eastern Asia",4,"Admin","female","hispanic",45.224842,0.045391,0.845637,918445.640148406,"2019"
+"133","Bristol Myers Squibb Co.","Pacific Islands",3,"Sales","male","multiple",0.7983,0,1e-06,75835.5971841549,"2008"
+"134","Accenture Plc","Arab States",2,"Finance","male","hispanic",2.970832,0,1e-06,136448.820813919,"2011"
+"135","Apple","Sub-Saharan Africa",3,"Admin","female","native",0.154999,0,0,1885.60122719732,"2013"
+"136","Bristol Myers Squibb Co.","Central and Western Asia",5,"Operations","male","black",0,0,0,NA,"2013"
+"137","Databricks","Northern America",2,"Marketing","male","white",0.036,1e-06,1e-06,2511.2581674135,"2010"
+"138","Apple","Southern America",2,"Sales","female","black",24.609259,0.058673,0.008141,396689.583491206,"2011"
+"139","The Goldman Sachs Group","Southern America",3,"Operations","female","native",0.017981,0,0,300.155453104806,"2015"
+"140","Databricks","Southern Asia",5,"Admin","male","multiple",0.027994,0,1e-06,752.132996780922,"2012"
+"141","The Goldman Sachs Group","Eastern Europe",6,"Engineer","female","multiple",0,0,0,NA,"2016"
+"142","Bristol Myers Squibb Co.","Southern America",6,"Sales","female","native",0.050728,2.1e-05,1.4e-05,1891.94648958449,"2020"
+"143","Apple","Central America and the Caribbean",6,"Marketing","male","multiple",0.034,0,0,2558.22763352019,"2011"
+"144","Bristol Myers Squibb Co.","Southern Asia",2,"Engineer","female","hispanic",0.242687,0.000146,0.000111,2944.81088291498,"2020"
+"145","The Goldman Sachs Group",NA,4,"Finance","male","native",0.646478,0.016034,0,29456.5403683739,"2013"
+"146","The Home Depot","Northern Europe",5,"Sales","female","native",0.015,0,0,1008.05532923486,"2014"
+"147","Apple","Eastern Asia",3,"Scientist","female","native",0.019021,0,0,1085.0154872232,"2011"
+"148","Bristol Myers Squibb Co.","Southern Asia",2,"Sales","female","white",4.530688,2e-06,4e-06,100576.345383928,"2015"
+"149","Bristol Myers Squibb Co.","South-Eastern Asia",1,"Engineer","male","black",0.069046,1e-06,0.002068,733.880025423827,"2017"
+"150","Apple","Northern America",4,"Operations","male","native",1.25833,0.021408,0.010155,127167.9622759,"2016"
+"151","Accenture Plc","Pacific Islands",6,"Scientist","male","white",0,0,0,NA,"2015"
+"152","Apple","Sub-Saharan Africa",3,"empty","female","white",0,0,0,NA,"2015"
+"153","Accenture Plc","Northern Europe",2,"Admin","male","hispanic",4.430373,0.029236,0.018157,197369.894140616,"2008"
+"154","Databricks","Northern America",3,"Engineer","male","black",2.388994,2.2e-05,2e-05,312281.912019943,"2017"
+"155","Bristol Myers Squibb Co.","Central and Western Asia",2,"Marketing","male","native",0.00800799999999999,0,0,438.231574985427,"2019"
+"156","Accenture Plc","Western Europe",6,"Finance","female","api",0.405273,0,0,26660.5824217475,"2009"
+"157","Apple",NA,5,"Admin","female","hispanic",0.039279,0,0,2833.66984390364,"2014"
+"158","Bristol Myers Squibb Co.","Southern Asia",5,"Marketing","female","native",0,0,0,NA,"2018"
+"159","Bristol Myers Squibb Co.","Central America and the Caribbean",3,"Engineer","male","multiple",0.075647,0.00503099999999999,0,1966.00149262232,"2009"
+"160","Accenture Plc","Central and Western Asia",4,"Sales","female","white",11.266553,0.000199,0.00023499999999999,631476.627450627,"2017"
+"161","Apple","Eastern Europe",3,"Engineer","female","hispanic",0.949815,0,0,42347.7189277724,"2015"
+"162","The Home Depot","Sub-Saharan Africa",3,"Finance","female","hispanic",0.026,0,0,229.156944055301,"2013"
+"163","Bristol Myers Squibb Co.","Central and Western Asia",4,"Sales","female","api",0.014968,0,0,352.89508994857,"2010"
+"164","Accenture Plc","Central America and the Caribbean",6,"Sales","male","black",0.038328,0,0,1786.91630476111,"2017"
+"165","Bristol Myers Squibb Co.","Southern Asia",1,"Admin","male","native",0.067085,0,0.00302099999999999,803.700089423591,"2015"
+"166","The Goldman Sachs Group","Southern Asia",3,"Sales","female","black",2.445795,0.000504,0.000786,72801.2847224465,"2020"
+"167","Accenture Plc",NA,4,"empty","female","white",1.006074,1e-06,1e-06,91234.5643433979,"2016"
+"168","The Home Depot","Eastern Europe",3,"Scientist","female","multiple",0.002,0,0,63.4674077688193,"2014"
+"169","Apple","Southern Asia",3,"Admin","male","multiple",8.509932,9e-06,8e-06,194254.806363892,"2009"
+"170","Bristol Myers Squibb Co.",NA,1,"empty","female","multiple",0.006,0,0,374.977791982325,"2015"
+"171","The Goldman Sachs Group","Central America and the Caribbean",4,"Operations","female","black",0.114,0,0,2656.59842173936,"2012"
+"172","Apple","Southern America",3,"Finance","female","native",0.076,0,0,1309.20691085801,"2008"
+"173","Bristol Myers Squibb Co.","Pacific Islands",2,"Finance","female","black",0.06374,0,0,4219.26685897399,"2014"
+"174","Databricks","Northern Europe",3,"Sales","female","hispanic",0,0,0,NA,"2015"
+"175","Accenture Plc","Arab States",1,"Scientist","female","multiple",0.114722,0,0.00092699999999999,2533.15764253754,"2021"
+"176","The Home Depot","Central and Western Asia",4,"Finance","male","multiple",0,0,0,NA,"2009"
+"177","Bristol Myers Squibb Co.","Southern Europe",2,"Scientist","male","hispanic",19.154727,0.795884,0.001013,851960.32020227,"2014"
+"178","Apple","Sub-Saharan Africa",4,"Marketing","male","multiple",0.262477,0,0,3884.80351806181,"2013"
+"179","Bristol Myers Squibb Co.","Southern Asia",2,"Engineer","female","black",2.509261,2e-06,0.00706,27039.3452343549,"2015"
+"180","Accenture Plc","South-Eastern Asia",1,"empty","female","hispanic",9.92431,0.001034,0.000981,90728.5265160274,"2019"
+"181","Accenture Plc","Western Europe",7,"Marketing","male","black",0,0,0,NA,"2010"
+"182","Apple","Southern America",5,"Marketing","male","white",5.469293,2e-06,5e-06,258104.628394464,"2010"
+"183","Databricks","Southern Asia",5,"Engineer","female","hispanic",0.28067,0.00034099999999999,6e-05,4422.72703899921,"2020"
+"184","The Goldman Sachs Group","Sub-Saharan Africa",5,"Operations","female","black",3.828,1e-06,1e-06,48257.1597706166,"2008"
+"185","Accenture Plc","South-Eastern Asia",4,"empty","female","hispanic",2.260636,0,1.101692,48464.5379633849,"2014"
+"186","Accenture Plc","Pacific Islands",3,"Marketing","male","multiple",1.000613,1e-06,1e-06,76312.3004134255,"2008"
+"187","Bristol Myers Squibb Co.","Northern America",2,"empty","female","native",0.033132,0,0,2844.40043743367,"2017"
+"188","The Goldman Sachs Group","Northern Africa",6,"Sales","female","hispanic",0,0,0,NA,"2014"
+"189","Bristol Myers Squibb Co.","Northern Africa",4,"Sales","male","api",1.847881,1e-06,2e-06,27071.9919386928,"2015"
+"190","Accenture Plc","Western Europe",5,"Operations","female","black",12.016274,0.389901,0.001003,989713.127462721,"2013"
+"191","The Goldman Sachs Group","Western Europe",5,"Operations","female","hispanic",0.315,0,0,34312.3490987154,"2008"
+"192","The Goldman Sachs Group","Northern Europe",2,"Admin","male","white",89.459022,5.47045,6.805981,4762821.28957683,"2018"
+"193","Databricks","Eastern Europe",4,"Engineer","male","native",0,0,0,NA,"2019"
+"194","The Home Depot","Southern America",4,"Engineer","male","hispanic",1.670208,2.3e-05,1.4e-05,34928.0345822884,"2018"
+"195","The Goldman Sachs Group","Southern Asia",4,"Scientist","male","black",0.002,0,0,28.1749999921136,"2010"
+"196","Accenture Plc","Western Europe",5,"Scientist","male","black",1.803396,2e-06,1e-06,200042.018099841,"2015"
+"197","Bristol Myers Squibb Co.","Pacific Islands",4,"Marketing","male","multiple",0,0,0,NA,"2017"
+"198","Apple","Western Europe",5,"Admin","male","black",2.768345,2e-06,2e-06,426924.139449993,"2015"
+"199","Bristol Myers Squibb Co.","Central and Western Asia",5,"Engineer","male","native",0,0,0,NA,"2019"
+"200","Apple","Northern Europe",2,"Finance","male","white",110.089974,1.778492,6.086818,5502547.49047607,"2016"
+"201","Apple","Pacific Islands",5,"Sales","female","black",0.521366,0,1e-06,51956.9750731065,"2008"
+"202","The Home Depot","Arab States",3,"Operations","female","native",0.00899999999999999,0,0,363.088852388635,"2019"
+"203","Bristol Myers Squibb Co.","Eastern Europe",3,"empty","female","white",2.682298,1e-06,1e-06,81354.813488913,"2015"
+"204","Bristol Myers Squibb Co.","Eastern Asia",2,"empty","male","api",0,0,0,NA,"2009"
+"205","The Home Depot","South-Eastern Asia",1,"Finance","female","white",0.010665,0,0,140.660910908963,"2015"
+"206","Apple","Southern Asia",1,"Scientist","male","native",3.520181,1e-06,1e-06,28241.1130815569,"2012"
+"207","Bristol Myers Squibb Co.",NA,6,"Finance","female","hispanic",0,0,0,NA,"2008"
+"208","Bristol Myers Squibb Co.","Northern Europe",1,"Marketing","male","multiple",0.069973,0,0,2316.20709197901,"2010"
+"209","The Goldman Sachs Group","Southern America",6,"Admin","male","hispanic",0.004007,0,0,82.2289055562095,"2012"
+"210","Databricks","Northern Europe",4,"Marketing","male","native",0.001023,0,0,69.6918062596476,"2018"
+"211","Apple",NA,1,"Admin","male","white",149.777243,2.520414,1.145534,2950757.31781004,"2015"
+"212","Apple","Pacific Islands",6,"Finance","female","native",0,0,0,NA,"2019"
+"213","Accenture Plc","Central America and the Caribbean",5,"Operations","male","hispanic",28.103533,0.136219,1.756308,862833.730513229,"2021"
+"214","Apple","Southern Asia",2,"Operations","male","native",10.33685,3e-06,5e-06,77260.7984875377,"2014"
+"215","Bristol Myers Squibb Co.","Eastern Europe",5,"Scientist","male","multiple",0.015014,0,0,737.681505202938,"2011"
+"216","Accenture Plc","Southern America",2,"Admin","male","hispanic",193.675868,4.386167,4.953767,3566927.49696442,"2019"
+"217","Accenture Plc","Southern America",4,"Engineer","female","black",40.702826,0.452663,0.713221,630175.357852761,"2013"
+"218","Accenture Plc","Eastern Europe",3,"Operations","female","native",0.620586,0.016515,0.004015,25844.4369587137,"2018"
+"219","Apple","Arab States",2,"Sales","male","multiple",91.932953,0.323336,0.116572,4661330.29858261,"2018"
+"220","Bristol Myers Squibb Co.","Northern Europe",5,"empty","female","black",0,0,0,NA,"2015"
+"221","Apple","Central and Western Asia",2,"Finance","male","black",6.324005,0.00537699999999999,0.002751,188134.662398851,"2021"
+"222","The Goldman Sachs Group","Northern America",3,"Scientist","female","native",0.014277,0,3e-06,1111.49087232881,"2019"
+"223","Bristol Myers Squibb Co.","Sub-Saharan Africa",4,"Sales","male","multiple",0.185072,0,0,7886.12752644885,"2010"
+"224","Apple","Central America and the Caribbean",5,"Admin","female","hispanic",11.017702,0.004708,0.0044,430620.026923829,"2021"
+"225","The Home Depot","Pacific Islands",5,"Admin","female","multiple",0,0,0,NA,"2017"
+"226","The Goldman Sachs Group","Southern Europe",3,"empty","female","api",0,0,0,NA,"2009"
+"227","Apple","South-Eastern Asia",1,"Operations","female","multiple",4.99183,0.005053,2e-06,40208.3599603435,"2013"
+"228","The Home Depot","Northern Europe",1,"empty","male","native",0,0,0,NA,"2014"
+"229","Apple","Southern Asia",2,"empty","female","multiple",0.893996,0,1e-06,12505.6240175124,"2008"
+"230","The Goldman Sachs Group","South-Eastern Asia",3,"Sales","female","native",0.02801,0,0,776.841153060677,"2012"
+"231","Databricks","Sub-Saharan Africa",3,"Sales","female","white",0.00401599999999999,2e-06,1e-06,71.3680723138125,"2020"
+"232","The Goldman Sachs Group","Central America and the Caribbean",5,"Scientist","female","api",0,0,0,NA,"2008"
+"233","Apple","Eastern Asia",1,"empty","male","hispanic",0.01351,0,4.3e-05,222.871897387969,"2020"
+"234","The Home Depot","Northern America",4,"Operations","male","white",394.959545,8.054235,1.237982,35213179.4493152,"2020"
+"235","Bristol Myers Squibb Co.","Eastern Europe",4,"Marketing","female","hispanic",0.061594,0.000112,2.6e-05,2774.12465635557,"2021"
+"236","Accenture Plc","Eastern Asia",3,"Marketing","male","black",1.180774,0.028595,0.00521999999999999,47016.4144732571,"2018"
+"237","Accenture Plc","Eastern Europe",4,"Finance","female","white",119.770506,1.659292,1.823038,4886073.4236253,"2016"
+"238","Bristol Myers Squibb Co.","Northern America",4,"Marketing","female","hispanic",6.688626,3e-06,2.113849,641811.24821014,"2014"
+"239","Apple","Central and Western Asia",2,"Scientist","male","white",136.310534,2.281818,2.487274,5605961.190798,"2019"
+"240","The Goldman Sachs Group","Western Europe",5,"Scientist","male","white",1.356544,3e-05,2.9e-05,59594.7065076143,"2018"
+"241","The Home Depot","Northern America",3,"Scientist","male","native",0.055216,0,0,3701.32988930256,"2015"
+"242","Accenture Plc","Eastern Asia",5,"Scientist","male","api",2.41356,9e-06,1.17653,131086.442100212,"2016"
+"243","Accenture Plc","Northern America",6,"Operations","male","white",278.859407,4.5e-05,0.711142,46930419.2776193,"2008"
+"244","Apple","Eastern Asia",3,"Marketing","male","black",0.721284,0.005052,0,30228.0169329238,"2013"
+"245","The Home Depot","Central America and the Caribbean",4,"Operations","female","api",0.00331899999999999,0,0,27.5302098998175,"2012"
+"246","Databricks","Southern Europe",1,"Sales","male","black",0,0,0,NA,"2014"
+"247","Apple",NA,3,"Scientist","male","hispanic",3.01281,2.3e-05,2.1e-05,143716.597061641,"2018"
+"248","Apple","Southern Asia",4,"Marketing","male","api",92.198327,0.00075799999999999,0.00045399999999999,1594132.29670509,"2017"
+"249","The Goldman Sachs Group","Northern Europe",3,"Scientist","female","hispanic",0.680786,0.00116,0.000644,24668.3823970168,"2021"
+"250","Bristol Myers Squibb Co.","South-Eastern Asia",5,"Engineer","male","white",0,0,0,NA,"2016"
+"251","Accenture Plc","Eastern Europe",4,"Scientist","male","white",9.703732,0.054018,0.013741,453627.201786282,"2021"
+"252","The Goldman Sachs Group","Northern America",1,"Operations","male","white",34.599329,0.01408,0.007051,1187032.983186,"2011"
+"253","Bristol Myers Squibb Co.","Pacific Islands",5,"Operations","male","multiple",0.051457,4e-06,4e-06,6133.64739220995,"2019"
+"254","The Goldman Sachs Group","Northern America",3,"empty","female","native",0.051427,0.000107,8.4e-05,3477.03576371102,"2021"
+"255","The Goldman Sachs Group",NA,2,"Engineer","female","native",0.148155,0.00502399999999999,0,7230.02651016352,"2010"
+"256","The Home Depot","Sub-Saharan Africa",3,"Finance","male","hispanic",0.001,0,0,10.7226211516315,"2013"
+"257","Databricks","Northern Europe",5,"Marketing","male","hispanic",0.017715,2.5e-05,4e-06,1434.50850416875,"2020"
+"258","The Goldman Sachs Group","Eastern Europe",5,"Sales","male","api",0.005,0,0,520.248671977365,"2012"
+"259","Bristol Myers Squibb Co.","Central and Western Asia",2,"Engineer","female","native",0.00499199999999999,0,0,97.1768339170828,"2016"
+"260","Apple","Central America and the Caribbean",5,"Engineer","female","white",1.104351,0,0,88936.4175023358,"2012"
+"261","Bristol Myers Squibb Co.","Southern America",4,"Scientist","female","hispanic",8.170385,0.001007,2e-06,204662.832170956,"2014"
+"262","Accenture Plc","South-Eastern Asia",5,"Engineer","male","multiple",12.028618,0.040142,0.156977,491974.689251398,"2013"
+"263","The Home Depot","Northern Africa",3,"Operations","male","black",0.03102,3e-06,0,286.858662101194,"2018"
+"264","Bristol Myers Squibb Co.","Western Europe",1,"empty","male","multiple",0,0,0,NA,"2018"
+"265","Bristol Myers Squibb Co.","Southern Europe",3,"Admin","male","black",2.1e-05,2.1e-05,2.1e-05,1.24788022798375,"2020"
+"266","The Home Depot","Northern Europe",2,"Engineer","female","hispanic",1.275918,1e-06,1e-06,62066.5602329609,"2009"
+"267","The Goldman Sachs Group","Eastern Europe",5,"empty","male","multiple",0,0,0,NA,"2012"
+"268","Accenture Plc","Northern Africa",3,"Marketing","female","api",0.001967,0,0,43.0177673719454,"2017"
+"269","Accenture Plc",NA,3,"Marketing","female","api",16.188343,0.201588,0.010033,506203.000211554,"2014"
+"270","Apple","Sub-Saharan Africa",1,"Engineer","female","hispanic",2.012143,1.1e-05,1e-05,28439.2768590849,"2017"
+"271","Apple","Southern America",1,"Finance","female","multiple",0.326063,1e-06,1e-06,3511.46346008875,"2016"
+"272","Accenture Plc","Arab States",6,"Marketing","male","white",0.858491,3.6e-05,3.1e-05,145819.529297896,"2019"
+"273","The Home Depot","Sub-Saharan Africa",2,"Finance","male","black",6.267582,2e-06,1e-06,72935.5382716062,"2011"
+"274","The Goldman Sachs Group","Northern Europe",6,"Engineer","male","native",0.011006,0,0.00200799999999999,967.65864310015,"2013"
+"275","Databricks","Pacific Islands",3,"Finance","male","api",0,0,0,NA,"2020"
+"276","Bristol Myers Squibb Co.","Central America and the Caribbean",3,"Scientist","female","api",0.179677,0,0,3452.44573418494,"2009"
+"277","Apple","Pacific Islands",4,"Marketing","female","multiple",0.165875,0.045324,0,17485.9521599473,"2012"
+"278","Databricks","Pacific Islands",2,"Engineer","female","api",0,0,0,NA,"2012"
+"279","The Home Depot","Northern America",4,"Sales","male","multiple",21.881753,0.242962,0.211703,2008504.74149443,"2021"
+"280","Apple","Central and Western Asia",6,"Admin","female","native",0.006,0,0,491.834219123362,"2012"
+"281","The Goldman Sachs Group","Northern America",4,"Marketing","female","native",0.077869,0,0,7919.32674532522,"2011"
+"282","The Home Depot","Southern America",2,"Engineer","female","native",0.011,0,0,227.267149995852,"2009"
+"283","The Home Depot","Eastern Europe",1,"Engineer","male","hispanic",0.148967,0.000109,9.7e-05,4548.7556741385,"2021"
+"284","Databricks","Northern America",4,"Scientist","female","black",0,0,0,NA,"2018"
+"285","Apple","Pacific Islands",5,"Marketing","female","api",0.027267,0,0,2348.20912200706,"2013"
+"286","Bristol Myers Squibb Co.","Northern Africa",5,"Engineer","male","api",0.009936,0,0,129.332642526044,"2010"
+"287","Apple","Central America and the Caribbean",6,"Sales","male","multiple",0.02,0,0,3962.50323875479,"2014"
+"288","Bristol Myers Squibb Co.",NA,5,"Admin","female","multiple",0.213486,0,0,11043.0782973262,"2013"
+"289","Databricks","Northern America",4,"Operations","female","hispanic",0.00108899999999999,1e-06,0,110.96788574329,"2020"
+"290","Apple","Sub-Saharan Africa",6,"Operations","female","black",17.651922,1e-05,2.5e-05,437337.418378116,"2008"
+"291","Accenture Plc","Central America and the Caribbean",5,"Admin","female","native",0.016968,0,0,350.874355625599,"2011"
+"292","Accenture Plc","Western Europe",3,"Operations","male","white",502.990405,7.577704,7.283562,38016013.4029932,"2010"
+"293","Accenture Plc","Eastern Asia",2,"Sales","female","black",5.818615,0.187047,0.131926,371573.061411721,"2017"
+"294","Apple","Central and Western Asia",6,"Operations","female","black",0.026,0,0,2085.13629832121,"2018"
+"295","Bristol Myers Squibb Co.","Central and Western Asia",2,"Finance","female","hispanic",0.022324,0,0,1651.82668073278,"2018"
+"296","Accenture Plc","Sub-Saharan Africa",1,"Scientist","male","multiple",0.03231,0,0,495.624930056877,"2015"
+"297","Databricks","Northern America",3,"Scientist","male","api",0,0,0,NA,"2012"
+"298","The Home Depot","South-Eastern Asia",4,"Operations","male","multiple",0.079247,0,0,2734.48195865424,"2012"
+"299","Bristol Myers Squibb Co.","Northern America",3,"Marketing","male","api",2.28897,1.093042,5.5e-05,218756.794997758,"2018"
+"300","Databricks","Pacific Islands",4,"Marketing","female","api",0,0,0,NA,"2010"
+"301","Accenture Plc","Pacific Islands",5,"Marketing","female","black",3.727907,0.312465,0.05941,319913.742937713,"2009"
+"302","The Goldman Sachs Group","South-Eastern Asia",3,"Operations","female","hispanic",0.107033,0,0,2393.71092382687,"2013"
+"303","The Goldman Sachs Group","Southern America",5,"Admin","male","hispanic",1.840003,1e-06,0,70984.1371876235,"2009"
+"304","Apple","Central America and the Caribbean",2,"Sales","female","api",17.585965,8e-06,1.3e-05,566987.499737253,"2011"
+"305","The Goldman Sachs Group","Arab States",5,"Sales","male","black",0.00301,0,0,276.32958951915,"2011"
+"306","The Goldman Sachs Group","Central America and the Caribbean",4,"empty","male","api",0,0,0,NA,"2019"
+"307","The Home Depot","Southern Europe",2,"Finance","female","white",0.901785,0,0,27067.1405935232,"2015"
+"308","Apple","Central and Western Asia",1,"Marketing","female","native",0.447752,3e-06,3e-06,10697.0317893346,"2017"
+"309","Accenture Plc","Southern America",5,"empty","female","hispanic",2.634098,1e-06,1e-06,82822.1845445678,"2009"
+"310","Accenture Plc","Northern America",3,"Sales","male","api",103.482639,1.19252,0.023167,9092686.60969238,"2010"
+"311","Bristol Myers Squibb Co.","Northern America",6,"Admin","female","multiple",0.202396,0.010405,4e-06,25528.6347175536,"2018"
+"312","Accenture Plc","South-Eastern Asia",1,"Sales","male","multiple",33.967134,1.100121,2.254605,380427.716953603,"2018"
+"313","The Goldman Sachs Group","Northern Africa",1,"Scientist","female","multiple",0.067,0,0,647.618483484701,"2008"
+"314","Bristol Myers Squibb Co.","Eastern Asia",3,"empty","female","native",0,0,0,NA,"2013"
+"315","The Home Depot","South-Eastern Asia",2,"Scientist","female","api",1.145979,0,0,12728.0787051306,"2014"
+"316","Apple","Northern Europe",2,"Admin","female","api",13.992745,1.707504,1.5e-05,707105.950964432,"2009"
+"317","The Home Depot","Pacific Islands",4,"Operations","male","white",1.56852,0,1e-06,87441.582837062,"2015"
+"318","Accenture Plc","Southern Europe",6,"Scientist","female","multiple",0,0,0,NA,"2018"
+"319","Bristol Myers Squibb Co.","Pacific Islands",5,"Engineer","male","black",0.00725,0,0,719.482010112677,"2013"
+"320","Apple","Northern Europe",3,"Scientist","female","multiple",0.923993,1e-06,1e-06,86485.6162201203,"2009"
+"321","Bristol Myers Squibb Co.","Central and Western Asia",4,"Sales","female","hispanic",0.593029,0.000456,0.000544,14492.0204517011,"2021"
+"322","Accenture Plc","Southern Asia",1,"Marketing","male","api",627.625852,20.058987,20.666207,5847151.50585557,"2020"
+"323","The Home Depot","Central and Western Asia",1,"Marketing","male","white",6.870256,0.00227699999999999,0.00100899999999999,196482.709544343,"2020"
+"324","Databricks","Southern Asia",4,"Admin","female","black",0,0,0,NA,"2010"
+"325","Bristol Myers Squibb Co.","Southern America",6,"Scientist","female","native",0,0,0,NA,"2015"
+"326","Apple","South-Eastern Asia",1,"Finance","male","api",38.907029,1.8e-05,5.3e-05,325011.049145817,"2012"
+"327","Apple","Northern Africa",1,"Finance","male","black",5.34382,1e-05,9e-06,43225.6805589754,"2016"
+"328","The Goldman Sachs Group","Northern America",4,"Scientist","female","api",1.52619,1e-06,0,216345.56646714,"2014"
+"329","Accenture Plc","Arab States",3,"Marketing","female","multiple",0.003,0,0,127.006106973232,"2008"
+"330","The Goldman Sachs Group","Northern America",6,"Engineer","male","api",1.115797,0.002004,0,217421.040777667,"2011"
+"331","Apple","South-Eastern Asia",3,"Marketing","male","black",2.657218,4.2e-05,1.5e-05,62209.4850854719,"2017"
+"332","Bristol Myers Squibb Co.","Northern America",4,"Operations","female","black",10.294892,0.107433,4e-06,854262.709284366,"2011"
+"333","Accenture Plc","Sub-Saharan Africa",6,"Operations","male","black",5.616281,1e-06,1e-06,201213.287996473,"2014"
+"334","Accenture Plc","Eastern Asia",2,"Operations","female","white",9.394738,0.25496,0.040697,321320.130584854,"2016"
+"335","Databricks","Eastern Europe",4,"Sales","male","black",0,0,0,NA,"2010"
+"336","Bristol Myers Squibb Co.","Northern Europe",4,"Marketing","female","api",0.256174,0.000617,0.001177,22590.8493151371,"2021"
+"337","The Goldman Sachs Group",NA,3,"Engineer","male","white",21.108725,0.00271099999999999,0.014993,1068444.74166826,"2019"
+"338","The Home Depot","Northern Europe",1,"Operations","male","api",0.645435,0,0,15928.0965988305,"2012"
+"339","Apple","Central and Western Asia",6,"Sales","female","hispanic",0,0,0,NA,"2017"
+"340","Databricks","Pacific Islands",2,"Finance","female","native",0,0,0,NA,"2010"
+"341","The Home Depot","Southern Europe",3,"Engineer","female","hispanic",0,0,0,NA,"2012"
+"342","Databricks","Southern America",2,"Finance","female","api",0,0,0,NA,"2021"
+"343","Accenture Plc","Sub-Saharan Africa",4,"Finance","female","hispanic",2.316048,0.00035599999999999,0.00024899999999999,44444.570187845,"2019"
+"344","Accenture Plc","Arab States",2,"Sales","female","native",0.359004,1e-06,1e-06,16853.2661022922,"2016"
+"345","Apple","Sub-Saharan Africa",3,"Finance","female","native",0.104369,0,0,1333.51727049652,"2020"
+"346","The Home Depot","Southern America",3,"Marketing","female","white",0.005022,0,0,177.670487757665,"2016"
+"347","Accenture Plc","Southern Europe",5,"Operations","male","native",1.539905,0.005019,0.007038,117020.661162078,"2008"
+"348","Accenture Plc","Northern Africa",2,"Marketing","female","black",0.417561,4e-05,2.7e-05,6533.19832891385,"2019"
+"349","Apple","Central and Western Asia",6,"Engineer","female","black",0.003,0,0,111.462365668207,"2017"
+"350","Apple","Sub-Saharan Africa",2,"empty","female","multiple",0.060938,0,0,1089.32930590059,"2013"
+"351","The Goldman Sachs Group","Eastern Europe",5,"Sales","female","hispanic",0.001,0,0,151.347835888845,"2012"
+"352","The Goldman Sachs Group",NA,1,"Engineer","male","black",2.462207,0,0.01708,104603.494928362,"2010"
+"353","The Goldman Sachs Group","Central and Western Asia",1,"Admin","female","api",0.626066,0,0,8553.47599771089,"2011"
+"354","Accenture Plc","South-Eastern Asia",5,"Finance","male","hispanic",1.520666,0.003014,1.6e-05,38188.242527198,"2017"
+"355","Accenture Plc","Central and Western Asia",5,"Sales","female","white",6.169859,0.012176,0.00848999999999999,360518.116919987,"2021"
+"356","Accenture Plc","Pacific Islands",2,"Admin","female","black",5.188148,1e-06,0.003024,311729.154360333,"2010"
+"357","The Goldman Sachs Group","Arab States",2,"Admin","female","multiple",0.019,0,0,1800.22286068039,"2021"
+"358","The Home Depot","Sub-Saharan Africa",5,"Admin","male","black",0,0,0,NA,"2013"
+"359","The Home Depot","South-Eastern Asia",3,"Marketing","female","hispanic",2.045992,1e-06,0,19078.6396233909,"2009"
+"360","Apple","Eastern Asia",1,"empty","female","hispanic",0.002,0,0,51.1347600666582,"2009"
+"361","Accenture Plc","Southern Asia",2,"Sales","male","black",46.574401,0.220046,0.979472,572863.953628903,"2008"
+"362","Accenture Plc","Central and Western Asia",1,"empty","male","white",0,0,0,NA,"2009"
+"363","The Home Depot","Northern Africa",1,"Sales","female","black",9.198732,7e-06,2e-06,231829.336578513,"2008"
+"364","The Home Depot","Central and Western Asia",3,"Operations","female","black",2.190394,1e-06,1e-06,159553.553943505,"2012"
+"365","Bristol Myers Squibb Co.","Northern America",1,"Scientist","female","white",391.450203,5.97978,8.812391,25238977.0651968,"2017"
+"366","Apple","Northern Europe",1,"Marketing","female","native",0.701695,0.032586,0.004888,33125.9405356311,"2019"
+"367","Apple","Pacific Islands",3,"Marketing","male","api",1.220653,3e-06,6e-06,115205.213030613,"2015"
+"368","Bristol Myers Squibb Co.","Central America and the Caribbean",4,"empty","female","hispanic",0.00590699999999999,0,0,96.541551801451,"2020"
+"369","Bristol Myers Squibb Co.","Eastern Europe",3,"Scientist","male","hispanic",0.209451,0,0.001003,6872.73555259449,"2013"
+"370","Databricks",NA,4,"Marketing","female","black",0.001013,0,0,20.5702993042375,"2018"
+"371","Apple","Southern America",3,"Engineer","female","black",1.289891,5e-06,8e-06,23054.6749933611,"2017"
+"372","Accenture Plc","Sub-Saharan Africa",4,"Engineer","male","white",136.914292,2.570639,0.042296,4192452.61226341,"2012"
+"373","Apple","Eastern Europe",6,"Operations","female","black",0.013103,0,0,919.14013044386,"2012"
+"374","Accenture Plc","Southern Asia",4,"empty","male","white",10.465948,2.9e-05,1.1e-05,141917.063698802,"2016"
+"375","Apple","Western Europe",6,"Finance","male","multiple",0,0,0,NA,"2017"
+"376","Bristol Myers Squibb Co.","Eastern Europe",3,"Operations","female","black",0.005001,0,0,195.189064006221,"2015"
+"377","Apple","Arab States",4,"Marketing","male","hispanic",0.403407,3.8e-05,3.4e-05,22134.6558002337,"2020"
+"378","Accenture Plc","Northern Europe",3,"Operations","female","api",46.137725,3.318869,0.877498,3456870.2125708,"2019"
+"379","The Goldman Sachs Group","Western Europe",5,"Operations","female","hispanic",0.316003,0,0,34148.859635562,"2010"
+"380","Bristol Myers Squibb Co.","Southern Asia",4,"Scientist","male","white",0.039788,1e-05,1e-05,641.099595160349,"2020"
+"381","Accenture Plc","Southern America",1,"Engineer","female","hispanic",97.632974,0.45651,3.163152,1027102.70327734,"2013"
+"382","The Home Depot","Northern America",3,"Admin","female","black",97.55453,0.856738,1.608845,7282248.80652351,"2017"
+"383","Bristol Myers Squibb Co.","Central and Western Asia",4,"Scientist","male","black",0.121512,0,0.025106,3760.86886815025,"2014"
+"384","The Home Depot","Pacific Islands",5,"Finance","female","native",0,0,0,NA,"2008"
+"385","Accenture Plc","Sub-Saharan Africa",1,"Finance","female","multiple",3.058286,0.091316,0.023091,48350.8462405484,"2015"
+"386","Accenture Plc","Central and Western Asia",4,"Operations","male","black",1.21447,1e-06,1e-06,36137.4386590662,"2009"
+"387","Accenture Plc","Southern America",3,"Marketing","male","multiple",9.847132,0.565134,0.005301,127483.41272789,"2017"
+"388","The Home Depot","Southern America",1,"Operations","male","black",0.093978,0,0,1879.77393787029,"2008"
+"389","Apple","Southern America",6,"Marketing","female","white",0.81888,3e-06,3e-06,14738.9924113063,"2017"
+"390","Apple","Arab States",3,"Engineer","female","native",0.390059,2e-06,1e-06,21513.5732989207,"2017"
+"391","The Home Depot","Southern Asia",2,"empty","female","black",0.003,0,0,17.8931703840793,"2008"
+"392","Databricks","Pacific Islands",1,"Operations","male","hispanic",0.00901899999999999,3e-06,1e-06,443.97228486968,"2020"
+"393","The Goldman Sachs Group","Central America and the Caribbean",1,"Engineer","male","black",0.719,0,0,14314.7763847671,"2008"
+"394","The Goldman Sachs Group","Northern Europe",3,"Operations","male","hispanic",0.311252,0,0,17026.2062784655,"2011"
+"395","Bristol Myers Squibb Co.","Central America and the Caribbean",4,"Engineer","male","hispanic",60.354146,4.205044,1.145553,3550295.680657,"2020"
+"396","Apple","Southern Asia",6,"Finance","male","black",0.12,0,0,3211.23022736755,"2011"
+"397","The Goldman Sachs Group","Arab States",6,"Operations","female","white",0,0,0,NA,"2020"
+"398","Accenture Plc","Eastern Europe",5,"Sales","female","black",0.575456,0.001036,3.1e-05,46490.1659872254,"2019"
+"399","The Goldman Sachs Group","Northern America",3,"Engineer","female","api",74.758535,6.828647,0.206981,9150391.60185218,"2021"
+"400","Bristol Myers Squibb Co.","Northern America",3,"Operations","male","api",13.243707,0.037219,0.009057,1143017.08280663,"2009"
+"401","Apple",NA,2,"Marketing","male","white",299.26986,0.557198,4.458047,18198131.5001101,"2019"
+"402","The Home Depot","Eastern Asia",4,"Admin","female","multiple",0.001,0,0,33.2348004126567,"2009"
+"403","Apple","Eastern Europe",2,"Admin","female","native",0.177062,0,0,5056.25418276047,"2010"
+"404","The Home Depot",NA,3,"Operations","female","black",3.362595,0.00108099999999999,2.1e-05,153419.133633753,"2017"
+"405","Databricks","Western Europe",6,"Sales","female","native",0,0,0,NA,"2011"
+"406","The Goldman Sachs Group","Southern Asia",4,"Finance","male","multiple",13.547169,0.778946,0.141481,243107.372130995,"2017"
+"407","Accenture Plc","Southern America",5,"Finance","female","black",0.849274,0.00057799999999999,0.000301,19421.4666174839,"2019"
+"408","Accenture Plc","Southern Asia",5,"Admin","male","hispanic",0.532058,0,0.00202,8727.21496763581,"2008"
+"409","Apple","Northern America",6,"Engineer","male","api",11.771852,2.4e-05,7.4e-05,1698207.16480469,"2009"
+"410","Databricks","Northern Europe",2,"Admin","female","api",0.029266,7e-06,1e-06,1569.36086356976,"2019"
+"411","The Home Depot","Southern Europe",1,"Engineer","male","black",0.92958,0,0,25273.4779499477,"2010"
+"412","Accenture Plc","Eastern Asia",1,"Finance","male","api",38.976131,0.666215,1.680248,605774.850030942,"2013"
+"413","Apple","Southern America",3,"Scientist","female","hispanic",16.290928,9e-06,2.3e-05,449031.038094208,"2008"
+"414","The Home Depot",NA,3,"Scientist","female","api",0,0,0,NA,"2018"
+"415","Apple",NA,1,"Scientist","female","native",0.150825,3.8e-05,3.4e-05,3515.73507075257,"2020"
+"416","The Goldman Sachs Group","Eastern Asia",2,"Engineer","female","multiple",4.102742,0.068294,0.010063,173962.449923216,"2015"
+"417","The Home Depot","Sub-Saharan Africa",3,"Finance","female","hispanic",0.026,0,0,237.622012792653,"2021"
+"418","The Goldman Sachs Group","Eastern Europe",1,"Engineer","female","native",0.017019,0,0,369.027612072854,"2013"
+"419","The Goldman Sachs Group","Southern Europe",1,"empty","female","black",0,0,0,NA,"2010"
+"420","Accenture Plc","Central America and the Caribbean",6,"Finance","female","white",0.093261,0,0,2798.02206283611,"2018"
+"421","The Home Depot",NA,1,"empty","male","white",9.007802,3e-06,3e-06,182397.655418617,"2015"
+"422","The Goldman Sachs Group","Southern America",2,"Operations","male","multiple",0.156402,0.001632,0.001717,1895.28850642083,"2020"
+"423","Bristol Myers Squibb Co.","Southern America",5,"Marketing","female","native",0,0,0,NA,"2016"
+"424","The Goldman Sachs Group","Eastern Europe",2,"Finance","female","white",115.43061,1.679625,0.016314,3907587.7803163,"2018"
+"425","Accenture Plc","Central and Western Asia",4,"Marketing","male","white",2.279,0,0,114258.19523899,"2008"
+"426","Apple","Central America and the Caribbean",4,"empty","male","hispanic",0,0,0,NA,"2012"
+"427","Bristol Myers Squibb Co.","Northern America",2,"Engineer","male","multiple",25.655061,0.134851,0.480944,1742392.98342349,"2009"
+"428","Accenture Plc","Eastern Asia",2,"empty","male","white",1.111659,0.00015799999999999,0.000117,23796.9838698037,"2019"
+"429","The Goldman Sachs Group","Sub-Saharan Africa",1,"Engineer","male","native",0.158823,1.2e-05,9e-06,1652.75389048607,"2019"
+"430","The Home Depot","Arab States",3,"Finance","female","native",0.006,0,0,158.532742115025,"2011"
+"431","Apple","Southern Asia",6,"Engineer","male","native",0.073944,0,0,2224.59765908607,"2013"
+"432","The Goldman Sachs Group","Arab States",6,"Sales","male","white",0,0,0,NA,"2012"
+"433","Databricks","Northern Europe",5,"Finance","female","api",0,0,0,NA,"2018"
+"434","The Goldman Sachs Group","Eastern Europe",2,"Operations","female","multiple",0.04901,0,0,1532.6714568855,"2016"
+"435","Apple","Southern America",6,"Operations","female","multiple",0.05,0,0,2118.83124216665,"2012"
+"436","The Home Depot","South-Eastern Asia",2,"Engineer","male","black",2.024966,0,0,32853.7358815924,"2012"
+"437","Accenture Plc","Northern Europe",6,"Operations","male","native",0.269098,0.007058,0,29432.3691884644,"2009"
+"438","The Home Depot","Central and Western Asia",4,"Marketing","female","api",0,0,0,NA,"2009"
+"439","Apple","Central America and the Caribbean",3,"Operations","female","multiple",0.739177,1e-06,1e-06,17113.8773995112,"2016"
+"440","Databricks","Northern Europe",2,"Scientist","female","native",0,0,0,NA,"2014"
+"441","Accenture Plc","Central America and the Caribbean",2,"empty","male","multiple",0.003,0,0,104.49778110071,"2009"
+"442","The Goldman Sachs Group","Southern Europe",1,"Operations","male","white",0.78095,1e-06,2e-06,11020.6838989397,"2016"
+"443","Bristol Myers Squibb Co.","Central and Western Asia",3,"empty","female","multiple",0.00200799999999999,0,0,55.6524492450781,"2018"
+"444","Accenture Plc","Northern Europe",6,"Sales","male","white",83.172818,0.88032,0.000137,8344588.56896219,"2016"
+"445","Accenture Plc","Central America and the Caribbean",5,"Engineer","male","black",2.738705,0.00604,1e-06,176235.408803707,"2014"
+"446","Bristol Myers Squibb Co.","Arab States",6,"Finance","male","multiple",0,0,0,NA,"2014"
+"447","Databricks","Western Europe",5,"Sales","male","hispanic",0.05144,0.036772,0,5217.18921098829,"2019"
+"448","Databricks","South-Eastern Asia",5,"Marketing","male","native",0,0,0,NA,"2010"
+"449","Bristol Myers Squibb Co.","Southern America",4,"Operations","male","hispanic",8.293933,0.018569,0.016126,205151.018047625,"2021"
+"450","Accenture Plc","Central America and the Caribbean",2,"Admin","male","black",3.724158,0.023474,0.02317,114090.903929807,"2020"
+"451","The Goldman Sachs Group","Northern America",4,"Admin","male","multiple",6.879309,0.015091,0.037249,1025163.65794045,"2013"
+"452","The Goldman Sachs Group","Central and Western Asia",3,"Sales","female","api",0.752238,7.4e-05,6.3e-05,43431.8779916562,"2019"
+"453","Bristol Myers Squibb Co.","Southern Asia",4,"empty","male","api",0,0,0,NA,"2008"
+"454","Apple",NA,5,"Sales","male","multiple",2.171452,0.013259,0.00408899999999999,212376.710999996,"2016"
+"455","The Goldman Sachs Group","Northern Africa",3,"Sales","male","black",0.445002,1e-06,1e-06,10004.2179072824,"2016"
+"456","Accenture Plc","Southern America",1,"Admin","female","white",212.494692,8.688788,2.925886,2016322.31310846,"2019"
+"457","Databricks","Northern Europe",2,"Engineer","female","hispanic",0,0,0,NA,"2011"
+"458","Accenture Plc","Southern America",6,"Marketing","male","white",0.031109,0,0,977.870573715215,"2014"
+"459","Apple","Northern Africa",5,"Engineer","male","multiple",0.951974,0,1e-06,25555.1161441748,"2011"
+"460","Databricks","Eastern Asia",4,"Marketing","male","white",0,0,0,NA,"2017"
+"461","Bristol Myers Squibb Co.","Pacific Islands",4,"empty","female","black",0,0,0,NA,"2016"
+"462","The Home Depot","Northern America",2,"Marketing","male","multiple",10.86134,0.406392,0.0496,781287.757189568,"2019"
+"463","Bristol Myers Squibb Co.",NA,4,"Admin","male","black",1.979781,0.009036,0,41018.2282598027,"2014"
+"464","The Goldman Sachs Group","Eastern Europe",1,"Operations","male","black",0.01,0,0,244.135532610933,"2008"
+"465","The Goldman Sachs Group","Pacific Islands",5,"Marketing","male","multiple",0.186,0,0,16436.104945708,"2008"
+"466","Accenture Plc","Central and Western Asia",6,"Engineer","male","multiple",0.004019,0,0,95.2936384888064,"2012"
+"467","The Goldman Sachs Group","Arab States",2,"Engineer","female","multiple",0.148987,0,0.032199,5927.82148276762,"2008"
+"468","The Goldman Sachs Group",NA,5,"Engineer","male","black",1.886444,0.00129499999999999,0.000173,135238.024168802,"2019"
+"469","The Goldman Sachs Group","Southern Europe",1,"Operations","male","black",0.011007,0,0,169.568551223287,"2019"
+"470","Apple","Northern Europe",1,"Finance","female","multiple",0.64613,0.00100099999999999,0.012142,22769.1070831497,"2014"
+"471","Apple","Eastern Asia",3,"Sales","male","white",25.211093,0.05325,0.974147,1125255.51638481,"2010"
+"472","Bristol Myers Squibb Co.","South-Eastern Asia",2,"Finance","male","white",1.507944,0,0,19302.2831989653,"2014"
+"473","The Goldman Sachs Group","Eastern Asia",6,"Engineer","male","hispanic",0.04007,0,0,2310.32274796792,"2014"
+"474","Accenture Plc","Central and Western Asia",3,"Sales","female","hispanic",0.282593,0.015871,0.004,11267.7291742791,"2020"
+"475","Apple","Southern Europe",3,"Scientist","male","white",18.358117,7e-06,7e-06,972734.256612688,"2013"
+"476","Databricks","Southern Europe",1,"Marketing","female","native",0,0,0,NA,"2015"
+"477","The Home Depot","Eastern Asia",1,"Marketing","male","native",0,0,0,NA,"2012"
+"478","Accenture Plc","Eastern Europe",3,"Marketing","female","multiple",0.108266,0.005,0.00513599999999999,3690.50318330957,"2016"
+"479","The Home Depot","Arab States",2,"empty","male","multiple",0.08101,3e-06,2e-06,2003.87309361538,"2018"
+"480","The Goldman Sachs Group","Southern Europe",1,"Marketing","male","white",4.949313,0.178322,1e-06,134059.730996419,"2010"
+"481","The Goldman Sachs Group","Northern Europe",3,"Admin","male","black",5.325655,0.861823,0.045622,358131.938774988,"2020"
+"482","Apple","Southern Asia",1,"Finance","male","hispanic",3.763282,4e-06,3e-06,25564.478649426,"2016"
+"483","The Home Depot","South-Eastern Asia",1,"Finance","female","native",0,0,0,NA,"2014"
+"484","Accenture Plc","South-Eastern Asia",5,"Admin","female","multiple",1.400464,0,1e-06,48788.5508483571,"2010"
+"485","Bristol Myers Squibb Co.","Northern Europe",5,"empty","male","white",0.989787,0.989787,0,142517.738993844,"2008"
+"486","Apple","Arab States",3,"Scientist","male","white",112.233152,2.9e-05,1e-04,5155483.23682216,"2010"
+"487","The Goldman Sachs Group","Southern Europe",4,"Sales","female","white",2.099045,1e-06,0,140347.216685221,"2012"
+"488","The Goldman Sachs Group","Eastern Asia",1,"Engineer","female","api",22.718752,0.00304799999999999,0.515533,670022.989198673,"2015"
+"489","The Goldman Sachs Group","Western Europe",3,"Scientist","male","native",0.030026,0,0,2226.93937909073,"2017"
+"490","The Goldman Sachs Group","Pacific Islands",4,"Finance","male","white",51.360348,0.012927,0.010211,5406005.87266306,"2019"
+"491","The Goldman Sachs Group","Southern America",2,"Operations","male","white",6.49497,0.002007,0.00109399999999999,122061.818601022,"2020"
+"492","The Goldman Sachs Group",NA,5,"Engineer","female","multiple",0.453501,1e-06,1e-06,12078.6782119718,"2016"
+"493","Databricks","Northern Europe",3,"Admin","male","black",0,0,0,NA,"2011"
+"494","Accenture Plc","Southern Europe",2,"Admin","male","white",66.941473,0.460443,0.512144,2743755.02100749,"2011"
+"495","Bristol Myers Squibb Co.","Arab States",2,"Finance","male","white",3.094709,0.049338,0.955604,121753.412165243,"2019"
+"496","The Home Depot","Eastern Europe",3,"Sales","female","multiple",0.148953,1e-06,0,3103.43193182753,"2017"
+"497","Bristol Myers Squibb Co.","Arab States",5,"Admin","female","black",0,0,0,NA,"2010"
+"498","The Home Depot","Sub-Saharan Africa",1,"Finance","male","api",0.115849,1e-06,1e-06,737.20452666484,"2017"
+"499","The Home Depot","Central and Western Asia",1,"Operations","male","api",0.087121,0,0.00301799999999999,2884.26712486302,"2014"
+"500","The Goldman Sachs Group","Eastern Asia",1,"empty","male","black",0,0,0,NA,"2012"

@@ -67,11 +67,9 @@ df <- subset(df, select = -c(month))
 ## Save data
 ```{r}
 ## SAVE FULL DF
-getwd()
 cur_dir <- dirname(getSourceEditorContext()$path)
 setwd(cur_dir)
 setwd("../data")
-getwd()
 write.csv(df, "cleaned_wf_demo.csv")
 
 # Save sample df

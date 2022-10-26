@@ -1,5 +1,5 @@
 ---
-title: "Naive_Employment"
+title: "Naive_Bayes_Record_Data"
 author: "Cynthia Ng"
 date: "2022-10-13"
 output: html_document
@@ -20,11 +20,10 @@ library(caTools)
 # Set directory
 cur_dir <- dirname(getSourceEditorContext()$path)
 setwd(cur_dir)
-setwd("../../data")
-# setwd("../data")
+setwd("../data")
 
 # Read csv
-df <- read_csv('wf_dynam_demo_breakdown.csv')
+df <- read_csv("cleaned_wf_demo.csv")
 
 # Study structure of df
 str(df)
