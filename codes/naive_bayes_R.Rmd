@@ -89,13 +89,25 @@ y_test_pred <- (predict(gnb, newdata = data.matrix(X_test), type = "class"))
 
 ## Accuracy
 ```{r}
-# train accuracy
+# Train accuracy
 train_accuracy <- round((sum(y_train_pred==y_train)/length(y_test))*100 , digits = 0)
 paste("Train method accuracy: " , train_accuracy, "%")
 
-# test accuracy
+# Test accuracy
 test_accuracy <- round((sum(y_test_pred==y_test)/length(y_test))*100 , digits = 0)
 paste("Test method accuracy: " , test_accuracy, "%")
+
+# Plot accuracy
+accuracies_df <- data.frame (method = c('train', 'test'),
+                             accuracy = c('77%', '20%'))
+
+ggplot(accuracies_df, aes(x=method, y=accuracy)) + 
+  geom_bar(stat = "identity", width=0.2) +
+  ggtitle("Compare accuracies") + 
+  theme(plot.title = element_text(hjust = 0.5))
+
+# Save plot
+ggsave("../501-project-website/images/naive_bayes_r_accuracy.png")
 ```
 
 ## Confusion Matrix
