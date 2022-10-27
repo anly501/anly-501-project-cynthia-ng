@@ -30,8 +30,6 @@ summary(df)
 ## Prepare for split
 ```{r}
 # Create data frame for only predictor and outcome
-df <- df[df$region=='Northern America',]
-
 mydata <- data.frame(df$salary, df$ethnicity) #select ethnicity and salary
 colnames(mydata) <- c('mypredictor', 'myresponse')
 
@@ -79,6 +77,9 @@ length(y_test)
 
 ## Naive Bayes Model
 ```{r}
+# Load naive bayes library
+library(naivebayes)
+
 # Train naive bayes model
 gnb <- gaussian_naive_bayes(x = data.matrix(X_train), y = y_train)
 
@@ -112,6 +113,9 @@ ggsave("../501-project-website/images/naive_bayes_r_accuracy.png")
 
 ## Confusion Matrix
 ```{r}
+# Load caret library
+library(caret)
+
 # Create confusion matrix
 cm <- confusionMatrix(y_test_pred, as.factor(y_test))
 cm
