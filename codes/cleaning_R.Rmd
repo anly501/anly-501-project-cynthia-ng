@@ -61,8 +61,40 @@ df <- subset(df, select = -c(month))
 
 ## Only include certain parts of the data
 ```{r}
+# Set year as 2020
 df <- subset(df, year == 2020)
+
+# Set region as Northern America
 df <- subset(df, region=='Northern America')
+
+# Remove the year and region columns since they're all the same
+df <- subset(df, select = -c(year, region))
+
+# Confirm that number of rows is the same
+nrow(df)
+```
+
+## Impute Nas
+```{r}
+# Check which columns have NAs
+which(colSums(is.na(df))>0)
+
+# It looks like the "salary" column is the only one that has NAs 
+# To deal with these NAs, let's impute salary values with the median value in the gender column
+# Load plyr library 
+library(plyr)
+
+# Use ddply to impute
+df <- ddply(df, 
+      .(ethnicity), 
+      transform, 
+      salary=ifelse(is.na(salary), median(salary, na.rm=TRUE), salary))
+
+# Confirm that there are no more NA values
+which(colSums(is.na(df))>0)
+
+# Confirm that number of rows is the same
+nrow(df)
 ```
 
 ## Save data

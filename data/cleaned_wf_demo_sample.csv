@@ -1,501 +1,501 @@
-"","company","region","seniority","job_category","gender","ethnicity","count","inflow","outflow","salary","year"
-"1","Bristol Myers Squibb Co.","Northern America",3,"Admin","female","black",18.852467,0.778463,0.172091,1722023.09977449,"2020"
-"2","Accenture Plc","Northern America",3,"Admin","male","black",62.832904,0.475758,1.021897,5695374.67973638,"2020"
-"3","Accenture Plc","Northern America",1,"Engineer","male","native",4.23595,0.095649,0.048537,243332.533323361,"2020"
-"4","Bristol Myers Squibb Co.","Northern America",2,"Engineer","male","hispanic",146.146672,0.635574,0.255093,11333755.6005879,"2020"
-"5","Apple","Northern America",3,"Finance","female","black",18.685511,0.365044,0.30496,1834176.91179563,"2020"
-"6","The Home Depot","Northern America",4,"Scientist","male","multiple",0.290852,0.000103,6.8e-05,24517.3289865882,"2020"
-"7","Apple","Northern America",1,"Sales","female","multiple",232.392292,6.404494,3.378496,12422475.8850631,"2020"
-"8","The Home Depot","Northern America",3,"Admin","male","hispanic",35.699731,0.325211,0.043252,2872718.5532962,"2020"
-"9","Databricks","Northern America",3,"Engineer","male","api",45.858433,3.929637,0.53052,6364316.4722774,"2020"
-"10","Bristol Myers Squibb Co.","Northern America",2,"Scientist","female","api",369.411809,17.44675,16.945702,34343340.2605392,"2020"
-"11","Bristol Myers Squibb Co.","Northern America",3,"Finance","female","multiple",2.599121,0.010399,0.002004,241346.448317347,"2020"
-"12","The Goldman Sachs Group","Northern America",6,"Engineer","male","white",12.772169,0.00286399999999999,0.00338,2386656.95136496,"2020"
-"13","The Home Depot","Northern America",5,"Sales","male","hispanic",20.091633,1.397812,0.00923399999999999,2122365.34657785,"2020"
-"14","The Goldman Sachs Group","Northern America",7,"Sales","female","white",0.005047,0,0,1208.02626333366,"2020"
-"15","Apple","Northern America",1,"Sales","female","multiple",227.351435,2.593025,1.969729,12213538.1380252,"2020"
-"16","Accenture Plc","Northern America",3,"Admin","female","hispanic",97.444091,3.762995,0.678192,8500664.11512255,"2020"
-"17","The Home Depot","Northern America",2,"Finance","female","multiple",17.598607,0.184535,0.672586,1023618.55132626,"2020"
-"18","Apple","Northern America",3,"Operations","female","multiple",14.427687,0.738382,0.093816,1466109.75033779,"2020"
-"19","Bristol Myers Squibb Co.","Northern America",5,"empty","female","multiple",0.146807,0.000211,0.000219,18828.6686946905,"2020"
-"20","Bristol Myers Squibb Co.","Northern America",2,"Finance","female","api",22.835738,0.701454,0.031149,2054533.41699472,"2020"
-"21","The Home Depot","Northern America",3,"Admin","female","multiple",14.199475,0.081104,0.012491,1129887.213555,"2020"
-"22","Bristol Myers Squibb Co.","Northern America",3,"Marketing","male","black",5.98204,0.00708099999999999,0.052883,587998.859960678,"2020"
-"23","Accenture Plc","Northern America",2,"Sales","female","white",704.018505,14.15821,7.802026,53321229.1163578,"2020"
-"24","Apple","Northern America",5,"Finance","male","multiple",3.526372,0.019097,0.015694,493071.375060419,"2020"
-"25","Accenture Plc","Northern America",7,"Engineer","male","multiple",0.045728,0,0,6200.44028482095,"2020"
-"26","Bristol Myers Squibb Co.","Northern America",6,"empty","female","native",4e-06,0,0,NA,"2020"
-"27","Accenture Plc","Northern America",3,"empty","female","native",0.159837,0,0.000143,13976.1404908799,"2020"
-"28","The Goldman Sachs Group","Northern America",1,"Finance","female","hispanic",71.484233,0.165594,1.915822,3745771.07112622,"2020"
-"29","Bristol Myers Squibb Co.","Northern America",4,"empty","female","hispanic",0.886796,0.00024699999999999,0.000284,117252.641642851,"2020"
-"30","Databricks","Northern America",2,"Engineer","female","white",18.062313,0.523077,0.34885,2331324.2247784,"2020"
-"31","Databricks","Northern America",1,"Sales","male","hispanic",0.039185,5.5e-05,9.2e-05,2387.12444724657,"2020"
-"32","Databricks","Northern America",2,"empty","female","native",0,0,0,NA,"2020"
-"33","Accenture Plc","Northern America",2,"Scientist","female","api",18.832865,0.815423,0.04259,1311402.97326283,"2020"
-"34","Apple","Northern America",2,"Marketing","male","black",401.484987,7.227602,4.357888,34822020.0910003,"2020"
-"35","The Home Depot","Northern America",3,"Sales","male","black",198.066764,2.32947,1.382721,15669098.4051765,"2020"
-"36","The Goldman Sachs Group","Northern America",3,"Sales","female","white",132.538853,2.356788,1.182948,15438498.4651715,"2020"
-"37","The Home Depot","Northern America",4,"empty","male","black",3.676002,0.001201,0.001021,774352.08735273,"2020"
-"38","Databricks","Northern America",3,"Operations","female","multiple",0.051485,0.000101,5.3e-05,5966.05654367094,"2020"
-"39","Accenture Plc","Northern America",1,"Marketing","female","white",355.098147,22.752923,7.029498,20660334.2478857,"2020"
-"40","Bristol Myers Squibb Co.","Northern America",5,"Sales","female","white",141.385729,13.607714,6.966361,18836309.3747914,"2020"
-"41","Apple","Northern America",5,"Engineer","female","api",284.860247,4.56659,0.563052,45678075.3681788,"2020"
-"42","Databricks","Northern America",1,"Scientist","female","api",0,0,0,NA,"2020"
-"43","Databricks","Northern America",4,"Admin","male","hispanic",0.336616,0.070015,4.1e-05,40295.8512856518,"2020"
-"44","The Goldman Sachs Group","Northern America",5,"Operations","male","black",16.637599,0.00721399999999999,0.005453,3826769.50433433,"2020"
-"45","The Goldman Sachs Group","Northern America",3,"Scientist","male","black",1.925381,0.003148,0.002003,268330.315003732,"2020"
-"46","Databricks","Northern America",6,"Admin","female","black",0,0,0,NA,"2020"
-"47","Accenture Plc","Northern America",1,"Finance","male","native",0.628096,0.000391,0.113204,32408.5854297059,"2020"
-"48","The Goldman Sachs Group","Northern America",1,"Finance","female","native",2.490906,0.024417,0.218095,159106.717459681,"2020"
-"49","Databricks","Northern America",3,"Marketing","female","multiple",0.24772,0.00013799999999999,3.4e-05,29343.1159160505,"2020"
-"50","The Goldman Sachs Group","Northern America",4,"Scientist","female","multiple",1.02082,0.00097,0.09351,144246.021537771,"2020"
-"51","The Goldman Sachs Group","Northern America",3,"empty","male","hispanic",0.499639,0.00065799999999999,0.00033399999999999,35790.0046559669,"2020"
-"52","Accenture Plc","Northern America",3,"Admin","female","multiple",21.68587,0.321055,0.474425,1881800.51077623,"2020"
-"53","The Goldman Sachs Group","Northern America",4,"Scientist","female","api",7.409723,1.210861,0.001884,1251641.17076803,"2020"
-"54","Accenture Plc","Northern America",3,"Operations","male","api",272.17533,0.121829,3.84303,28972969.3507415,"2020"
-"55","Bristol Myers Squibb Co.","Northern America",2,"Engineer","male","white",807.740815,9.77531,20.046323,66317734.55008,"2020"
-"56","Accenture Plc","Northern America",6,"Scientist","male","black",1.749333,0.000201,0.078022,459872.414862754,"2020"
-"57","The Goldman Sachs Group","Northern America",1,"Engineer","male","hispanic",86.13462,2.786791,14.832213,6654643.21020416,"2020"
-"58","Accenture Plc","Northern America",3,"Engineer","female","black",688.295273,31.447538,27.639402,68737800.8221408,"2020"
-"59","Databricks","Northern America",4,"Marketing","female","hispanic",0.070583,2.1e-05,9e-06,12210.6320297114,"2020"
-"60","Bristol Myers Squibb Co.","Northern America",5,"Operations","female","black",12.88818,0.003969,0.008153,1722809.43551147,"2020"
-"61","The Home Depot","Northern America",3,"Admin","female","native",3.391714,0.03944,0.000921,259168.617758549,"2020"
-"62","Bristol Myers Squibb Co.","Northern America",3,"Engineer","male","api",134.956611,5.609691,1.483323,14114104.8099076,"2020"
-"63","Accenture Plc","Northern America",2,"Engineer","male","black",1079.946012,29.968482,20.148386,97420229.4095734,"2020"
-"64","The Goldman Sachs Group","Northern America",1,"Marketing","female","native",0.346338,0.001319,0.00251499999999999,20756.1732226706,"2020"
-"65","The Goldman Sachs Group","Northern America",5,"Sales","male","native",0.87271,0.005936,0.00580199999999999,146955.287481229,"2020"
-"66","Apple","Northern America",2,"Marketing","male","multiple",116.13356,1.107102,1.502857,10170424.1036489,"2020"
-"67","The Goldman Sachs Group","Northern America",6,"Admin","male","multiple",0.136084,6.3e-05,7.1e-05,25451.277155666,"2020"
-"68","The Goldman Sachs Group","Northern America",5,"Marketing","male","multiple",0.529223,0.000218,0.000719,88584.3598753698,"2020"
-"69","Databricks","Northern America",2,"Engineer","female","black",6.061687,0.048023,0.015361,769922.539263625,"2020"
-"70","Databricks","Northern America",4,"Sales","male","black",3.902137,0.045204,0.00488099999999999,574159.999305166,"2020"
-"71","Accenture Plc","Northern America",4,"Admin","male","api",75.311974,1.063879,0.079591,7896359.35143482,"2020"
-"72","The Home Depot","Northern America",4,"Engineer","female","white",99.117966,0.108882,0.048018,10441182.9087317,"2020"
-"73","Databricks","Northern America",5,"Marketing","female","black",0.334054,0.000101,0.334054,42673.1906303674,"2020"
-"74","Bristol Myers Squibb Co.","Northern America",1,"Operations","female","api",7.85881,1.141426,0.00339399999999999,434628.916087519,"2020"
-"75","The Goldman Sachs Group","Northern America",3,"Marketing","female","hispanic",6.260638,0.029144,0.134345,692737.951209684,"2020"
-"76","The Home Depot","Northern America",4,"Marketing","female","multiple",2.594321,0.00936099999999999,0.027205,246517.657526026,"2020"
-"77","The Home Depot","Northern America",4,"Scientist","male","white",5.08438,0.001122,0.418599,512272.416196437,"2020"
-"78","Bristol Myers Squibb Co.","Northern America",4,"Sales","male","api",25.656985,0.031237,1.016414,2964804.0707125,"2020"
-"79","Accenture Plc","Northern America",2,"Finance","female","native",4.092824,0.074314,0.096808,272813.275178611,"2020"
-"80","The Goldman Sachs Group","Northern America",1,"empty","female","white",5.50528,0.00279299999999999,0.001469,250948.721631627,"2020"
-"81","The Goldman Sachs Group","Northern America",3,"Operations","female","api",8.331474,0.00304699999999999,0.002357,1027084.56932904,"2020"
-"82","The Goldman Sachs Group","Northern America",5,"Admin","female","hispanic",9.210836,0.002475,0.525376,1452121.55457085,"2020"
-"83","The Home Depot","Northern America",5,"Operations","female","multiple",3.306623,0.018753,0.030021,317984.166815702,"2020"
-"84","The Home Depot","Northern America",5,"Operations","female","black",20.443542,0.00849399999999999,0.014762,1966843.63576026,"2020"
-"85","The Goldman Sachs Group","Northern America",5,"Scientist","male","white",10.387481,0.00911499999999999,0.00299,1598402.47407133,"2020"
-"86","Databricks","Northern America",2,"Sales","male","hispanic",3.263603,0.004117,0.00687199999999999,305723.31075227,"2020"
-"87","Accenture Plc","Northern America",1,"Admin","female","native",4.727621,0.041419,0.029428,234903.212993846,"2020"
-"88","Accenture Plc","Northern America",1,"empty","female","multiple",0.255074,0,0,12685.2357660046,"2020"
-"89","Bristol Myers Squibb Co.","Northern America",3,"Marketing","male","multiple",0.895052,0.000697,0.026957,89082.5039891096,"2020"
-"90","The Goldman Sachs Group","Northern America",3,"Finance","male","native",4.260724,0.288897,0.178513,519558.654400924,"2020"
-"91","Databricks","Northern America",6,"Marketing","male","api",0,0,0,NA,"2020"
-"92","Accenture Plc","Northern America",2,"Operations","male","native",2.842767,0.039345,0.035029,245163.28077788,"2020"
-"93","The Goldman Sachs Group","Northern America",4,"Engineer","female","hispanic",12.633604,0.00738299999999999,0.178097,2004647.47493563,"2020"
-"94","Accenture Plc","Northern America",4,"Engineer","male","black",844.153305,5.385974,6.148698,95707900.2010324,"2020"
-"95","Databricks","Northern America",4,"Engineer","female","api",4.188801,0.002047,0.00088,595395.705676474,"2020"
-"96","Apple","Northern America",5,"Marketing","male","api",58.152505,1.42485,0.060146,8491938.35456119,"2020"
-"97","Accenture Plc","Northern America",5,"Marketing","male","black",37.476074,0.438542,1.216639,5103993.23401863,"2020"
-"98","Apple","Northern America",4,"Finance","female","black",12.524537,0.287661,0.00758599999999999,1570689.88341515,"2020"
-"99","Apple","Northern America",5,"Admin","female","multiple",5.668642,0.072818,0.029607,767076.203521566,"2020"
-"100","The Home Depot","Northern America",4,"Marketing","female","api",3.0495,0.00188299999999999,0.003255,351443.01912921,"2020"
-"101","Accenture Plc","Northern America",5,"Sales","male","native",5.047972,0.022214,0.161677,865071.202955491,"2020"
-"102","Bristol Myers Squibb Co.","Northern America",1,"Finance","male","white",24.00234,0.271798,0.021269,1441486.97887485,"2020"
-"103","Apple","Northern America",2,"Finance","female","native",2.320305,0.00739499999999999,0.041014,189567.674208286,"2020"
-"104","Apple","Northern America",1,"Marketing","female","native",5.48762,0.10843,0.026957,347907.364945143,"2020"
-"105","Accenture Plc","Northern America",1,"Admin","male","white",147.803232,8.138232,6.633219,7523729.44110946,"2020"
-"106","Accenture Plc","Northern America",4,"empty","female","hispanic",2.859619,0.00556599999999999,0.00836399999999999,294009.448643265,"2020"
-"107","Bristol Myers Squibb Co.","Northern America",6,"Operations","male","black",0.700624,0.469642,0.000968,120846.823399187,"2020"
-"108","Bristol Myers Squibb Co.","Northern America",2,"empty","female","native",0.048014,4.3e-05,3.4e-05,4391.30732289434,"2020"
-"109","Databricks","Northern America",3,"empty","male","native",0.001008,0,0,145.894171065957,"2020"
-"110","The Goldman Sachs Group","Northern America",1,"Scientist","male","native",0.159731,0.002409,0.00230899999999999,13923.9377727436,"2020"
-"111","Databricks","Northern America",2,"Scientist","female","native",0,0,0,NA,"2020"
-"112","Bristol Myers Squibb Co.","Northern America",2,"Scientist","male","hispanic",76.558794,0.891119,0.391286,7042235.01202126,"2020"
-"113","Accenture Plc","Northern America",1,"Finance","female","api",25.355232,1.538875,0.797093,1217368.84612407,"2020"
-"114","Databricks","Northern America",4,"Scientist","male","api",0.00057499999999999,0.000442,0.000398,NA,"2020"
-"115","Databricks","Northern America",2,"Finance","male","api",4.088694,1.304614,0.000487,326936.130846698,"2020"
-"116","The Goldman Sachs Group","Northern America",4,"Finance","male","api",636.202002,8.782185,9.745953,119465136.856696,"2020"
-"117","The Goldman Sachs Group","Northern America",6,"Operations","male","native",0.303495,5.5e-05,6.3e-05,74435.5268349783,"2020"
-"118","The Home Depot","Northern America",2,"Engineer","female","black",332.014653,2.708219,2.994469,28435385.825527,"2020"
-"119","The Goldman Sachs Group","Northern America",2,"Marketing","female","white",79.246514,3.104621,0.030692,6934130.72849337,"2020"
-"120","Accenture Plc","Northern America",5,"Engineer","female","hispanic",84.959567,0.226094,0.158588,11163417.1581957,"2020"
-"121","Databricks","Northern America",5,"Marketing","male","native",0.010462,4e-06,1e-06,1336.76790074778,"2020"
-"122","Apple","Northern America",6,"Operations","female","native",0.432237,0.000111,0.000108,108336.505309142,"2020"
-"123","Databricks","Northern America",4,"Sales","female","native",0.252449,0.002416,7.6e-05,31299.3745244345,"2020"
-"124","The Goldman Sachs Group","Northern America",3,"empty","female","white",2.378434,0.00124899999999999,0.00016699999999999,228975.760029819,"2020"
-"125","Apple","Northern America",5,"Marketing","female","black",22.507091,0.226069,0.359012,3460371.03344717,"2020"
-"126","Databricks","Northern America",3,"Finance","male","white",2.416266,0.001564,0.001373,276814.634043986,"2020"
-"127","The Goldman Sachs Group","Northern America",5,"Operations","female","black",13.298919,0.01616,0.032711,2792596.83231091,"2020"
-"128","Apple","Northern America",6,"Scientist","male","white",2.510199,0.000553,0.00054,653102.967124894,"2020"
-"129","Apple","Northern America",2,"Admin","female","white",864.456824,25.648384,12.093445,68903965.3346456,"2020"
-"130","Bristol Myers Squibb Co.","Northern America",5,"Engineer","female","api",52.932095,1.536727,1.547414,7005767.71007952,"2020"
-"131","Bristol Myers Squibb Co.","Northern America",5,"Marketing","male","hispanic",1.599429,0.150271,0.002857,208670.683022318,"2020"
-"132","The Home Depot","Northern America",1,"Marketing","male","hispanic",40.220679,0.416736,1.149756,2170325.70003187,"2020"
-"133","The Goldman Sachs Group","Northern America",5,"empty","female","black",0.00391799999999999,0,0,764.853270773836,"2020"
-"134","Databricks","Northern America",6,"Finance","female","hispanic",0,0,0,NA,"2020"
-"135","The Home Depot","Northern America",5,"Finance","male","native",0.200273,7.8e-05,4.6e-05,24748.0083609955,"2020"
-"136","Apple","Northern America",2,"Operations","female","hispanic",162.429125,1.459223,3.890874,12227083.5924851,"2020"
-"137","Databricks","Northern America",6,"Admin","female","white",0.209859,0.000131,0.002362,50028.3736488945,"2020"
-"138","Accenture Plc","Northern America",2,"Marketing","male","api",98.661064,3.421536,1.098667,6877514.42116773,"2020"
-"139","Bristol Myers Squibb Co.","Northern America",2,"Sales","female","multiple",12.924294,0.670765,0.022577,1041907.16042358,"2020"
-"140","The Goldman Sachs Group","Northern America",3,"Admin","female","white",149.217506,1.617522,3.992246,16488187.1189883,"2020"
-"141","The Goldman Sachs Group","Northern America",6,"Scientist","male","multiple",0.039431,6e-05,0,5770.73672108279,"2020"
-"142","Apple","Northern America",1,"Engineer","male","native",17.906349,0.649023,0.171532,1328626.14206082,"2020"
-"143","Accenture Plc","Northern America",7,"Operations","female","api",0,0,0,NA,"2020"
-"144","Bristol Myers Squibb Co.","Northern America",6,"empty","female","multiple",9.2e-05,0,0,NA,"2020"
-"145","Apple","Northern America",2,"Marketing","male","hispanic",532.272783,4.803146,8.21916,47002369.2139991,"2020"
-"146","Apple","Northern America",1,"Sales","male","white",5444.817179,104.783897,98.079794,292486579.280477,"2020"
-"147","Databricks","Northern America",5,"Admin","female","multiple",0.285737,0.243105,9e-06,40348.5975242286,"2020"
-"148","Accenture Plc","Northern America",3,"Marketing","male","black",67.10833,4.041358,1.717604,6152873.64461102,"2020"
-"149","Accenture Plc","Northern America",3,"Marketing","male","native",3.422167,0.121859,0.393211,290571.670169803,"2020"
-"150","The Home Depot","Northern America",6,"Engineer","male","white",2.876849,0.00151,0.00047899999999999,428002.975986756,"2020"
-"151","Accenture Plc","Northern America",1,"Operations","female","black",8.948095,0.015366,0.17658,522653.731288063,"2020"
-"152","The Home Depot","Northern America",2,"Marketing","female","api",39.984246,2.333183,0.115834,2954496.24874519,"2020"
-"153","Accenture Plc","Northern America",2,"Finance","male","multiple",18.930103,1.418405,0.125805,1480834.64677552,"2020"
-"154","Accenture Plc","Northern America",4,"Scientist","female","native",0.558119,0.004216,0.095527,51500.1902435088,"2020"
-"155","Bristol Myers Squibb Co.","Northern America",4,"empty","female","black",0.992526,0.00139799999999999,0.000576,116216.030826826,"2020"
-"156","The Home Depot","Northern America",1,"empty","female","api",8.613861,1.132313,0.0204,244663.28343063,"2020"
-"157","Bristol Myers Squibb Co.","Northern America",3,"Engineer","male","black",45.205553,2.511649,0.369829,4491932.46695656,"2020"
-"158","The Goldman Sachs Group","Northern America",2,"Marketing","male","native",0.603423,0.00363899999999999,0.00583999999999999,44889.0991145416,"2020"
-"159","The Goldman Sachs Group","Northern America",2,"Sales","male","black",51.959325,1.431117,0.220967,4244098.39359578,"2020"
-"160","The Goldman Sachs Group","Northern America",3,"Admin","male","hispanic",16.774778,0.022575,0.015263,1996274.61485145,"2020"
-"161","Databricks","Northern America",4,"Marketing","female","hispanic",0.070446,4.5e-05,5e-06,12085.2767854241,"2020"
-"162","Apple","Northern America",3,"Operations","female","hispanic",64.764246,0.624091,0.204448,6201810.39694563,"2020"
-"163","Databricks","Northern America",5,"Sales","male","api",3.416998,0.059602,0.003975,469790.044838555,"2020"
-"164","Databricks","Northern America",1,"Operations","male","white",2.9e-05,0,0,NA,"2020"
-"165","Accenture Plc","Northern America",2,"Sales","male","native",8.004662,0.683192,0.711389,632160.476081548,"2020"
-"166","Bristol Myers Squibb Co.","Northern America",6,"Finance","male","api",0.271562,0.000176,0.00032899999999999,59205.0417051003,"2020"
-"167","Apple","Northern America",4,"Engineer","female","hispanic",78.316228,0.937768,1.870855,10076147.9553191,"2020"
-"168","The Goldman Sachs Group","Northern America",3,"Scientist","male","native",0.00883199999999999,0.001,0,1082.15178164505,"2020"
-"169","Databricks","Northern America",2,"Engineer","male","black",10.267551,0.08589,0.069638,1419933.56797895,"2020"
-"170","Apple","Northern America",1,"Operations","female","native",1.16429,0.04983,0.029584,53127.6626417266,"2020"
-"171","Apple","Northern America",3,"Marketing","male","hispanic",113.396763,0.511049,1.097206,11359298.88177,"2020"
-"172","The Home Depot","Northern America",4,"Finance","male","hispanic",6.181396,0.088316,0.00262299999999999,659315.84420807,"2020"
-"173","The Goldman Sachs Group","Northern America",2,"Engineer","male","hispanic",222.301855,4.594591,19.67355,22286587.4441767,"2020"
-"174","Accenture Plc","Northern America",4,"Marketing","male","black",82.499955,1.765272,0.656103,8747581.90058716,"2020"
-"175","The Home Depot","Northern America",1,"empty","female","native",1.673368,0.016528,0.00133,61493.9519420806,"2020"
-"176","Bristol Myers Squibb Co.","Northern America",2,"empty","female","api",1.688661,0.00074799999999999,0.001189,163082.112780268,"2020"
-"177","The Goldman Sachs Group","Northern America",3,"Scientist","female","black",1.607541,0.00075199999999999,0.000467,67252.6870555703,"2020"
-"178","Databricks","Northern America",1,"Operations","female","native",0.00035,0,0,NA,"2020"
-"179","Accenture Plc","Northern America",2,"Marketing","male","white",531.615086,11.785787,17.365696,39744685.9347461,"2020"
-"180","Bristol Myers Squibb Co.","Northern America",5,"Operations","female","multiple",4.013417,0.45196,0.162407,585173.035078063,"2020"
-"181","Accenture Plc","Northern America",7,"Admin","male","black",0,0,0,NA,"2020"
-"182","Accenture Plc","Northern America",7,"Engineer","female","api",0,0,0,NA,"2020"
-"183","Databricks","Northern America",1,"Operations","female","native",0.00035,0,0,NA,"2020"
-"184","Apple","Northern America",4,"Operations","male","native",2.052369,0.016868,0.032186,237324.438765695,"2020"
-"185","Accenture Plc","Northern America",6,"Marketing","female","white",38.92871,0.018233,2.012468,6298637.854984,"2020"
-"186","Apple","Northern America",2,"Engineer","male","native",94.373229,0.860532,1.701639,10415638.7876768,"2020"
-"187","Accenture Plc","Northern America",5,"Marketing","female","hispanic",28.566648,0.284175,0.95934,3320914.73384767,"2020"
-"188","Accenture Plc","Northern America",6,"Finance","male","hispanic",4.149942,0.002194,0.0581,697890.878646282,"2020"
-"189","Databricks","Northern America",1,"empty","female","native",0,0,0,NA,"2020"
-"190","The Home Depot","Northern America",1,"Engineer","female","api",107.171557,4.595288,2.182445,6718286.42907636,"2020"
-"191","Databricks","Northern America",2,"Engineer","female","white",17.654845,1.52055,0.115609,2254967.29710271,"2020"
-"192","Databricks","Northern America",6,"Scientist","female","white",0.00720499999999999,5e-06,2e-06,697.383487007671,"2020"
-"193","The Goldman Sachs Group","Northern America",4,"Sales","male","native",1.374652,0.118612,0.011278,162510.581782364,"2020"
-"194","Bristol Myers Squibb Co.","Northern America",5,"Operations","female","white",72.444061,0.485835,1.646607,9794886.12100507,"2020"
-"195","Bristol Myers Squibb Co.","Northern America",4,"Sales","female","native",1.090003,0.024159,0.046324,109388.644185828,"2020"
-"196","The Home Depot","Northern America",2,"Finance","male","multiple",8.862666,0.244391,0.122829,571946.4745218,"2020"
-"197","Databricks","Northern America",4,"Operations","female","multiple",0.005439,6e-06,0,561.436331500502,"2020"
-"198","The Goldman Sachs Group","Northern America",3,"Sales","female","hispanic",18.23612,0.020049,0.134322,2095080.31964377,"2020"
-"199","The Home Depot","Northern America",3,"Engineer","female","black",98.540438,3.194833,1.570377,10148021.092906,"2020"
-"200","Apple","Northern America",4,"Marketing","male","white",620.797175,4.409294,1.342453,78664429.6790123,"2020"
-"201","Bristol Myers Squibb Co.","Northern America",1,"Marketing","male","black",3.657437,0.005981,0.251965,210028.272495068,"2020"
-"202","Apple","Northern America",6,"Engineer","male","white",56.045176,2.393459,0.004477,13120076.5270831,"2020"
-"203","The Home Depot","Northern America",1,"Engineer","female","api",107.506564,2.517452,0.40641,6635260.85635037,"2020"
-"204","Databricks","Northern America",3,"Scientist","male","multiple",0.068909,3.9e-05,4e-06,10876.8420693687,"2020"
-"205","Databricks","Northern America",1,"empty","male","white",0,0,0,NA,"2020"
-"206","The Goldman Sachs Group","Northern America",6,"empty","female","white",0.973482,0.00017799999999999,0.000164,145517.933231357,"2020"
-"207","The Goldman Sachs Group","Northern America",1,"Scientist","male","hispanic",5.027501,0.044422,0.00502999999999999,339457.329836709,"2020"
-"208","Databricks","Northern America",6,"Admin","male","native",0.012786,6e-06,1e-06,2685.00234250051,"2020"
-"209","The Goldman Sachs Group","Northern America",6,"empty","female","native",0.001,0,0,151.962566985444,"2020"
-"210","The Goldman Sachs Group","Northern America",5,"Operations","female","white",71.350315,0.08665,1.150318,16543624.0126153,"2020"
-"211","Accenture Plc","Northern America",1,"Operations","male","api",9.501052,1.790152,0.025013,582456.423528866,"2020"
-"212","Accenture Plc","Northern America",1,"Operations","male","multiple",3.078282,0.3532,0.00405499999999999,186870.563485065,"2020"
-"213","The Goldman Sachs Group","Northern America",6,"Marketing","male","black",0,0,0,NA,"2020"
-"214","Databricks","Northern America",1,"Admin","male","api",0.03016,2.8e-05,7.3e-05,1492.3589019096,"2020"
-"215","Apple","Northern America",1,"empty","female","native",0.236241,0.024215,0.003771,12734.0749250848,"2020"
-"216","Accenture Plc","Northern America",7,"Marketing","male","black",0,0,0,NA,"2020"
-"217","Bristol Myers Squibb Co.","Northern America",1,"Sales","male","white",135.20525,1.548488,0.084333,7491450.93393323,"2020"
-"218","The Goldman Sachs Group","Northern America",3,"empty","male","api",0.613098,0.00029399999999999,0.00013799999999999,66483.0459329667,"2020"
-"219","Databricks","Northern America",5,"Finance","female","api",0.00206,1e-06,0,443.237613357831,"2020"
-"220","Accenture Plc","Northern America",5,"Engineer","female","black",152.173847,3.174537,3.616376,20053257.9485385,"2020"
-"221","Databricks","Northern America",2,"empty","male","multiple",0.013793,0,0,NA,"2020"
-"222","Apple","Northern America",5,"Marketing","female","black",20.862299,0.761027,0.480873,3139527.16292578,"2020"
-"223","The Goldman Sachs Group","Northern America",5,"Operations","male","black",16.64405,0.011904,0.006877,3839481.04023741,"2020"
-"224","Bristol Myers Squibb Co.","Northern America",4,"Engineer","female","white",306.237908,12.438978,8.313853,33570807.3451786,"2020"
-"225","The Home Depot","Northern America",4,"Scientist","female","hispanic",0.242749,0.00010399999999999,8.9e-05,22922.4638906841,"2020"
-"226","Bristol Myers Squibb Co.","Northern America",1,"Operations","male","native",0.903631,0.004897,0.00015799999999999,39126.7041148801,"2020"
-"227","The Goldman Sachs Group","Northern America",1,"Finance","male","native",3.508415,0.297463,0.036886,202322.356308651,"2020"
-"228","Apple","Northern America",4,"Engineer","female","native",6.438354,0.096501,0.028821,802615.419403258,"2020"
-"229","The Goldman Sachs Group","Northern America",3,"Sales","female","native",0.86477,0.00801699999999999,0.000518,93193.6216838213,"2020"
-"230","Bristol Myers Squibb Co.","Northern America",2,"empty","male","white",9.712955,0.007412,0.00934399999999999,761777.671581865,"2020"
-"231","Bristol Myers Squibb Co.","Northern America",4,"empty","male","native",0.021406,0,2.2e-05,2527.74067061667,"2020"
-"232","The Goldman Sachs Group","Northern America",1,"empty","male","native",0.059414,7.8e-05,4.1e-05,4136.38779797701,"2020"
-"233","Databricks","Northern America",3,"Scientist","female","multiple",0.001078,2e-06,1e-06,116.546138277226,"2020"
-"234","Databricks","Northern America",6,"Finance","male","multiple",0.040211,3e-05,4e-06,7650.79498049244,"2020"
-"235","The Goldman Sachs Group","Northern America",5,"Engineer","female","hispanic",7.432896,0.006387,0.00532999999999999,1027128.65560349,"2020"
-"236","The Home Depot","Northern America",3,"Scientist","male","hispanic",2.591305,0.000379,0.00144,122780.03557,"2020"
-"237","Bristol Myers Squibb Co.","Northern America",4,"Finance","male","black",9.563912,0.065821,0.064118,1158348.46915076,"2020"
-"238","Databricks","Northern America",4,"Admin","male","white",14.094067,0.013493,0.00685999999999999,2129556.49656023,"2020"
-"239","Accenture Plc","Northern America",2,"Finance","male","hispanic",87.504217,3.443455,3.333057,6455624.1745444,"2020"
-"240","The Goldman Sachs Group","Northern America",1,"empty","male","white",5.977622,0.00928299999999999,0.002743,454474.455683555,"2020"
-"241","The Home Depot","Northern America",6,"Operations","female","native",0.032817,0,0,11244.2436521539,"2020"
-"242","Apple","Northern America",1,"Admin","female","hispanic",226.841357,0.87212,0.46964,10598110.8697288,"2020"
-"243","Databricks","Northern America",4,"Marketing","male","native",0.019896,8e-06,2e-06,2828.78059209216,"2020"
-"244","The Home Depot","Northern America",2,"Operations","female","api",61.566908,0.209215,4.469787,4037216.41311591,"2020"
-"245","Accenture Plc","Northern America",4,"Scientist","female","native",0.516712,0.026528,0.003271,49673.7134233024,"2020"
-"246","The Goldman Sachs Group","Northern America",6,"Marketing","male","hispanic",0.00044999999999999,0,0,NA,"2020"
-"247","Apple","Northern America",5,"Operations","female","hispanic",11.739009,0.042266,0.00296599999999999,1794210.15738364,"2020"
-"248","Bristol Myers Squibb Co.","Northern America",3,"Marketing","male","white",41.081455,2.052085,0.559092,4147830.03930833,"2020"
-"249","Databricks","Northern America",3,"Engineer","male","hispanic",4.829605,0.240249,0.018551,684224.274805147,"2020"
-"250","The Goldman Sachs Group","Northern America",5,"Operations","male","white",148.24849,2.521272,1.229097,34590163.0263394,"2020"
-"251","The Goldman Sachs Group","Northern America",5,"Scientist","male","multiple",0.406232,0.026477,6.8e-05,54687.7652368966,"2020"
-"252","Bristol Myers Squibb Co.","Northern America",6,"Finance","female","api",0.252231,0.000246,0.00100399999999999,53569.3783020935,"2020"
-"253","The Goldman Sachs Group","Northern America",4,"Admin","female","multiple",6.445545,0.007933,0.072156,1050649.11993329,"2020"
-"254","Bristol Myers Squibb Co.","Northern America",1,"Sales","female","hispanic",25.194027,0.023222,0.500024,1274978.81519614,"2020"
-"255","Databricks","Northern America",4,"Marketing","male","white",7.481004,0.00361599999999999,0.000678,958544.174320503,"2020"
-"256","Accenture Plc","Northern America",7,"Operations","female","black",0.169103,0.169103,0,29661.7452607888,"2020"
-"257","The Goldman Sachs Group","Northern America",4,"Scientist","female","native",0.164726,5.7e-05,2.9e-05,21144.431303721,"2020"
-"258","The Home Depot","Northern America",4,"empty","female","white",2.02746,0.00087299999999999,0.000218,168318.940271448,"2020"
-"259","Databricks","Northern America",2,"Operations","female","black",0,0,0,NA,"2020"
-"260","The Goldman Sachs Group","Northern America",5,"Admin","male","black",9.948446,0.00680899999999999,0.124792,1767039.86921359,"2020"
-"261","Bristol Myers Squibb Co.","Northern America",6,"empty","male","multiple",0,0,0,NA,"2020"
-"262","The Goldman Sachs Group","Northern America",2,"Finance","male","white",2893.497133,56.970784,79.370922,302109383.065471,"2020"
-"263","Databricks","Northern America",1,"Finance","male","black",0.063462,0.000108,7.3e-05,3395.81881671148,"2020"
-"264","Accenture Plc","Northern America",6,"Engineer","male","native",3.556637,0.025724,0.022855,550649.245481573,"2020"
-"265","Apple","Northern America",1,"Sales","female","black",1289.481806,19.232292,18.238862,67073897.2570217,"2020"
-"266","The Home Depot","Northern America",5,"Operations","female","native",1.031016,0.000428,0.000286,105810.795150509,"2020"
-"267","The Goldman Sachs Group","Northern America",1,"empty","female","black",1.312454,0.000662,0.000311,64877.387567126,"2020"
-"268","The Home Depot","Northern America",2,"Operations","female","native",8.885476,0.078208,0.0824,566515.172935855,"2020"
-"269","The Goldman Sachs Group","Northern America",2,"Finance","female","black",354.780585,26.381851,12.450478,34944722.1119371,"2020"
-"270","Accenture Plc","Northern America",5,"Engineer","male","api",952.73265,17.656471,18.225918,123208063.272651,"2020"
-"271","Apple","Northern America",2,"Finance","male","api",98.43811,3.226566,0.376305,8373771.72399653,"2020"
-"272","Apple","Northern America",4,"Finance","female","multiple",4.962693,0.062796,0.00088,585292.939727044,"2020"
-"273","Accenture Plc","Northern America",1,"Finance","female","hispanic",40.649358,0.308498,0.253524,2089962.00994485,"2020"
-"274","The Home Depot","Northern America",6,"Scientist","male","hispanic",0,0,0,NA,"2020"
-"275","Databricks","Northern America",2,"Operations","female","hispanic",0.029789,1.4e-05,1e-06,2848.80265861004,"2020"
-"276","Databricks","Northern America",1,"Finance","male","native",0.000943,6e-06,2.1e-05,55.8437973108412,"2020"
-"277","Apple","Northern America",5,"Admin","female","api",20.543463,0.01132,0.073387,2588099.83544255,"2020"
-"278","The Home Depot","Northern America",3,"Marketing","female","native",0.973868,0.00227699999999999,0.00139,84589.9913246115,"2020"
-"279","The Goldman Sachs Group","Northern America",5,"Scientist","male","multiple",0.406415,0.00025099999999999,8.5e-05,54997.3845233683,"2020"
-"280","Bristol Myers Squibb Co.","Northern America",4,"Operations","male","multiple",3.840536,0.032453,0.00919,453692.258477156,"2020"
-"281","The Home Depot","Northern America",2,"Admin","male","hispanic",65.875756,0.104332,0.01558,4682493.22529589,"2020"
-"282","Databricks","Northern America",2,"Operations","female","white",0.00038,0.00038,0.00038,35.8897166056958,"2020"
-"283","Bristol Myers Squibb Co.","Northern America",5,"Finance","male","native",0.502537,0.029651,0.01932,67133.3724192644,"2020"
-"284","The Goldman Sachs Group","Northern America",5,"Scientist","female","api",0.245246,4.1e-05,3.8e-05,34904.6640124485,"2020"
-"285","Accenture Plc","Northern America",4,"Sales","female","white",759.931781,19.957747,23.096281,92580119.3533195,"2020"
-"286","Accenture Plc","Northern America",4,"Sales","male","multiple",44.685211,2.706311,2.063884,5703227.425563,"2020"
-"287","The Goldman Sachs Group","Northern America",4,"empty","female","multiple",0.119643,0.00025799999999999,0.000143,21564.9838141049,"2020"
-"288","Accenture Plc","Northern America",4,"Admin","female","api",67.169516,0.340446,0.676011,6411584.98659123,"2020"
-"289","The Goldman Sachs Group","Northern America",2,"empty","female","white",3.977192,0.005877,1.256472,378220.474343685,"2020"
-"290","Databricks","Northern America",4,"Marketing","male","hispanic",0.224828,0.00024,9.5e-05,27421.7956219927,"2020"
-"291","Apple","Northern America",4,"empty","female","black",1.24457,0.000192,0.000302,219343.497008134,"2020"
-"292","The Goldman Sachs Group","Northern America",3,"Engineer","male","api",128.534998,6.059834,1.63299,15237539.2854202,"2020"
-"293","Accenture Plc","Northern America",4,"Engineer","male","api",2398.261528,19.142914,41.222835,265159562.985428,"2020"
-"294","Bristol Myers Squibb Co.","Northern America",2,"Marketing","female","white",102.085754,0.990434,3.542335,7945780.66880042,"2020"
-"295","Apple","Northern America",6,"Engineer","male","multiple",3.087441,0.024211,0.000252,789679.092021674,"2020"
-"296","Databricks","Northern America",1,"Engineer","male","api",1.840204,0.020776,0.013005,138567.679119334,"2020"
-"297","Accenture Plc","Northern America",1,"Marketing","male","native",2.42258,0.107605,0.048194,142713.668380111,"2020"
-"298","The Goldman Sachs Group","Northern America",2,"empty","female","api",4.500775,0.005498,0.02116,485412.313964182,"2020"
-"299","The Goldman Sachs Group","Northern America",7,"Sales","female","native",0,0,0,NA,"2020"
-"300","Apple","Northern America",6,"Finance","female","api",0.16693,0,0,36880.9635891834,"2020"
-"301","The Goldman Sachs Group","Northern America",3,"empty","female","api",0.445189,0.000155,0.000122,48570.1486416921,"2020"
-"302","The Goldman Sachs Group","Northern America",6,"empty","female","hispanic",0.004,0,0,595.123282644009,"2020"
-"303","Accenture Plc","Northern America",4,"Marketing","male","multiple",21.805398,0.55664,0.676092,2323109.27372443,"2020"
-"304","The Goldman Sachs Group","Northern America",1,"Admin","male","white",148.255621,6.120844,5.021856,8102983.40107868,"2020"
-"305","The Goldman Sachs Group","Northern America",4,"Admin","male","hispanic",22.544963,1.185947,0.040136,3683523.30046609,"2020"
-"306","Apple","Northern America",6,"Finance","female","black",0.416529,5.1e-05,4.2e-05,82549.7787968948,"2020"
-"307","Bristol Myers Squibb Co.","Northern America",1,"Finance","female","black",8.026414,0.031785,0.118145,432103.699540444,"2020"
-"308","The Home Depot","Northern America",3,"Marketing","female","white",138.177714,0.431695,0.04347,12218603.5952522,"2020"
-"309","The Goldman Sachs Group","Northern America",2,"Sales","female","native",1.25608,0.023558,0.119171,107639.336060827,"2020"
-"310","The Goldman Sachs Group","Northern America",4,"Scientist","male","native",0.141673,0.050402,1.7e-05,22271.9954369988,"2020"
-"311","The Home Depot","Northern America",3,"Operations","female","hispanic",43.193668,0.037745,0.015766,3664726.76611179,"2020"
-"312","Bristol Myers Squibb Co.","Northern America",4,"Engineer","male","hispanic",63.657603,2.997588,1.090982,6635195.18532217,"2020"
-"313","Apple","Northern America",1,"Scientist","female","black",46.772396,0.922916,0.166261,2498222.84756077,"2020"
-"314","Accenture Plc","Northern America",3,"Marketing","female","black",92.099588,1.093784,1.478281,8534269.47091549,"2020"
-"315","The Home Depot","Northern America",1,"Scientist","male","black",26.396179,0.045714,0.746934,1170211.61439471,"2020"
-"316","The Goldman Sachs Group","Northern America",4,"Sales","female","white",101.894725,2.757672,2.384416,12724113.7006877,"2020"
-"317","Databricks","Northern America",3,"Sales","male","black",4.388265,0.222115,0.00131799999999999,500980.31730097,"2020"
-"318","The Goldman Sachs Group","Northern America",5,"Finance","female","black",53.082587,0.388422,0.675223,12380146.7789488,"2020"
-"319","The Goldman Sachs Group","Northern America",1,"Marketing","female","hispanic",14.497526,0.474014,0.029459,925242.851348491,"2020"
-"320","The Home Depot","Northern America",3,"Finance","female","white",134.631362,1.745935,5.468844,10829355.7068537,"2020"
-"321","The Home Depot","Northern America",4,"Operations","male","multiple",10.922583,0.025794,0.064121,963463.102019687,"2020"
-"322","Databricks","Northern America",5,"Engineer","female","native",0.033266,0.001211,1.4e-05,3153.72857843976,"2020"
-"323","Bristol Myers Squibb Co.","Northern America",2,"Sales","male","hispanic",40.364951,0.354186,0.055309,3334961.1802964,"2020"
-"324","Accenture Plc","Northern America",5,"empty","male","api",10.957625,0.003477,0.00130799999999999,1664671.34499157,"2020"
-"325","The Home Depot","Northern America",2,"Sales","female","multiple",100.130312,0.861995,1.094398,6500279.16216624,"2020"
-"326","The Goldman Sachs Group","Northern America",3,"Scientist","female","hispanic",1.449406,0.002536,0.002988,81334.747574436,"2020"
-"327","Apple","Northern America",4,"Sales","male","hispanic",234.853398,6.064714,1.559015,29986024.9545998,"2020"
-"328","Databricks","Northern America",3,"Finance","male","hispanic",0.114719,0.003644,0.000122,14502.2106493671,"2020"
-"329","The Goldman Sachs Group","Northern America",4,"Finance","male","api",631.620059,4.209278,3.148822,116402088.484562,"2020"
-"330","The Goldman Sachs Group","Northern America",3,"Sales","male","multiple",5.619321,0.178733,0.195156,689269.970584168,"2020"
-"331","Apple","Northern America",7,"Operations","male","hispanic",0.004,0,0,1608.43120019754,"2020"
-"332","Apple","Northern America",1,"Operations","female","white",134.705219,4.647982,0.070299,6170671.38846189,"2020"
-"333","Accenture Plc","Northern America",3,"Sales","male","native",8.88422,0.246073,0.136319,949333.105723667,"2020"
-"334","Accenture Plc","Northern America",4,"Admin","female","hispanic",56.966984,1.555609,1.982839,6094489.7153184,"2020"
-"335","Accenture Plc","Northern America",2,"Scientist","male","native",1.215729,0.062707,0.001575,103198.729117702,"2020"
-"336","Apple","Northern America",4,"Finance","male","white",132.427918,0.280576,1.330834,15901485.7533922,"2020"
-"337","Apple","Northern America",2,"Admin","male","api",207.8026,4.082615,5.910892,17580506.1690317,"2020"
-"338","Databricks","Northern America",4,"Engineer","female","multiple",0.448909,0.017682,0.001397,58657.2526720678,"2020"
-"339","Databricks","Northern America",2,"Scientist","female","white",0.092235,5.7e-05,4.4e-05,20685.0403043778,"2020"
-"340","Databricks","Northern America",3,"Scientist","male","native",1e-06,1e-06,1e-06,NA,"2020"
-"341","Apple","Northern America",1,"Operations","male","native",2.56403,0.098317,0.14447,115720.739803712,"2020"
-"342","Apple","Northern America",6,"Engineer","female","black",3.815574,0.000763,0.000302,965119.43100173,"2020"
-"343","Bristol Myers Squibb Co.","Northern America",3,"Operations","female","native",0.634152,0.00611,0.00828899999999999,67883.1827105747,"2020"
-"344","Bristol Myers Squibb Co.","Northern America",2,"Sales","female","native",2.66384,0.134048,0.090821,197793.360600733,"2020"
-"345","Databricks","Northern America",5,"Finance","male","hispanic",0.056343,2.2e-05,4e-06,7802.87623440301,"2020"
-"346","Accenture Plc","Northern America",4,"Marketing","male","white",603.311747,18.693239,17.241205,64110510.1024193,"2020"
-"347","The Home Depot","Northern America",6,"Operations","male","multiple",0.328559,6.8e-05,0.028433,94518.4042954552,"2020"
-"348","The Home Depot","Northern America",2,"Finance","female","white",454.222536,2.163498,4.192668,24697537.9719034,"2020"
-"349","Databricks","Northern America",5,"Sales","female","black",0.25034,0.000353,0.00013799999999999,35540.2498567066,"2020"
-"350","The Home Depot","Northern America",2,"Sales","female","multiple",105.463101,1.788593,0.954352,6971712.75944272,"2020"
-"351","Databricks","Northern America",1,"Marketing","female","hispanic",0.081179,0.002419,1.9e-05,4780.29663305518,"2020"
-"352","The Goldman Sachs Group","Northern America",5,"Scientist","male","black",0.402277,0.042207,0.000114,74877.4990978378,"2020"
-"353","Bristol Myers Squibb Co.","Northern America",2,"Finance","male","multiple",2.352104,0.012034,0.075651,186514.941951348,"2020"
-"354","Apple","Northern America",3,"Marketing","female","multiple",31.724115,1.088968,1.033465,3319266.4768666,"2020"
-"355","Bristol Myers Squibb Co.","Northern America",6,"Sales","female","api",0.780919,0.00364,0.00444099999999999,132354.665686122,"2020"
-"356","Bristol Myers Squibb Co.","Northern America",6,"Marketing","female","hispanic",0.122647,0.000229,0.00020799999999999,21553.9952341236,"2020"
-"357","The Goldman Sachs Group","Northern America",6,"Engineer","male","white",11.55129,0.00793699999999999,0.010517,2217148.79170525,"2020"
-"358","Accenture Plc","Northern America",3,"Scientist","male","api",21.772343,0.037465,0.260338,2125961.78812768,"2020"
-"359","Accenture Plc","Northern America",5,"Operations","female","native",4.562517,0.010606,0.055067,662412.180072764,"2020"
-"360","Databricks","Northern America",6,"Engineer","female","api",0.00196299999999999,4.9e-05,0.000183,344.557421208841,"2020"
-"361","Apple","Northern America",1,"Engineer","male","native",17.343932,1.249146,0.257974,1247702.95408923,"2020"
-"362","Bristol Myers Squibb Co.","Northern America",4,"Engineer","female","hispanic",37.309799,0.705253,0.412782,4365799.46923232,"2020"
-"363","The Goldman Sachs Group","Northern America",5,"Operations","female","multiple",2.846167,0.000656,0.01662,658167.024809417,"2020"
-"364","Databricks","Northern America",5,"empty","male","black",0.207058,0.000125,4.3e-05,35330.6421669612,"2020"
-"365","Bristol Myers Squibb Co.","Northern America",4,"empty","male","white",11.513647,0.009142,0.00352799999999999,1293929.73456622,"2020"
-"366","Databricks","Northern America",6,"Admin","male","multiple",0.451109,0.000175,3e-05,90917.0873807052,"2020"
-"367","Apple","Northern America",2,"Engineer","male","white",8270.974169,249.698504,144.490216,946674014.989563,"2020"
-"368","The Home Depot","Northern America",6,"Finance","male","multiple",0.20202,5.1e-05,7.9e-05,34760.7462486462,"2020"
-"369","Apple","Northern America",6,"Scientist","female","black",0.157372,0,0,27622.4846328317,"2020"
-"370","Databricks","Northern America",6,"Admin","female","native",0,0,0,NA,"2020"
-"371","The Home Depot","Northern America",4,"Sales","male","multiple",22.535597,0.039391,0.221938,1991514.66745764,"2020"
-"372","Accenture Plc","Northern America",1,"Marketing","male","hispanic",68.29643,0.37677,0.045806,3757967.46620379,"2020"
-"373","Databricks","Northern America",6,"Operations","female","hispanic",0.00100099999999999,0,0,171.603741590437,"2020"
-"374","Bristol Myers Squibb Co.","Northern America",5,"Engineer","female","native",1.512819,0.037493,0.06909,185561.288560599,"2020"
-"375","Bristol Myers Squibb Co.","Northern America",1,"Sales","male","native",0.998778,0.000261,0.00942199999999999,52037.4734157649,"2020"
-"376","Apple","Northern America",7,"Operations","female","hispanic",0,0,0,NA,"2020"
-"377","The Goldman Sachs Group","Northern America",2,"Admin","male","hispanic",57.107151,1.685664,0.567668,4801460.59107106,"2020"
-"378","The Home Depot","Northern America",2,"Admin","male","black",108.497684,1.25872,2.346316,7955211.51637473,"2020"
-"379","The Goldman Sachs Group","Northern America",3,"empty","female","api",0.445607,0.000515,0.000429,48849.3639312094,"2020"
-"380","Databricks","Northern America",1,"Operations","female","white",0.00721899999999999,0,0,NA,"2020"
-"381","Bristol Myers Squibb Co.","Northern America",6,"Operations","female","api",0.624306,0.000214,0.000154,102275.796974492,"2020"
-"382","Bristol Myers Squibb Co.","Northern America",3,"Admin","female","hispanic",12.324233,0.058597,0.006982,1018469.31685676,"2020"
-"383","Bristol Myers Squibb Co.","Northern America",2,"Engineer","male","multiple",31.608955,1.267215,1.210417,2718126.42119863,"2020"
-"384","Bristol Myers Squibb Co.","Northern America",4,"Finance","male","black",8.172908,1.347712,0.031181,991776.872013437,"2020"
-"385","Bristol Myers Squibb Co.","Northern America",1,"Scientist","male","white",259.421121,8.152456,22.383267,19178993.0650103,"2020"
-"386","The Goldman Sachs Group","Northern America",1,"empty","female","white",7.605438,0.006784,0.009039,312850.834964578,"2020"
-"387","Databricks","Northern America",6,"Marketing","male","hispanic",0,0,0,NA,"2020"
-"388","Bristol Myers Squibb Co.","Northern America",1,"Sales","male","native",1.086938,0.023409,0.002003,57885.9545310953,"2020"
-"389","Accenture Plc","Northern America",6,"Scientist","male","native",0.025826,0,0,5828.14904591204,"2020"
-"390","Bristol Myers Squibb Co.","Northern America",5,"Operations","male","multiple",3.488104,0.032427,0.016719,496377.77274748,"2020"
-"391","Bristol Myers Squibb Co.","Northern America",2,"Admin","female","white",264.152771,10.474006,5.945603,18900456.7914704,"2020"
-"392","Bristol Myers Squibb Co.","Northern America",2,"Scientist","female","api",363.808436,10.999292,6.934989,34451877.4448043,"2020"
-"393","Accenture Plc","Northern America",3,"Finance","male","native",2.116757,0.025578,0.032187,185119.105820166,"2020"
-"394","Apple","Northern America",4,"Operations","male","white",286.282171,1.705946,4.28512,35193069.3880175,"2020"
-"395","The Goldman Sachs Group","Northern America",2,"Engineer","female","native",8.500019,0.462037,0.017673,855207.182770295,"2020"
-"396","Bristol Myers Squibb Co.","Northern America",3,"Sales","female","native",3.554228,0.120536,0.208748,302781.069476947,"2020"
-"397","Bristol Myers Squibb Co.","Northern America",2,"empty","male","black",1.610562,0.001057,0.000622,137891.949133155,"2020"
-"398","The Goldman Sachs Group","Northern America",3,"Scientist","male","multiple",0.092933,3.1e-05,2.8e-05,12731.1810086335,"2020"
-"399","The Home Depot","Northern America",2,"empty","female","white",44.181858,0.010091,0.114884,2682564.79221401,"2020"
-"400","Accenture Plc","Northern America",7,"Finance","female","hispanic",0.009981,0,0,2517.90566748089,"2020"
-"401","The Home Depot","Northern America",5,"Engineer","female","black",16.322201,0.691904,0.015714,2007795.54271945,"2020"
-"402","Accenture Plc","Northern America",4,"Finance","male","white",367.939371,7.483273,8.533199,41644386.7817411,"2020"
-"403","Databricks","Northern America",4,"Marketing","male","hispanic",0.221744,0.01007,2.7e-05,26027.1267827377,"2020"
-"404","Databricks","Northern America",5,"Marketing","male","api",0.02042,1.3e-05,4e-06,2596.13241784718,"2020"
-"405","The Goldman Sachs Group","Northern America",4,"Sales","female","native",0.70453,0.004022,0.025759,89528.5410066782,"2020"
-"406","The Goldman Sachs Group","Northern America",1,"empty","male","api",1.808461,0.002062,0.001717,166808.090832404,"2020"
-"407","The Home Depot","Northern America",1,"Sales","female","hispanic",4847.519368,116.577667,60.619961,166280017.136306,"2020"
-"408","Accenture Plc","Northern America",5,"Marketing","male","black",35.148948,2.205083,0.17406,4801006.50453003,"2020"
-"409","The Goldman Sachs Group","Northern America",4,"Sales","female","white",102.180798,4.513314,1.894274,12662675.664757,"2020"
-"410","Apple","Northern America",4,"Engineer","male","hispanic",226.99037,4.468027,2.40646,30015150.5873744,"2020"
-"411","The Home Depot","Northern America",2,"Marketing","female","hispanic",49.869929,0.638429,0.348241,3545400.10793015,"2020"
-"412","The Home Depot","Northern America",3,"Admin","male","api",10.939434,0.046586,0.694662,775360.462698398,"2020"
-"413","The Goldman Sachs Group","Northern America",3,"Finance","male","multiple",30.13003,0.055724,0.44621,4064197.85446953,"2020"
-"414","The Goldman Sachs Group","Northern America",3,"Scientist","male","white",8.921421,1.256853,0.014554,1118524.12998626,"2020"
-"415","Apple","Northern America",5,"Engineer","male","multiple",70.862079,1.366573,0.416085,11256323.835709,"2020"
-"416","Accenture Plc","Northern America",1,"empty","male","api",2.08177,0.003974,1.082151,157336.108064745,"2020"
-"417","Apple","Northern America",5,"Engineer","male","multiple",72.267027,0.774253,0.755423,11616239.7157566,"2020"
-"418","Apple","Northern America",1,"Marketing","male","native",4.537549,0.142483,0.144603,273688.258813212,"2020"
-"419","The Goldman Sachs Group","Northern America",4,"Finance","female","api",414.203575,31.433658,7.817196,72374655.1329718,"2020"
-"420","Apple","Northern America",2,"Operations","male","hispanic",279.638684,1.119534,0.3668,21029478.9312156,"2020"
-"421","Accenture Plc","Northern America",5,"Scientist","female","api",7.875048,0.003027,0.00865299999999999,1085478.49497158,"2020"
-"422","Apple","Northern America",3,"Engineer","male","native",35.242404,0.691012,0.392013,4420920.11234801,"2020"
-"423","The Goldman Sachs Group","Northern America",5,"Scientist","male","black",0.93796,0.002663,0.000715,194382.570283778,"2020"
-"424","The Goldman Sachs Group","Northern America",1,"Admin","female","api",44.460906,2.39292,2.56246,2332200.59973239,"2020"
-"425","The Goldman Sachs Group","Northern America",2,"empty","female","hispanic",1.326861,0.049035,9e-05,75921.7277278216,"2020"
-"426","The Goldman Sachs Group","Northern America",4,"Sales","male","api",22.053678,0.018201,0.184346,3489809.81941258,"2020"
-"427","Apple","Northern America",5,"Admin","female","white",108.763857,0.035132,0.030305,14845011.7041826,"2020"
-"428","Accenture Plc","Northern America",3,"Sales","female","multiple",42.833124,1.11234,0.823999,4965762.77148072,"2020"
-"429","The Home Depot","Northern America",3,"empty","male","native",0.068754,8.8e-05,0.000105,5269.19369297888,"2020"
-"430","The Home Depot","Northern America",5,"Engineer","male","api",31.802771,0.02424,0.010465,4510169.85940425,"2020"
-"431","Apple","Northern America",6,"empty","female","hispanic",0,0,0,NA,"2020"
-"432","The Home Depot","Northern America",2,"Admin","female","multiple",17.45748,1.120913,0.123227,1134414.49773998,"2020"
-"433","Accenture Plc","Northern America",6,"Operations","male","multiple",10.588783,0.03696,0.081295,2592775.10336088,"2020"
-"434","The Goldman Sachs Group","Northern America",5,"Sales","male","native",0.876605,0.000435,0.001079,149589.401884676,"2020"
-"435","The Goldman Sachs Group","Northern America",1,"Operations","female","native",0.283543,0.001144,0.000183,11979.7869283664,"2020"
-"436","The Goldman Sachs Group","Northern America",3,"Admin","female","api",18.137834,0.538988,0.017565,2107929.60331128,"2020"
-"437","Bristol Myers Squibb Co.","Northern America",6,"Admin","male","white",0.982462,0.003943,0.00538899999999999,157727.852565659,"2020"
-"438","The Goldman Sachs Group","Northern America",3,"Finance","male","black",146.84817,5.882582,5.121598,18490853.3662097,"2020"
-"439","Apple","Northern America",6,"Marketing","male","white",7.437484,0.001435,0.001029,1324679.36159283,"2020"
-"440","Bristol Myers Squibb Co.","Northern America",5,"Marketing","male","black",3.508283,0.00783999999999999,0.009657,493162.45919938,"2020"
-"441","Databricks","Northern America",3,"empty","female","multiple",0.014845,2e-05,1e-06,1559.3512812165,"2020"
-"442","Accenture Plc","Northern America",5,"Sales","male","black",103.936107,6.5837,3.479897,18895936.3085507,"2020"
-"443","The Home Depot","Northern America",5,"Admin","male","native",0.185621,5.1e-05,0.000317,21304.1218650711,"2020"
-"444","The Home Depot","Northern America",1,"Admin","female","multiple",42.417079,1.583608,0.10206,1787172.47685824,"2020"
-"445","Apple","Northern America",2,"Sales","female","black",1405.465082,21.908303,21.883888,113066390.360573,"2020"
-"446","Accenture Plc","Northern America",7,"Sales","female","white",0.024134,0,0,5605.37812539014,"2020"
-"447","The Goldman Sachs Group","Northern America",5,"Marketing","male","black",2.537822,0.000687,0.00111999999999999,542031.058421557,"2020"
-"448","Bristol Myers Squibb Co.","Northern America",5,"Operations","male","black",10.361478,0.006039,0.068009,1354478.19659486,"2020"
-"449","Bristol Myers Squibb Co.","Northern America",3,"Finance","female","api",16.351222,1.570161,1.10355,1471427.35694925,"2020"
-"450","Databricks","Northern America",1,"Marketing","female","white",4.024418,1.205921,0.000629,235211.49691427,"2020"
-"451","The Goldman Sachs Group","Northern America",6,"Operations","male","black",5.072727,0.002353,0.001338,1387810.26731996,"2020"
-"452","Bristol Myers Squibb Co.","Northern America",4,"Marketing","female","api",7.696348,0.16538,0.017155,845837.649857039,"2020"
-"453","Apple","Northern America",3,"Admin","male","hispanic",54.700931,2.373101,3.611455,5652414.45202476,"2020"
-"454","Apple","Northern America",2,"Engineer","male","white",8257.367094,70.654223,84.280284,969427006.071347,"2020"
-"455","Databricks","Northern America",4,"Engineer","female","api",4.21859,0.002007,0.000563,607398.688208482,"2020"
-"456","Databricks","Northern America",5,"Finance","male","multiple",0.59045,0.000478,0.000108,92583.531502373,"2020"
-"457","Apple","Northern America",4,"Finance","female","white",82.710141,0.276155,0.355186,9589243.35752396,"2020"
-"458","The Home Depot","Northern America",6,"Sales","female","native",0.013028,0,0,2745.20525463724,"2020"
-"459","Accenture Plc","Northern America",6,"Operations","female","native",1.001327,0.001201,0.000135,212302.568499458,"2020"
-"460","Bristol Myers Squibb Co.","Northern America",5,"Marketing","male","api",1.276491,0.063838,0.00279599999999999,197496.642232729,"2020"
-"461","Accenture Plc","Northern America",2,"Operations","female","black",55.397661,0.027275,0.154875,4962240.44214039,"2020"
-"462","Bristol Myers Squibb Co.","Northern America",6,"Operations","male","white",8.786331,0.00677399999999999,0.00673499999999999,1990074.61261708,"2020"
-"463","The Goldman Sachs Group","Northern America",3,"Operations","male","multiple",3.569916,0.082258,0.00275299999999999,387966.932702673,"2020"
-"464","Databricks","Northern America",4,"Finance","male","native",0.005288,4e-06,4e-06,715.775594356805,"2020"
-"465","Accenture Plc","Northern America",2,"Operations","female","white",222.531396,1.356824,2.674697,19076603.7671675,"2020"
-"466","The Home Depot","Northern America",5,"Marketing","female","white",31.424526,0.019912,0.00702,3866098.48760719,"2020"
-"467","The Home Depot","Northern America",5,"Finance","female","black",17.823581,0.00672399999999999,0.08137,2021851.40621573,"2020"
-"468","Databricks","Northern America",1,"Finance","male","hispanic",4.7e-05,4.7e-05,4.7e-05,2.76776401281826,"2020"
-"469","Bristol Myers Squibb Co.","Northern America",4,"Scientist","male","api",258.704182,6.528011,4.622902,32446992.6793391,"2020"
-"470","Databricks","Northern America",6,"Operations","female","black",0,0,0,NA,"2020"
-"471","Accenture Plc","Northern America",5,"Sales","male","native",5.016454,0.130159,0.07641,863020.433517171,"2020"
-"472","The Goldman Sachs Group","Northern America",1,"Sales","female","white",460.012228,4.503352,1.755736,18187778.9381029,"2020"
-"473","The Home Depot","Northern America",4,"empty","male","native",0.033598,0,0,2859.15956095909,"2020"
-"474","Databricks","Northern America",5,"Operations","male","white",4.074622,0.001825,0.00038999999999999,618647.332672569,"2020"
-"475","Databricks","Northern America",3,"Marketing","male","white",4.09757,0.002679,0.001427,392881.563631732,"2020"
-"476","Apple","Northern America",6,"empty","male","white",0,0,0,NA,"2020"
-"477","Databricks","Northern America",5,"Admin","female","native",0.043661,2.1e-05,0.00222699999999999,4562.54540637634,"2020"
-"478","Databricks","Northern America",2,"empty","female","hispanic",0,0,0,NA,"2020"
-"479","Apple","Northern America",5,"empty","male","api",2.504435,0.001603,0.000193,350479.001223645,"2020"
-"480","The Goldman Sachs Group","Northern America",5,"Marketing","female","black",2.782693,0.00452799999999999,0.00102,530577.54195589,"2020"
-"481","The Goldman Sachs Group","Northern America",5,"Marketing","male","native",0.050143,8.6e-05,7.2e-05,8627.88531110977,"2020"
-"482","Accenture Plc","Northern America",1,"Admin","female","native",5.101104,0.082412,0.02754,260107.380800385,"2020"
-"483","Accenture Plc","Northern America",7,"Operations","male","api",0,0,0,NA,"2020"
-"484","Accenture Plc","Northern America",7,"Engineer","male","black",0.023388,0,0,2625.76614860121,"2020"
-"485","Accenture Plc","Northern America",6,"Admin","female","hispanic",3.708653,0.003974,0.00143,655647.967541109,"2020"
-"486","Bristol Myers Squibb Co.","Northern America",6,"Admin","female","multiple",0.02499,2.8e-05,0.00014999999999999,3586.48972613469,"2020"
-"487","The Goldman Sachs Group","Northern America",6,"empty","female","black",0.011,0,0,1652.09505782641,"2020"
-"488","The Goldman Sachs Group","Northern America",5,"Sales","female","white",38.986354,0.129464,0.154469,6050339.12685541,"2020"
-"489","Apple","Northern America",6,"Sales","male","native",0.104119,0,0,25220.8935305002,"2020"
-"490","The Goldman Sachs Group","Northern America",2,"Admin","male","api",44.68906,2.415656,3.07239,3832357.67993953,"2020"
-"491","Apple","Northern America",3,"empty","female","black",3.493693,0.00363,0.003251,438722.234706524,"2020"
-"492","Bristol Myers Squibb Co.","Northern America",6,"Scientist","male","white",11.077405,0.020267,0.02139,1995506.78445439,"2020"
-"493","The Goldman Sachs Group","Northern America",1,"Engineer","female","hispanic",35.744686,3.90882,0.719786,2505257.50675585,"2020"
-"494","Accenture Plc","Northern America",2,"Operations","male","multiple",10.213381,0.070814,0.646469,909234.485825857,"2020"
-"495","Accenture Plc","Northern America",5,"Operations","male","hispanic",124.647067,2.490526,0.605765,20148525.9959373,"2020"
-"496","Databricks","Northern America",3,"Admin","male","native",0.043175,2.2e-05,5e-06,4011.38354219317,"2020"
-"497","The Goldman Sachs Group","Northern America",1,"Admin","male","black",43.791252,0.073964,1.459507,2358307.57017288,"2020"
-"498","The Home Depot","Northern America",2,"Finance","female","api",27.106458,0.640762,0.519912,1511214.93694785,"2020"
-"499","Databricks","Northern America",2,"empty","female","black",0,0,0,NA,"2020"
-"500","Accenture Plc","Northern America",3,"empty","male","api",20.613733,0.00491999999999999,0.704646,2229080.79809113,"2020"
+"","company","seniority","job_category","gender","ethnicity","count","inflow","outflow","salary"
+"41610","The Goldman Sachs Group",2,"Admin","male","white",240.360611,6.528047,3.515582,19514216.0908366
+"13633","The Goldman Sachs Group",3,"Marketing","male","black",8.01715,0.00643399999999999,0.072786,901063.92140652
+"38643","Databricks",1,"Engineer","male","white",6.497711,1.068544,0.007117,529579.673190361
+"15890","Databricks",2,"Sales","female","hispanic",1.660083,0.001606,0.00036,170841.114822832
+"15478","Bristol Myers Squibb Co.",3,"Scientist","female","hispanic",71.987509,5.819368,2.840067,7138953.56419517
+"3995","Apple",5,"Marketing","male","api",58.152505,1.42485,0.060146,8491938.35456119
+"8701","The Home Depot",5,"Engineer","female","black",15.738356,0.705171,0.00323699999999999,1913940.66649649
+"35986","The Home Depot",2,"Engineer","female","white",1062.394603,15.581429,10.616358,83643985.1825884
+"2449","Bristol Myers Squibb Co.",5,"Finance","male","api",8.687002,0.011253,0.016295,1140329.38982741
+"8668","Databricks",3,"Finance","female","black",0.050392,3.1e-05,1.2e-05,4823.31232885681
+"2160","The Home Depot",4,"Sales","female","api",28.872263,0.071644,0.031454,2814804.26108823
+"10709","Accenture Plc",1,"Sales","male","black",95.704877,1.756757,1.724012,4587637.66587791
+"15711","Databricks",2,"Admin","female","hispanic",0.684853,0.00103199999999999,0.001635,52424.8711126427
+"42217","Accenture Plc",1,"Admin","male","white",143.62626,8.378647,1.460896,7114116.7932141
+"7432","The Home Depot",2,"Sales","male","black",991.514865,12.885483,10.649348,67685830.4164394
+"20849","The Goldman Sachs Group",6,"Finance","female","hispanic",1.671294,0.00086399999999999,0.001965,280330.829664477
+"11230","Accenture Plc",4,"Engineer","female","black",507.852718,5.569598,11.036814,56247435.6340311
+"31140","Apple",3,"Marketing","female","native",3.579327,0.09779,0.01778,355259.569138873
+"11065","Accenture Plc",3,"Finance","female","black",73.144533,1.026463,0.271256,6646527.24002669
+"17661","Accenture Plc",6,"Sales","male","hispanic",23.995743,0.672099,0.135798,5358340.14620884
+"11092","Apple",2,"Operations","female","black",108.106147,0.928701,0.2934,8090508.77914695
+"13567","Apple",3,"Marketing","male","black",74.391783,4.057661,1.924276,7071944.80812118
+"40149","Apple",6,"Sales","male","white",17.705395,0.005908,0.053929,3926652.60744755
+"7733","Databricks",2,"empty","female","black",0,0,0,1436777.14995606
+"6935","The Goldman Sachs Group",1,"Admin","male","api",19.763691,0.200209,0.370585,1166783.3571394
+"9461","Accenture Plc",2,"Admin","female","black",224.131854,10.500482,2.789161,16387958.6764524
+"27749","The Goldman Sachs Group",3,"Engineer","male","multiple",11.590037,0.2701,0.144783,1375835.10061162
+"42182","Accenture Plc",2,"Admin","female","white",886.891618,8.371644,17.558423,65453601.7217656
+"20859","Bristol Myers Squibb Co.",2,"Admin","female","hispanic",36.963211,1.927308,0.224011,2806911.53656984
+"40018","Apple",5,"Operations","male","white",190.432692,2.666945,0.084433,30150463.2449043
+"41239","Apple",2,"Sales","male","white",10662.089925,196.918903,204.259685,845711963.392555
+"15679","Bristol Myers Squibb Co.",6,"Finance","female","hispanic",1.256637,0.082155,0.029658,212727.303490161
+"37420","Databricks",4,"Sales","male","white",32.657276,1.16373,0.209693,4682011.49849551
+"25323","Apple",2,"Marketing","female","multiple",85.093222,1.739828,0.777,7380422.62589728
+"35022","The Goldman Sachs Group",2,"empty","male","native",0.046643,5.2e-05,4.1e-05,4245.32602711212
+"13376","Apple",4,"Finance","male","black",15.127142,0.004028,0.00323999999999999,1853441.67641309
+"13661","The Goldman Sachs Group",5,"Finance","male","black",104.855092,1.195311,0.907046,25881418.9434315
+"11240","Accenture Plc",5,"Scientist","female","black",6.455246,0.004728,0.085347,832448.935190622
+"10406","Bristol Myers Squibb Co.",4,"Admin","male","black",5.36395,0.001454,0.000755,718938.069198052
+"4352","Accenture Plc",4,"Finance","male","api",79.87303,4.910788,4.167737,8064323.39183041
+"24024","Bristol Myers Squibb Co.",5,"Marketing","male","multiple",0.778199,0.00045199999999999,0.000746,98799.1538966304
+"34020","Apple",1,"Marketing","male","native",4.885169,0.142497,0.047616,294190.34483482
+"25940","Apple",5,"Marketing","female","multiple",8.28235,0.230795,0.157374,1184263.91799183
+"26407","Apple",5,"Scientist","male","multiple",4.048558,0.00340099999999999,0.016008,630585.767547002
+"8822","Databricks",1,"Sales","male","black",0.35219,0.000693,0.01504,22436.5087852349
+"29750","The Home Depot",2,"Finance","female","native",3.80709,0.020861,0.020053,196748.493405655
+"17158","Bristol Myers Squibb Co.",4,"Engineer","female","hispanic",39.585329,1.306649,0.137095,4610893.1798226
+"24765","Accenture Plc",1,"Scientist","male","multiple",1.617114,0.037649,0.20099,99652.9459110061
+"42033","The Goldman Sachs Group",3,"Operations","male","white",68.104212,0.609515,0.038126,7794247.61443216
+"23714","Databricks",5,"Operations","male","multiple",0.420323,0.00017699999999999,1.9e-05,67655.4693325135
+"13809","Bristol Myers Squibb Co.",6,"Marketing","male","black",0.040051,9.5e-05,7.4e-05,7665.26950751943
+"23255","Databricks",5,"Sales","female","multiple",0.264261,0.000181,4.7e-05,35783.9485725654
+"17865","Apple",7,"Sales","male","hispanic",0,0,0,1128179.731503
+"35959","The Home Depot",2,"Sales","male","white",6369.374108,61.36775,64.524089,440534279.015554
+"32113","Apple",6,"empty","female","native",0,0,0,67062.6993113313
+"14782","The Home Depot",1,"Sales","female","hispanic",4805.101351,97.411777,74.15965,164916997.446465
+"709","The Home Depot",4,"Sales","male","api",31.671841,0.061663,0.046236,2894161.13088151
+"36744","Databricks",1,"empty","male","white",0,0,0,7647895.79770794
+"26949","The Goldman Sachs Group",1,"Admin","female","multiple",20.098311,0.582281,0.419325,1047012.54415482
+"4501","Accenture Plc",7,"Engineer","female","api",0.65931,0.000999,0,114794.791885519
+"2418","Apple",4,"Scientist","female","api",29.25692,0.012864,0.534772,3955185.45413831
+"26529","The Goldman Sachs Group",5,"Scientist","male","multiple",0.428338,0.00060099999999999,0.00035799999999999,61961.5096207019
+"15546","Databricks",6,"Operations","female","hispanic",0.00100099999999999,0,0,172.005764529154
+"23537","Bristol Myers Squibb Co.",1,"Operations","male","multiple",2.499824,0.126426,0.00202099999999999,141986.088521347
+"41790","Accenture Plc",2,"Sales","male","white",902.50877,62.736332,70.83281,71206729.5537777
+"35960","The Home Depot",3,"Engineer","male","white",647.73945,15.852466,10.200566,66873231.1783697
+"29427","Databricks",2,"Finance","female","native",0.026586,1.6e-05,6e-06,2994.16334374823
+"30255","Databricks",4,"Finance","female","native",0.001046,0,0,105.628634038605
+"25675","Accenture Plc",5,"Admin","male","multiple",5.700847,0.362637,0.265808,766252.571836695
+"12358","Apple",4,"Scientist","female","black",10.964014,0.499046,0.005824,1324629.32560923
+"40776","Apple",1,"Finance","female","white",87.394016,3.697971,0.238203,4405663.46703103
+"28875","The Home Depot",1,"Admin","female","native",13.859222,0.534707,0.043125,558044.953615924
+"18108","Apple",1,"Scientist","female","hispanic",40.311566,0.192432,2.830058,2025260.49070267
+"42149","Accenture Plc",2,"empty","female","white",28.932357,0.036974,0.017815,2296579.1217684
+"19479","Accenture Plc",2,"empty","female","hispanic",6.087428,0.546317,0.546913,532371.422108323
+"3359","Bristol Myers Squibb Co.",4,"Operations","male","api",20.07904,2.471139,0.525538,2098508.1634581
+"38614","Bristol Myers Squibb Co.",5,"Engineer","male","white",371.596464,10.489816,4.170557,48676744.335919
+"25015","Bristol Myers Squibb Co.",4,"Operations","female","multiple",3.313582,0.024237,0.002501,334056.609171767
+"13984","The Goldman Sachs Group",4,"Engineer","female","black",23.775579,0.524489,0.266771,3773961.29606787
+"2698","Bristol Myers Squibb Co.",5,"Engineer","male","api",91.070912,3.833641,2.940693,11872595.736849
+"28225","The Home Depot",2,"Sales","female","native",30.86682,0.462686,0.081448,1952310.29974891
+"26041","Accenture Plc",6,"Finance","female","multiple",0.683987,0.00021599999999999,0.000279,120506.854947897
+"3708","Accenture Plc",3,"Operations","female","api",179.585234,3.278018,6.487757,19453194.8659529
+"31022","Bristol Myers Squibb Co.",5,"Scientist","male","native",5.390717,0.075793,0.800536,823904.020810106
+"12615","The Goldman Sachs Group",1,"Marketing","male","black",9.000366,0.539072,0.22198,659695.485505732
+"2558","Bristol Myers Squibb Co.",5,"empty","female","api",1.750162,0.00283799999999999,0.001288,186466.226000915
+"8712","The Home Depot",4,"Engineer","female","black",38.988867,0.016449,1.663385,4329338.88272129
+"30967","Bristol Myers Squibb Co.",2,"Marketing","female","native",0.40613,0.008444,0.019803,32582.2363152724
+"17581","Bristol Myers Squibb Co.",2,"Finance","female","hispanic",16.65168,0.017102,0.250511,1159231.29024579
+"28000","The Goldman Sachs Group",4,"Finance","female","multiple",41.825162,0.114839,0.113868,7501094.11145899
+"41495","The Goldman Sachs Group",5,"Finance","male","white",877.82725,56.907004,15.266331,216835511.304163
+"13093","The Goldman Sachs Group",3,"Engineer","female","black",43.802344,0.716351,0.087733,4836022.88357808
+"29988","Databricks",5,"empty","male","native",0.00204099999999999,1e-06,0,366.757325011795
+"10264","Bristol Myers Squibb Co.",3,"Operations","female","black",15.814568,0.149027,0.326876,1608828.31225373
+"41710","The Goldman Sachs Group",5,"Marketing","female","white",21.016723,0.880904,0.00853399999999999,3319848.16278678
+"7558","The Home Depot",6,"Sales","male","black",1.982962,0.021389,0.00040999999999999,270749.538624874
+"17344","Bristol Myers Squibb Co.",6,"Operations","female","hispanic",0.040486,7.3e-05,8.9e-05,8086.69987956024
+"8010","The Home Depot",3,"empty","male","black",3.679016,0.001951,0.001591,316691.569879676
+"11742","Accenture Plc",1,"Sales","female","black",174.654373,9.700494,4.416342,8162920.03964833
+"5962","Apple",3,"Sales","male","api",324.936656,9.797794,1.837761,33432895.7798047
+"17646","Bristol Myers Squibb Co.",3,"Marketing","female","hispanic",4.206066,0.096319,0.089605,412692.687115937
+"14463","The Home Depot",1,"Engineer","female","hispanic",138.381085,3.196508,4.753208,7052960.23790827
+"5507","Apple",1,"Engineer","female","api",450.44254,16.677443,4.446409,47033615.9783966
+"35126","The Goldman Sachs Group",1,"Scientist","female","native",0.352406,0.000103,0.002356,18265.0568890468
+"21209","The Home Depot",5,"Engineer","male","multiple",4.595033,0.683482,0.000987,526452.411609817
+"21811","Databricks",2,"Finance","female","multiple",0.083346,5.4e-05,8e-06,9599.15263380399
+"565","Databricks",1,"Engineer","male","api",0.280552,0.280552,0.014302,21060.1806158875
+"13433","The Goldman Sachs Group",5,"Marketing","male","black",3.573963,0.002421,0.673146,701020.249711147
+"319","The Home Depot",1,"Operations","male","api",392.904424,25.687462,9.733527,12911642.4976894
+"840","The Home Depot",1,"Marketing","female","api",26.229177,0.924109,1.122584,1173471.21937424
+"27469","The Goldman Sachs Group",1,"Marketing","female","multiple",2.889567,0.027859,0.00443499999999999,197507.625988305
+"35228","The Goldman Sachs Group",5,"Marketing","male","native",0.042075,2.9e-05,0.001149,7561.10044822706
+"31733","Accenture Plc",4,"Admin","female","native",5.708993,0.213917,0.04452,584607.00025114
+"20231","Bristol Myers Squibb Co.",6,"Admin","female","hispanic",0.20083,3.6e-05,4.1e-05,26826.4205934573
+"9768","Bristol Myers Squibb Co.",4,"Operations","female","black",12.741275,1.019103,0.009003,1222158.15713357
+"34626","The Goldman Sachs Group",2,"Engineer","female","native",7.894635,0.180849,0.10826,795281.178428651
+"17199","Bristol Myers Squibb Co.",5,"Operations","male","hispanic",11.498878,0.048205,0.00269199999999999,1931095.5244198
+"33625","Apple",5,"Operations","female","native",0.631673,0.015529,0.00477599999999999,107770.353808823
+"9636","Databricks",2,"Operations","male","black",0,0,0,1436777.14995606
+"21204","The Home Depot",1,"Admin","female","multiple",40.979716,0.375444,0.146245,1739342.72284273
+"5805","Accenture Plc",7,"Finance","male","api",0.024146,0,0,5591.38466318378
+"38052","Bristol Myers Squibb Co.",1,"Operations","male","white",67.934017,5.875442,3.406986,3642949.97062264
+"9670","Apple",4,"Finance","male","black",16.887604,0.01266,0.008585,2121336.48267774
+"33199","Apple",2,"Operations","male","native",10.715904,0.034546,0.042563,823000.717937641
+"28442","The Home Depot",1,"Finance","female","native",3.782489,0.002174,0.018653,158244.908632037
+"12487","Accenture Plc",5,"Finance","female","black",21.633716,0.012243,0.014247,3017700.83921734
+"17329","Bristol Myers Squibb Co.",3,"Scientist","female","hispanic",69.103344,0.86282,2.080722,7047946.31935461
+"34854","The Goldman Sachs Group",1,"Admin","female","native",2.79279,0.012908,0.076148,142011.015861739
+"21003","The Goldman Sachs Group",6,"Operations","male","hispanic",2.69376,0.00339699999999999,0.002075,668506.467077006
+"5851","The Goldman Sachs Group",2,"Finance","male","api",724.968735,10.064582,17.365703,78783892.8310577
+"42110","The Goldman Sachs Group",3,"Operations","female","white",54.101912,1.982445,1.935979,5289363.93316184
+"21417","Databricks",5,"Finance","male","multiple",0.587506,0.000546,0.00022699999999999,91634.539617864
+"10373","Accenture Plc",5,"Operations","male","black",166.826049,0.397626,1.801752,28988832.7322708
+"13489","The Goldman Sachs Group",7,"Sales","male","black",0.014093,0,0,3374.38522853704
+"10645","Apple",3,"Scientist","male","black",15.337968,0.368686,0.00791599999999999,2044186.62379628
+"21237","Databricks",1,"empty","female","multiple",0,0,0,319727.310237189
+"28024","Accenture Plc",5,"Sales","male","multiple",25.937081,0.260417,0.152696,4725372.22691722
+"38286","Bristol Myers Squibb Co.",4,"empty","male","white",11.49667,0.006713,0.00255699999999999,1282209.96423591
+"3481","Bristol Myers Squibb Co.",3,"Sales","female","api",35.711027,0.077886,0.047995,3338956.60378919
+"8291","Databricks",5,"empty","male","black",0.207355,0.000126,9.7e-05,35835.6780395519
+"77","The Home Depot",4,"Admin","female","api",6.103374,0.878738,0.005281,569540.908562753
+"4969","Apple",3,"Operations","female","api",132.505118,1.225783,0.185356,12259754.073659
+"28044","The Goldman Sachs Group",3,"Marketing","male","multiple",1.526349,0.105725,0.154532,191729.331776963
+"38927","Apple",4,"empty","male","white",9.256268,0.004568,1.053773,1332268.46680463
+"3199","Accenture Plc",4,"Admin","female","api",69.591566,1.110083,0.967935,6650080.47587492
+"22537","Bristol Myers Squibb Co.",2,"Sales","male","multiple",9.661827,0.119571,0.52068,782371.360973501
+"18550","Accenture Plc",4,"Admin","male","hispanic",39.080982,0.683197,0.296923,3881302.80339827
+"26259","Apple",4,"Finance","female","multiple",5.284022,0.066832,0.088898,622143.068414087
+"35808","Databricks",3,"Engineer","female","white",7.059603,0.085778,0.002709,954863.164371471
+"30793","Databricks",3,"Finance","male","native",0.012232,4e-06,4e-06,1433.2182602742
+"37456","The Home Depot",1,"Marketing","female","white",347.731397,8.307295,1.484714,17432427.697121
+"6848","The Goldman Sachs Group",6,"Engineer","male","api",5.246133,0.003915,0.001981,1040672.4247394
+"33236","Accenture Plc",6,"Engineer","female","native",1.539741,0.000386,0.030208,276289.674086481
+"3728","Accenture Plc",3,"Admin","male","api",71.903833,2.47373,2.885349,6153066.1728032
+"33014","Apple",4,"Engineer","male","native",18.447184,0.141049,0.121724,2341696.4847357
+"29670","Databricks",1,"Scientist","male","native",0,0,0,67062.6993113313
+"38251","Accenture Plc",6,"Finance","male","white",71.560536,1.073325,2.329255,12102433.3832071
+"37755","Accenture Plc",4,"Marketing","male","white",600.69089,12.355294,16.072382,63780340.6403258
+"13150","Accenture Plc",1,"Admin","male","black",54.148854,0.241807,1.273101,2647407.61541429
+"41736","Apple",3,"empty","female","white",12.497693,0.013555,0.00748599999999999,1486289.06994554
+"29382","Databricks",6,"Engineer","female","native",0,0,0,67062.6993113313
+"13219","Accenture Plc",1,"Scientist","male","black",7.138314,0.984701,1.010574,352743.621616509
+"27344","The Goldman Sachs Group",2,"Finance","female","multiple",80.814345,3.041679,1.42498,8467622.51534646
+"457","The Home Depot",3,"Marketing","female","api",15.527108,0.01318,0.010971,1448797.4271925
+"19345","Accenture Plc",5,"Sales","male","hispanic",69.187188,1.161385,2.134943,12382825.781813
+"6608","Apple",2,"Operations","female","api",184.622153,3.839724,3.329282,14144267.2595863
+"8308","The Home Depot",2,"Admin","female","black",156.079878,0.512024,1.029492,10333093.3442628
+"9479","The Home Depot",3,"Sales","male","black",204.445865,0.19571,1.053895,16551308.7130948
+"10100","Bristol Myers Squibb Co.",3,"Engineer","female","black",52.176234,2.331446,3.261158,5245414.63466699
+"781","The Home Depot",5,"Finance","female","api",2.712322,0.00407499999999999,0.000201,305954.727274734
+"1616","The Home Depot",4,"Scientist","female","api",0.38858,0.00078299999999999,0.000844,47936.4582222162
+"39831","Bristol Myers Squibb Co.",4,"Sales","female","white",252.587201,5.736998,2.980561,26057651.8703438
+"40241","Apple",6,"Operations","female","white",29.459435,0.00336,0.003565,7426804.44533781
+"27624","The Goldman Sachs Group",2,"Finance","male","multiple",109.711096,5.04313,11.34136,11769352.3767878
+"106","The Home Depot",5,"Marketing","male","api",1.639581,0.002461,0.000946,186085.896936716
+"14294","The Home Depot",6,"Finance","male","hispanic",0.056188,0,0,8525.18857733213
+"33506","The Goldman Sachs Group",5,"Engineer","male","native",1.403564,0.004947,0.00033399999999999,228950.079281025
+"24669","Accenture Plc",1,"empty","female","multiple",0.211851,0,0,10817.7519215553
+"24588","Bristol Myers Squibb Co.",5,"Engineer","male","multiple",13.141501,1.309918,0.230116,1737637.05376998
+"23756","Bristol Myers Squibb Co.",5,"Marketing","female","multiple",1.273141,0.00631199999999999,0.001332,175524.79223868
+"12776","Apple",5,"Operations","female","black",18.510006,0.183536,0.00850899999999999,3147014.71809254
+"16129","Databricks",2,"Admin","male","hispanic",0.491602,0.00023699999999999,0.000199,41052.313536232
+"26315","Apple",1,"Finance","male","multiple",4.812487,0.063,0.011321,208853.344597831
+"35440","The Home Depot",2,"Admin","male","white",368.40596,2.358567,2.120745,26295507.7400107
+"3341","Apple",1,"Scientist","female","api",56.327746,3.006518,2.184145,3990758.31832083
+"19497","Apple",3,"Finance","male","hispanic",38.795076,0.398915,0.303708,3967439.53423729
+"26566","Accenture Plc",6,"empty","male","multiple",0.155182,0.00012999999999999,0,28704.31466695
+"20052","Accenture Plc",2,"Finance","female","hispanic",119.481074,0.159761,4.45986,8317494.70236959
+"23169","Accenture Plc",6,"Finance","male","multiple",1.253383,0.00124899999999999,0.00091399999999999,224416.809597131
+"992","The Home Depot",3,"Scientist","female","api",0.070708,0,0,5238.10062705848
+"21303","The Home Depot",5,"Scientist","female","multiple",0.00169699999999999,0,0,181.581011482105
+"29530","Databricks",1,"Marketing","female","native",0.013248,9e-06,1.3e-05,678.891064467385
+"29285","The Home Depot",4,"Sales","female","native",1.868693,0.00536199999999999,0.00064999999999999,148879.348416431
+"6289","Apple",3,"Engineer","female","api",1272.358412,27.151798,11.685406,163188156.09032
+"4595","Accenture Plc",7,"Sales","female","api",0,0,0,1416063.84774624
+"5439","The Goldman Sachs Group",6,"Sales","male","api",1.054751,0.001556,0.000284,273824.038535378
+"11425","Accenture Plc",1,"Finance","female","black",56.169899,2.457734,0.061388,2914741.83634133
+"11490","Accenture Plc",7,"Operations","female","black",0.169203,1e-04,0,29917.9716391636
+"473","The Home Depot",2,"Engineer","female","api",262.584554,11.01894,6.002918,23734814.7839946
+"3043","Bristol Myers Squibb Co.",1,"Engineer","male","api",126.055472,11.081899,5.366721,8666498.70996888
+"4183","Accenture Plc",6,"empty","female","api",0.379703,0.000386,0.000101,54814.1221575259
+"22413","Databricks",6,"Marketing","female","multiple",0,0,0,319727.310237189
+"4927","Accenture Plc",6,"Sales","female","api",29.145726,0.524106,0.056479,5801061.51236912
+"16027","Databricks",6,"Scientist","male","hispanic",0.085273,2.5e-05,1.1e-05,7958.81970944485
+"37196","Databricks",5,"Sales","male","white",18.525897,3.830709,0.955768,2812727.31250322
+"4421","Bristol Myers Squibb Co.",1,"Engineer","male","api",127.318756,4.843936,10.153317,8688631.95289893
+"6163","The Goldman Sachs Group",2,"Operations","male","api",27.563195,1.18492,0.024084,2606561.31536824
+"13195","The Goldman Sachs Group",6,"Scientist","female","black",0,0,0,1436777.14995606
+"8416","Bristol Myers Squibb Co.",2,"Finance","female","black",14.261877,0.017348,0.06359,1006820.5749341
+"21929","The Home Depot",5,"Finance","female","multiple",1.488019,0.000808,0.00069499999999999,177201.052216183
+"13453","The Goldman Sachs Group",1,"empty","male","black",1.367056,0.00309299999999999,0.00278999999999999,72549.4164476685
+"24719","Accenture Plc",1,"Finance","female","multiple",5.778759,0.010487,0.054142,303878.024667666
+"32187","Apple",5,"Sales","male","native",2.564684,0.025692,0.006073,349992.431941149
+"14453","The Home Depot",3,"Engineer","female","hispanic",26.00782,0.752195,0.031533,2759141.6831697
+"21522","Databricks",1,"empty","female","multiple",0,0,0,319727.310237189
+"22547","The Home Depot",6,"Admin","male","multiple",0.003386,0,0,447.721777625137
+"8799","Databricks",1,"Admin","female","black",0.365774,0.000375,7.3e-05,20155.6123352883
+"20851","The Goldman Sachs Group",1,"Sales","female","hispanic",114.062783,2.947646,2.647134,4248271.29973667
+"17984","Bristol Myers Squibb Co.",1,"Sales","male","hispanic",24.269911,0.126069,0.047621,1328411.36114742
+"22582","Databricks",6,"Marketing","female","multiple",0,0,0,319727.310237189
+"32604","Accenture Plc",2,"Scientist","female","native",1.236424,0.013487,0.000282,95029.897277093
+"17550","Accenture Plc",4,"Admin","male","hispanic",40.852907,0.308688,1.068238,4068624.73728479
+"36238","Databricks",1,"Sales","female","white",4.143233,0.003888,0.005811,214584.496924804
+"33588","The Goldman Sachs Group",5,"Operations","male","native",0.735196,0.00772899999999999,0.000518,147597.774567712
+"108","The Home Depot",4,"Sales","male","api",31.949234,0.07439,0.051164,2897493.08347486
+"35286","The Home Depot",1,"Sales","male","white",27587.973912,1658.489665,332.001689,985711345.665058
+"28043","The Goldman Sachs Group",3,"Marketing","male","multiple",1.441732,0.176517,0.021108,181002.172610553
+"9227","Bristol Myers Squibb Co.",4,"Finance","male","black",10.809203,1.24417,0.129074,1329138.55114766
+"1482","The Home Depot",4,"empty","male","api",0.092761,4.5e-05,1.4e-05,7057.64508100377
+"19424","Apple",6,"empty","female","hispanic",0,0,0,1128179.731503
+"12174","Accenture Plc",3,"Operations","male","black",166.215246,1.749147,1.693634,19971389.034684
+"10391","Bristol Myers Squibb Co.",6,"empty","male","black",0,0,0,1436777.14995606
+"33574","Apple",4,"Scientist","male","native",0.428609,0.010002,0.00018799999999999,58623.1290049033
+"23278","The Home Depot",3,"Scientist","male","multiple",0.25427,0.000134,6.7e-05,23842.6837273273
+"4359","Accenture Plc",1,"Operations","female","api",6.592507,0.00220799999999999,0.00392699999999999,350574.197089817
+"42069","Apple",6,"Scientist","male","white",2.509894,0.000422,0.000321,648209.47557927
+"20962","The Goldman Sachs Group",1,"empty","male","hispanic",0.133408,9e-05,0.003803,6867.06155397438
+"36438","The Home Depot",3,"Scientist","female","white",4.196616,0.00133099999999999,0.002935,254434.056433641
+"14543","The Home Depot",4,"Scientist","female","hispanic",0.249313,6.8e-05,3.7e-05,23015.1557870905
+"2839","Bristol Myers Squibb Co.",5,"Admin","female","api",6.10785,0.022044,0.00982799999999999,737888.362195263
+"41242","Accenture Plc",6,"Admin","female","white",45.585356,1.196633,0.021685,6741632.73455547
+"32172","Bristol Myers Squibb Co.",1,"Finance","female","native",0.525142,0.023846,0.000268,28224.4993923821
+"37522","Bristol Myers Squibb Co.",2,"Finance","male","white",63.886554,4.520281,2.339698,4792514.00048389
+"12869","The Goldman Sachs Group",2,"Finance","male","black",451.485313,15.620403,6.894247,46407902.9999607
+"21419","Databricks",1,"Finance","male","multiple",0.06241,0.054819,4e-06,4443.81728043526
+"33301","Apple",1,"Scientist","female","native",2.545964,0.017335,0.021651,100471.083327278
+"15294","The Home Depot",1,"Finance","female","hispanic",57.904121,0.58104,0.280209,2344210.43871467
+"4434","Bristol Myers Squibb Co.",5,"Scientist","male","api",191.245282,2.228422,0.532398,27788521.7625994
+"16613","Databricks",4,"Scientist","male","hispanic",0,0,0,1128179.731503
+"6271","The Goldman Sachs Group",2,"Scientist","male","api",12.206837,0.308328,0.041269,1538609.90915764
+"18934","The Goldman Sachs Group",6,"Scientist","male","hispanic",0.009176,0,0,1321.09220767752
+"35448","The Home Depot",2,"empty","male","white",43.244355,0.023294,0.033333,2825538.92493052
+"32008","Apple",4,"Admin","female","native",1.750922,0.044607,0.014013,186506.79807761
+"24920","Apple",5,"empty","male","multiple",0.705458,0.000221,0.000108,117296.443934616
+"8601","The Home Depot",1,"Sales","female","black",5533.865828,215.506335,40.97539,184412250.136271
+"12755","Accenture Plc",3,"Sales","female","black",200.817954,3.332634,2.38663,22432250.5591744
+"22703","The Home Depot",5,"Scientist","male","multiple",0.026698,0,3.4e-05,2554.81729452573
+"25791","Apple",3,"Operations","female","multiple",12.378198,0.202391,0.155965,1224349.91821331
+"39245","Bristol Myers Squibb Co.",3,"empty","male","white",5.243537,0.002462,0.00329,570914.505576559
+"19243","Accenture Plc",2,"Admin","female","hispanic",190.401503,2.437153,5.094259,13799836.4892017
+"36310","Databricks",3,"Sales","male","white",67.967713,1.302415,2.478732,7132178.9426609
+"36385","The Home Depot",4,"Scientist","female","white",10.018211,0.00489399999999999,0.594466,1022244.15261909
+"4255","Accenture Plc",6,"Operations","male","api",80.500358,2.161494,0.193572,17610609.3125498
+"24445","Accenture Plc",2,"Marketing","male","multiple",23.149444,0.195713,0.592634,1735339.20948868
+"10795","Apple",3,"Scientist","male","black",17.596331,0.187505,0.033949,2340683.7299545
+"21047","The Goldman Sachs Group",4,"Marketing","female","hispanic",4.156256,0.793136,0.001951,778521.536594872
+"10640","Apple",3,"Scientist","male","black",15.553878,0.00417299999999999,0.584596,2068953.91712201
+"42019","The Goldman Sachs Group",4,"Engineer","male","white",261.554039,1.940931,1.463804,39777279.350191
+"905","The Home Depot",1,"Finance","female","api",21.803914,0.956704,0.282008,827197.689145327
+"11713","Accenture Plc",1,"Scientist","male","black",7.801609,0.014427,0.013579,380454.681167507
+"28676","The Home Depot",4,"Scientist","male","native",0.035256,0,0,2827.03270405942
+"12047","Accenture Plc",6,"Engineer","female","black",15.462476,0.340095,0.493243,2389494.25255671
+"10565","Bristol Myers Squibb Co.",2,"Finance","female","black",13.630363,0.008437,0.037448,982280.227474601
+"36301","Databricks",3,"Operations","female","white",3.674694,0.003647,0.00039899999999999,432251.550997386
+"8468","Databricks",1,"Operations","male","black",2.9e-05,0,0,1436777.14995606
+"36362","The Home Depot",2,"Engineer","female","white",1056.841074,10.042345,10.0279,82894181.7882569
+"14233","The Home Depot",4,"Sales","female","hispanic",41.053837,0.068006,0.008139,3302787.90625278
+"9927","Apple",7,"Sales","male","black",0,0,0,1436777.14995606
+"31928","Accenture Plc",7,"Admin","female","native",0,0,0,67062.6993113313
+"21820","Databricks",2,"empty","male","multiple",0.013793,0,0,319727.310237189
+"25697","Accenture Plc",5,"Admin","male","multiple",6.349165,0.147683,0.972232,827831.483538312
+"395","Databricks",4,"Engineer","male","api",15.941157,0.00750799999999999,0.003537,2356908.16417852
+"23833","The Home Depot",6,"Operations","female","multiple",0.496913,0.000102,0.001296,168033.443877222
+"5627","Apple",5,"Operations","male","api",78.558143,0.022663,0.062818,12825816.4215013
+"13644","The Goldman Sachs Group",6,"Scientist","female","black",0,0,0,1436777.14995606
+"16390","Bristol Myers Squibb Co.",4,"Admin","female","hispanic",13.011945,0.158535,0.05545,1490497.04018345
+"40790","Accenture Plc",6,"Admin","male","white",38.954989,0.031224,0.022642,6558853.56826222
+"25670","Accenture Plc",6,"Finance","female","multiple",0.665707,0.00039399999999999,0.00090499999999999,122539.734279978
+"2987","Accenture Plc",6,"Admin","male","api",7.833639,1.151029,0.00240999999999999,941396.942812734
+"38924","Accenture Plc",7,"Operations","male","white",0.001,0,0,166.092080985336
+"23172","Accenture Plc",3,"Operations","female","multiple",27.049022,1.728678,0.812295,3187043.57077555
+"16068","Accenture Plc",4,"Engineer","female","hispanic",335.453846,5.297082,4.007297,37209605.2501891
+"8900","Apple",6,"Engineer","female","black",3.812486,0.0022,0.00078799999999999,996767.284407645
+"28675","The Home Depot",2,"Operations","female","native",8.652605,0.052333,0.0226,547660.267410407
+"10466","Bristol Myers Squibb Co.",1,"Scientist","female","black",64.831483,2.454798,2.354333,4263887.42744059
+"35726","The Home Depot",4,"Engineer","male","white",300.946337,7.57544,5.950009,32276141.7117192
+"5688","The Goldman Sachs Group",5,"empty","female","api",1.052564,0.00043899999999999,0.00019799999999999,367885.571904212
+"3148","Bristol Myers Squibb Co.",3,"Sales","male","api",43.15684,0.045534,0.038279,3688371.44587171
+"15371","Databricks",4,"Sales","male","hispanic",4.020528,0.014585,0.005679,531334.926521281
+"21758","The Home Depot",2,"empty","female","multiple",1.121395,0.020061,0.000219,83470.1116381648
+"9456","Accenture Plc",5,"Sales","female","black",69.80716,1.368986,0.772823,12632085.8689389
+"15751","Databricks",2,"empty","male","hispanic",0,0,0,1128179.731503
+"25768","Apple",6,"Operations","male","multiple",2.564184,0.004877,0.011126,659941.544119517
+"6532","The Goldman Sachs Group",5,"Scientist","female","api",0.686042,0.000622,0.000288,130697.169901202
+"8728","Databricks",1,"Scientist","female","black",0,0,0,1436777.14995606
+"29127","The Home Depot",1,"Scientist","male","native",0.746032,0.000134,0.00691899999999999,34089.4279961716
+"39064","Apple",1,"Finance","female","white",83.27629,2.147794,2.578893,4012114.88321932
+"5089","Apple",6,"Scientist","male","api",0.01599,0,0,3417.22770764366
+"27946","The Goldman Sachs Group",6,"Marketing","female","multiple",0.127968,0.00599699999999999,2e-05,17363.8754895715
+"11241","Apple",1,"empty","female","black",5.040917,0.00430999999999999,0.011471,244672.1738469
+"13876","The Goldman Sachs Group",2,"Sales","male","black",57.08836,4.91009,1.86839,4695515.53832326
+"3434","Apple",4,"Finance","male","api",61.225344,0.014816,0.779189,7054511.98605303
+"39495","Accenture Plc",6,"Finance","female","white",34.605551,0.013812,1.334833,6215941.27129485
+"13886","The Goldman Sachs Group",6,"Admin","male","black",1.665565,0.001016,0.000513,312205.813040667
+"41964","The Goldman Sachs Group",2,"Engineer","female","white",490.213343,8.940359,2.527707,48846494.7324353
+"9701","Bristol Myers Squibb Co.",1,"Scientist","male","black",39.655793,1.141521,1.391621,2900417.03494106
+"16321","Databricks",2,"Sales","female","hispanic",1.47974,0.00076,0.001239,151516.372693613
+"41617","The Goldman Sachs Group",4,"Finance","female","white",958.48424,6.317013,10.068887,163971671.96216
+"36494","Databricks",3,"Finance","male","white",2.400585,0.00286399999999999,0.002259,270105.298500685
+"5230","Apple",1,"Scientist","female","api",53.315583,3.777587,0.567109,3515275.22701817
+"19182","Accenture Plc",3,"Finance","male","hispanic",47.417429,1.162507,2.476222,4329967.32280153
+"15627","The Home Depot",5,"Finance","male","hispanic",5.472709,0.003728,0.004577,663295.785495077
+"16252","The Home Depot",6,"Scientist","female","hispanic",0,0,0,1128179.731503
+"3501","Bristol Myers Squibb Co.",3,"Engineer","female","api",125.429459,2.362254,2.218076,12866090.2472342
+"40815","Apple",2,"empty","male","white",86.619136,0.076037,1.965453,7785786.21215552
+"577","Databricks",4,"Scientist","female","api",0.000252,0.00017799999999999,0.00017,1416063.84774624
+"11196","Accenture Plc",6,"Scientist","male","black",1.671512,0.000201,0.012878,455314.891101014
+"26795","Bristol Myers Squibb Co.",1,"Scientist","male","multiple",13.13475,0.499635,1.837999,1007287.2835967
+"42006","Bristol Myers Squibb Co.",6,"Marketing","female","white",1.323545,0.005452,0.00522499999999999,185410.428112022
+"27488","Apple",1,"Operations","female","multiple",7.950482,0.128199,0.103519,377379.018105062
+"27051","Apple",2,"Finance","male","multiple",13.856213,0.531315,0.230683,1318634.51364136
+"34825","The Goldman Sachs Group",6,"Marketing","female","native",0.010821,0,0,1705.66874949408
+"20396","The Goldman Sachs Group",2,"Operations","female","hispanic",11.894694,0.009017,0.912396,1022378.31297009
+"14240","The Home Depot",3,"Finance","female","hispanic",13.758873,0.031212,0.00493,1182136.73963971
+"15216","Databricks",3,"Engineer","male","hispanic",4.527459,0.035037,0.000921,641100.948165111
+"7696","The Home Depot",5,"Finance","female","black",17.973944,0.122676,0.0509,2090081.2804682
+"31362","Apple",5,"Scientist","female","native",0.141653,0.000121,0.043652,19100.336368576
+"12981","Apple",1,"Sales","female","black",1300.319733,23.945942,23.515431,67327353.1094023
+"25647","Bristol Myers Squibb Co.",5,"Engineer","male","multiple",12.040303,0.385487,0.20872,1588947.87905678
+"18014","Accenture Plc",5,"Scientist","female","hispanic",3.868572,0.00096299999999999,1.352599,461348.384543674
+"38837","Accenture Plc",1,"Scientist","male","white",29.212455,0.033144,1.732687,1585069.3563002
+"16055","The Home Depot",1,"Finance","female","hispanic",56.984631,0.049213,0.091928,2304402.79293495
+"33743","Apple",5,"Engineer","female","native",3.116688,0.03879,0.016995,444305.055467674
+"1329","Databricks",3,"Marketing","female","api",1.633507,0.017267,7e-05,178244.102730176
+"12206","Apple",6,"empty","male","black",0,0,0,1436777.14995606
+"17141","Bristol Myers Squibb Co.",1,"Marketing","male","hispanic",0.864279,0.000408,0.194802,56552.9245328659
+"20902","The Goldman Sachs Group",2,"Finance","female","hispanic",473.899382,14.00825,91.245954,47714899.1330296
+"17850","Accenture Plc",2,"Marketing","male","hispanic",115.239656,3.494647,2.071166,8269804.66421287
+"21452","The Home Depot",2,"Operations","female","multiple",36.059202,0.302247,0.217104,2346553.01155531
+"39558","Accenture Plc",7,"Finance","female","white",1.189912,0.000773,0,175437.816825957
+"3748","The Goldman Sachs Group",4,"Admin","male","api",39.006009,0.01486,0.096591,6247111.9138236
+"6058","Apple",1,"Sales","female","api",684.238899,18.047139,9.767007,37172088.823059
+"27497","The Goldman Sachs Group",2,"Engineer","male","multiple",55.158159,0.933796,4.612575,5764334.13855925
+"40283","Accenture Plc",4,"Finance","male","white",363.656196,4.680045,3.812649,41133498.3681036
+"20543","Accenture Plc",3,"Marketing","female","hispanic",74.321644,0.650896,3.849324,6951886.83035161
+"12529","The Goldman Sachs Group",6,"Finance","female","black",3.277446,0.002945,0.001738,598072.316232778
+"5270","Apple",3,"empty","female","api",7.976613,0.007267,0.056233,1063008.55605864
+"12298","Accenture Plc",3,"Admin","male","black",63.56072,1.081088,1.285319,5851674.11737744
+"34038","The Goldman Sachs Group",6,"Operations","female","native",0.076817,3.1e-05,1.4e-05,17648.5054197154
+"36883","Databricks",1,"Engineer","female","white",4.787566,0.00470199999999999,0.16446,363117.022320039
+"11403","The Goldman Sachs Group",5,"Engineer","male","black",23.975064,1.457683,0.019952,4617666.06175274
+"12315","Accenture Plc",2,"Operations","female","black",55.885469,0.043816,0.165398,5060085.79677301
+"20868","Bristol Myers Squibb Co.",3,"Engineer","female","hispanic",46.780327,0.361077,0.244277,4774106.81099099
+"13092","The Goldman Sachs Group",5,"Engineer","male","black",24.702929,0.0156,0.026399,4824219.03139505
+"18444","Accenture Plc",2,"Finance","female","hispanic",120.240049,0.919024,4.452496,8370417.35621181
+"1666","Databricks",5,"Operations","female","api",0.00013799999999999,0.00013799999999999,0.00013799999999999,18.1983942942807
+"29791","Databricks",5,"Operations","male","native",0.037578,4.4e-05,8e-06,5141.06593668463
+"15718","Databricks",6,"Scientist","male","hispanic",0.085212,5.1e-05,1.8e-05,7878.48089643444
+"17704","Bristol Myers Squibb Co.",2,"Marketing","male","hispanic",6.055537,0.014316,0.182476,528334.507763283
+"12813","Accenture Plc",4,"Finance","male","black",56.260002,1.446963,0.356727,6152044.2449443
+"919","The Home Depot",3,"Scientist","male","api",0.058097,3.4e-05,1.8e-05,4609.05663389592
+"32547","Apple",6,"Marketing","female","native",0.067397,0,0,10749.672692606
+"16057","The Home Depot",6,"Marketing","female","hispanic",4e-06,0,4e-06,0.663681731264337
+"16088","Databricks",4,"Sales","female","hispanic",0.300756,0.008536,0.000201,42845.4858087932
+"6941","The Goldman Sachs Group",4,"Operations","female","api",21.246921,0.012319,0.011736,3625851.5948585
+"9718","Accenture Plc",2,"Scientist","male","black",13.720028,1.344235,0.716796,1096279.59899343
+"38361","Bristol Myers Squibb Co.",5,"Engineer","female","white",186.673698,5.409331,0.719458,24212172.0480995
+"36520","The Home Depot",3,"Operations","male","white",676.08751,9.819772,8.711313,54706177.090496
+"18378","Apple",6,"Operations","male","hispanic",5.724782,0.00156599999999999,0.001127,1584556.08226115
+"30771","Apple",4,"Admin","male","native",2.395864,0.037091,0.00406899999999999,326334.473172873
+"23000","Databricks",3,"Sales","male","multiple",1.997336,0.007815,0.104901,248585.571389379
+"4409","Apple",1,"Marketing","male","api",139.900499,4.501658,2.685809,9218447.10549488
+"33007","Accenture Plc",4,"Scientist","male","native",0.472814,0.000201,0.004406,43919.8387926203
+"6440","The Goldman Sachs Group",6,"Marketing","male","api",3e-05,0,0,1416063.84774624
+"36665","Databricks",2,"Engineer","female","white",17.748786,0.035323,0.517357,2296770.67807742
+"9782","Bristol Myers Squibb Co.",1,"Finance","female","black",8.689519,0.640904,0.00534899999999999,491160.384493765
+"38064","Bristol Myers Squibb Co.",5,"Marketing","male","white",43.590032,4.505653,2.482927,5918864.38260453
+"25692","Accenture Plc",6,"Finance","female","multiple",0.679532,0.00043899999999999,0.00047699999999999,124452.890634856
+"30580","Bristol Myers Squibb Co.",6,"Operations","female","native",0.001317,0,0,150.025049733803
+"22808","Databricks",2,"Sales","male","multiple",2.120691,0.448408,0.228573,197228.160725739
+"3545","Bristol Myers Squibb Co.",1,"Sales","male","api",14.250739,0.636132,0.054903,746309.080738597
+"24652","Accenture Plc",1,"Sales","female","multiple",23.341336,0.337407,0.303054,1147976.13357525
+"6629","Apple",2,"Operations","female","api",183.868186,2.164744,3.048912,14198744.6365324
+"8426","Databricks",1,"Admin","male","black",0.443991,0.00060599999999999,5e-05,26435.4591388468
+"7427","The Home Depot",4,"Sales","female","black",79.859221,0.048268,0.040181,7063570.67507962
+"38147","Bristol Myers Squibb Co.",5,"Operations","female","white",81.910494,3.194609,2.689589,11666104.4770491
+"21349","Databricks",2,"empty","male","multiple",0.013793,0,0,319727.310237189
+"5949","The Goldman Sachs Group",2,"Scientist","male","api",14.485289,0.822498,3.378215,1734855.00248774
+"31532","Bristol Myers Squibb Co.",2,"Finance","male","native",0.766753,0.014626,0.00850899999999999,64228.0311830944
+"34838","The Goldman Sachs Group",4,"Sales","female","native",0.737269,0.012973,0.016285,91125.4327457602
+"40143","Apple",7,"Sales","female","white",1.121136,0.00016899999999999,0.00012899999999999,277180.440104072
+"12132","Accenture Plc",4,"Marketing","female","black",110.948632,4.403145,5.018608,11618356.8681373
+"25208","Accenture Plc",1,"Operations","male","multiple",2.332319,0.058646,0.001668,145036.942722058
+"11694","Accenture Plc",7,"Operations","male","black",0,0,0,1436777.14995606
+"16577","Databricks",5,"Sales","male","hispanic",3.04644,0.002935,0.001189,471009.597579987
+"10793","Bristol Myers Squibb Co.",4,"Marketing","male","black",7.539325,0.007978,0.207296,996543.280025815
+"27606","The Goldman Sachs Group",7,"Sales","male","multiple",0,0,0,319727.310237189
+"37678","Bristol Myers Squibb Co.",4,"Marketing","male","white",49.560982,1.054593,0.084674,5884097.78148073
+"27127","The Goldman Sachs Group",4,"Sales","female","multiple",4.655779,0.107333,0.060183,626985.852812101
+"15619","The Home Depot",3,"Admin","female","hispanic",55.599661,0.058313,0.02348,4341817.51449745
+"21008","The Goldman Sachs Group",5,"Operations","male","hispanic",12.071158,0.003242,0.210018,2899658.15755069
+"41760","The Goldman Sachs Group",3,"empty","male","white",3.042563,0.001586,0.008413,279939.664111752
+"35206","The Goldman Sachs Group",4,"Marketing","female","native",0.149722,0.000292,0.000103,21112.1523639975
+"14931","The Home Depot",1,"Marketing","female","hispanic",57.207113,4.449702,1.359596,2909659.3840865
+"20404","The Goldman Sachs Group",4,"Marketing","male","hispanic",4.005015,0.00172799999999999,0.00447599999999999,463802.383572197
+"17964","Apple",3,"Engineer","female","hispanic",219.313712,6.075736,4.826895,27601413.8996113
+"714","The Home Depot",1,"Operations","female","api",112.17351,6.032844,1.886705,3809183.70653597
+"8162","The Home Depot",3,"Engineer","female","black",94.879589,2.254736,2.856005,9609800.50990534
+"29250","The Home Depot",1,"Sales","male","native",231.996812,5.533451,12.564275,8058934.99621106
+"14366","The Home Depot",3,"Scientist","female","hispanic",2.651248,0.00049899999999999,0.00023699999999999,187186.483222947
+"4919","Accenture Plc",1,"Sales","female","api",91.546967,4.944429,0.564084,4326018.97810224
+"15159","Databricks",4,"Sales","male","hispanic",4.233853,0.00962299999999999,0.001118,571152.011976346
+"9714","Bristol Myers Squibb Co.",4,"Admin","male","black",6.886797,0.510203,0.001807,894480.898828237
+"22046","The Home Depot",6,"Marketing","female","multiple",0.008626,0,3.4e-05,1310.60202459101
+"26150","Apple",5,"Admin","female","multiple",5.66043,0.032796,0.1474,784264.921637903
+"2768","Bristol Myers Squibb Co.",2,"Operations","male","api",18.153384,1.516343,1.068625,1270214.05335756
+"14328","Databricks",3,"Admin","female","hispanic",0.146693,0.000174,0.036905,15905.4865854155
+"31778","Bristol Myers Squibb Co.",4,"Finance","male","native",0.489667,0.044329,0.00943699999999999,55086.268062103
+"22069","The Home Depot",1,"Finance","male","multiple",10.047009,0.107042,0.083804,403103.678960533
+"28008","The Goldman Sachs Group",3,"Scientist","female","multiple",0.227427,0.00015699999999999,8.5e-05,21025.5378445676
+"23360","Databricks",5,"Marketing","male","multiple",0.059394,3.3e-05,4e-06,7839.4839970251
+"34616","The Goldman Sachs Group",4,"Operations","male","native",0.960085,0.001024,0.000386,142122.426499681
+"10242","Bristol Myers Squibb Co.",5,"Admin","female","black",6.082207,0.09865,0.009355,798893.029764355
+"34879","The Goldman Sachs Group",4,"Admin","female","native",0.619072,0.00489199999999999,0.00018,95913.4394369396
+"23791","Bristol Myers Squibb Co.",5,"empty","female","multiple",0.146751,0.000108,0.000117,18880.5441030291
+"16315","Databricks",5,"Scientist","female","hispanic",0,0,0,1128179.731503
+"22496","Databricks",3,"Operations","female","multiple",0.051273,3e-05,1.4e-05,6040.33209929418
+"1536","Apple",1,"Admin","male","api",198.819298,0.093076,1.201714,9925849.28732856
+"38210","Accenture Plc",3,"Scientist","female","white",60.272649,2.227751,0.02588,6127824.96877426
+"18715","Apple",2,"Scientist","female","hispanic",54.401669,0.825451,0.153722,4958226.39670817
+"4711","Bristol Myers Squibb Co.",6,"Operations","female","api",0.624736,0.00030499999999999,0.00032299999999999,102975.542602666
+"20750","Apple",1,"Marketing","male","hispanic",168.290673,9.043577,1.590052,11361395.0047961
+"42243","Apple",2,"Engineer","male","white",8319.374909,105.445111,135.325973,968346828.106124
+"17572","Accenture Plc",2,"Finance","male","hispanic",89.445885,2.28859,1.704097,6386428.55337406
+"40147","Apple",4,"Marketing","male","white",587.366749,12.331646,3.998153,73384026.2550872
+"5769","The Goldman Sachs Group",4,"Marketing","female","api",6.264195,0.00333499999999999,0.018601,956879.613215726
+"18655","Accenture Plc",2,"Admin","female","hispanic",195.722819,4.130907,7.758469,14118587.0569286
+"30398","Bristol Myers Squibb Co.",6,"Sales","male","native",0.044755,7.6e-05,6e-05,8051.3823123853
+"8534","Databricks",1,"empty","female","black",0,0,0,1436777.14995606
+"11329","Accenture Plc",2,"Operations","male","black",47.763431,0.057805,0.058524,4169809.56463353
+"10943","Apple",2,"Marketing","male","black",401.336175,4.363819,6.606891,35201779.6834601
+"42186","The Goldman Sachs Group",5,"Engineer","female","white",41.296772,1.543499,1.186514,7699104.46073138
+"24814","Accenture Plc",1,"Sales","female","multiple",23.558941,0.358485,0.987066,1153206.78362844
+"1391","The Home Depot",5,"Finance","male","api",5.862745,1.067259,0.000558,630841.269881732
+"34842","The Goldman Sachs Group",3,"empty","male","native",0.064783,3.1e-05,7.2e-05,4729.98979407447
+"22786","Bristol Myers Squibb Co.",6,"Finance","male","multiple",0.339474,0.024751,0.000408,73721.4635129903
+"31094","Apple",1,"empty","female","native",0.201434,0.000261,0.00065799999999999,10750.6817188297
+"16458","Databricks",6,"Finance","female","hispanic",0,0,0,1128179.731503
+"23687","Bristol Myers Squibb Co.",2,"Engineer","male","multiple",30.136266,0.325117,0.599391,2607700.01141403
+"14828","The Home Depot",1,"Engineer","female","hispanic",135.034978,2.922392,3.201172,6834788.13185643
+"40420","Apple",1,"empty","male","white",32.78041,0.242799,0.010464,1960925.43858876
+"21950","The Home Depot",1,"Engineer","male","multiple",62.821692,1.308671,0.615972,3257895.8805513
+"48","The Home Depot",4,"Sales","male","api",31.26602,1.113894,0.010684,2839263.16185668
+"34264","The Goldman Sachs Group",3,"Scientist","female","native",0.01518,0,0.001,1102.68850478436
+"18058","Accenture Plc",2,"Admin","male","hispanic",75.223332,1.641794,1.694124,5495483.04734373
+"846","The Home Depot",2,"Operations","female","api",64.658796,3.035367,0.494746,4245469.22806259
+"14493","The Home Depot",5,"Finance","male","hispanic",5.397557,0.011172,0.017094,656697.044329967
+"22189","Databricks",3,"Admin","female","multiple",0.870532,0.000471,0.032324,88825.9464633425
+"6378","The Goldman Sachs Group",5,"Finance","female","api",85.446693,0.277103,0.018402,20646122.0573495
+"20679","Apple",3,"Engineer","female","hispanic",197.996495,7.234272,0.965703,24323204.7477054
+"16652","Apple",4,"Scientist","male","hispanic",12.114293,0.005535,0.053084,1690547.28720844
+"6189","The Goldman Sachs Group",1,"Scientist","female","api",5.704452,1.346765,0.961858,393537.474602267
+"24881","Accenture Plc",6,"Sales","male","multiple",10.912691,0.016301,0.138644,2299453.8616974
+"15513","Databricks",2,"Finance","female","hispanic",0.938193,0.00051599999999999,6.7e-05,93289.9923780315
+"22925","Databricks",5,"Engineer","male","multiple",1.404526,0.011815,0.039677,225538.541140967
+"25931","Accenture Plc",2,"empty","male","multiple",1.778495,0.022469,0.000279,153184.229364155
+"21027","Apple",7,"Sales","male","hispanic",0,0,0,1128179.731503
+"16713","Bristol Myers Squibb Co.",6,"Engineer","female","hispanic",0.65697,0.000537,0.00110199999999999,93478.177251494
+"11465","Accenture Plc",4,"empty","male","black",7.680487,0.00460399999999999,0.007366,936467.304750411
+"34788","The Goldman Sachs Group",1,"Scientist","female","native",0.349062,0.003595,0.0233,18126.8361029794
+"28692","The Home Depot",2,"Engineer","male","native",26.359228,0.124322,0.35613,2298084.77436919
+"21463","The Home Depot",2,"Engineer","male","multiple",78.068102,2.5365,2.464364,7004717.76173395
+"37475","Bristol Myers Squibb Co.",2,"Sales","male","white",401.097299,8.801914,4.460118,32631625.6107768
+"6216","The Goldman Sachs Group",2,"Admin","male","api",62.372727,3.210553,4.937494,5376589.10809535
+"6257","Apple",2,"Scientist","female","api",150.332966,5.307974,0.912193,17307507.2085663
+"28826","The Home Depot",4,"Sales","male","native",4.490742,0.045647,0.113362,383915.194740204
+"22541","Bristol Myers Squibb Co.",2,"Sales","male","multiple",9.191132,0.049985,0.202962,735336.664904811
+"13558","The Goldman Sachs Group",7,"Sales","male","black",0.014093,0,0,3386.5549076389
+"37155","Databricks",3,"Finance","female","white",1.056604,0.00131,0.000997,119411.468951568
+"12335","Apple",5,"empty","female","black",0.246585,0.029423,0,29977.6791980302
+"34251","Apple",5,"Marketing","female","native",0.987561,0.037399,0.00691799999999999,143067.347260477
+"21815","Databricks",2,"Engineer","male","multiple",5.432205,0.258467,0.087476,751835.212024395
+"36802","Databricks",3,"Marketing","female","white",6.621003,0.008323,0.002148,768524.275353494
+"13237","The Goldman Sachs Group",4,"Operations","female","black",14.682146,0.017915,0.006503,2115962.73198734
+"8008","Databricks",4,"Admin","male","black",0.067277,5.7e-05,7.6e-05,7957.85551434856
+"11401","The Goldman Sachs Group",1,"Marketing","male","black",8.146393,0.009818,0.005378,580168.169120085
+"18034","Apple",6,"Admin","male","hispanic",0.788489,0.000266,3.4e-05,149153.072218568
+"32017","Accenture Plc",1,"Engineer","male","native",4.231404,0.043991,0.033229,243426.830082619
+"8519","The Home Depot",1,"Marketing","male","black",75.58244,1.211389,3.405245,3621628.43231704
+"20675","Apple",3,"Engineer","female","hispanic",193.08671,3.038837,2.324487,23618720.3245996
