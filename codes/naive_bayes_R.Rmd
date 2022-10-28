@@ -33,8 +33,10 @@ summary(df)
 mydata <- data.frame(df$salary, df$ethnicity) #select ethnicity and salary
 colnames(mydata) <- c('mypredictor', 'myresponse')
 
-mydata <- na.omit(mydata)
 summary(mydata)
+
+# Confirm that there are no more NA values
+which(colSums(is.na(df))>0)
 ```
 
 ## Split into training and testing sets
