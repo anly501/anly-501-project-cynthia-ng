@@ -46,6 +46,13 @@ df$company <- gsub(
   replacement = '',
   as.character(df$company))
 
+# Simplify company names for better readability
+df$company[df$company=="The Home Depot"]<-"Home Depot"
+df$company[df$company=="Bristol Myers Squibb Co."]<-"Bristol Myers Squibb"
+df$company[df$company=="Accenture Plc"]<-"Accenture"
+df$company[df$company=="The Goldman Sachs Group"]<-"Goldman Sachs"
+
+
 # 3. region column
 # Fill empty values with NA
 df$region <- gsub(
