@@ -9,9 +9,9 @@ body {
 ul {
     list-style-type: none;
     margin: 5px;
-    padding: 1px;
+    padding: 5px;
     overflow: hidden;
-    background-color: #792e2e;
+    background-color: #ffffff;
     max-width:1357px;
 }
 
