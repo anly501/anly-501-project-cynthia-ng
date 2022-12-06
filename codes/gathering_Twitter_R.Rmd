@@ -46,18 +46,25 @@ setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
 ## Search Tweets
 ```{r parameters}
+# Set paramters
+N = 200
+Lang = "en"
+
 # Call Tweets
-goldmansachs <- twitteR::searchTwitter("Goldman Sachs", n = 200, lang = "en")
-apple <- twitteR::searchTwitter("Apple", n = 200, lang = "en")
-bristolmyerssquibb <- twitteR::searchTwitter("Bristol Myers Squibb", n = 200, lang = "en")
-homedepot <- twitteR::searchTwitter("Home Depot", n = 200, lang = "en")
-accenture <- twitteR::searchTwitter("Accenture", n = 200, lang = "en")
+goldmansachs <- twitteR::searchTwitter("Goldman Sachs", n = N, lang = Lang)
+apple <- twitteR::searchTwitter("Apple", n = N, lang = Lang)
+bristolmyerssquibb <- twitteR::searchTwitter("Bristol Myers Squibb", n = N, lang = Lang)
+homedepot <- twitteR::searchTwitter("Home Depot", n = N, lang = Lang)
+accenture <- twitteR::searchTwitter("Accenture", n = N, lang = Lang)
+databricks <- twitteR::searchTwitter("Databricks", n = N, lang = Lang)
+
 
 gs_df <- twListToDF(goldmansachs)
 ap_df <- twListToDF(apple)
 bms_df <- twListToDF(bristolmyerssquibb)
 hd_df <- twListToDF(homedepot)
 ac_df <- twListToDF(accenture)
+db_df <- twListToDF(databricks)
 ```
 
 
@@ -101,5 +108,13 @@ FName = "../data/AccentureTweets.txt"
 MyFile <- file(FName)
 ## Write Tweets to file
 cat(unlist(ac_df), " ", file=MyFile, sep="\n")
+close(MyFile)
+
+# Save Databricks to file
+FName = "../data/DatabricksTweets.txt"
+## Start the file
+MyFile <- file(FName)
+## Write Tweets to file
+cat(unlist(db_df), " ", file=MyFile, sep="\n")
 close(MyFile)
 ```
