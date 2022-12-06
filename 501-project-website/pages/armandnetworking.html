@@ -1,132 +1,615 @@
 <!DOCTYPE html>
-<html>
-    
-<head>
-    <title>
-			Cynthia Ng – 501 project
-		</title>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-    <!-- point to css stylesheet -->
-    <link rel="stylesheet" href="../styles.css">
- 
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>ARM on Workforce Diversity Outcomes Record Dataset</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="ARM_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ARM_files/libs/quarto-html/quarto.js"></script>
+<script src="ARM_files/libs/quarto-html/popper.min.js"></script>
+<script src="ARM_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="ARM_files/libs/quarto-html/anchor.min.js"></script>
+<link href="ARM_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ARM_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="ARM_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="ARM_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="ARM_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body>
+<body class="fullcontent">
 
 <!-- HEADER BAR -->
 <ul>
-    <!-- About Me tab -->
-    <li>
-			<a href="../index.html">
-				About me
-			</a>
-		</li>
+  <!-- About Me tab -->
+  <li>
+    <a href="../index.html">
+      About me
+    </a>
+  </li>
+
+  <!-- Code tab  -->
+  <li>
+    <a href="https://github.com/anly501/anly-501-project-cynthia-ng/tree/main/codes">
+      Code
+    </a>
+  </li>
   
-    <!-- Code tab  -->
-    <li>
-		<a href="https://github.com/anly501/anly-501-project-cynthia-ng/tree/main/codes">
-			Code
-		</a>
-	</li>
-    
-    <!-- Data tab -->
-	<li>
-		<a href="https://github.com/anly501/anly-501-project-cynthia-ng/tree/main/data">
-		Data
-	</a>
-	</li>
-	
-    <!-- Introduction tab  -->
-    <li>
-			<a href="introduction.html">
-				Introduction
-			</a>
-		</li>
-  
-    <!-- Data Gathering tab  -->
-    <li>
-			<a href="datagathering.html">
-				Data Gathering
-			</a>
-		</li>
-  
-    <!-- Data Cleaning tab  -->
-    <li>
-			<a href="datacleaning.html">
-				Data Cleaning
-			</a>
-		</li>
-  
-    <!-- Exploring Data tab  -->
-    <li>
-			<a href="exploringdata.html">
-				Exploring Data
-			</a>
-		</li>
-  
-    <!-- Naïve Bayes tab  -->
-    <li>
-			<a href="naivebayes.html">
-				Naive Bayes
-			</a>
-		</li>
-  
-    <!-- Decision Trees tab  -->
-    <li>
-			<a href="decisiontrees.html">
-				Decision Trees
-			</a>
-		</li>
-  
-    <!-- SVM tab  -->
-    <li>
-			<a href="svm.html">
-				SVM
-			</a>
-		</li>
-  
-    <!-- Clustering tab  -->
-    <li>
-			<a href="clustering.html">
-				Clustering
-			</a>
-		</li>
-  
-    <!-- ARM and Networking tab  -->
-    <li>
-			<a href="armandnetworking.html">
-				ARM and Networking
-			</a>
-		</li>
-  
-    <!-- Conclusions tab  -->
-    <li>
-			<a href="conclusions.html">
-				Conclusions
-			</a>
-		</li>
+  <!-- Data tab -->
+<li>
+  <a href="https://github.com/anly501/anly-501-project-cynthia-ng/tree/main/data">
+  Data
+</a>
+</li>
+
+  <!-- Introduction tab  -->
+  <li>
+    <a href="introduction.html">
+      Introduction
+    </a>
+  </li>
+
+  <!-- Data Gathering tab  -->
+  <li>
+    <a href="datagathering.html">
+      Data Gathering
+    </a>
+  </li>
+
+  <!-- Data Cleaning tab  -->
+  <li>
+    <a href="datacleaning.html">
+      Data Cleaning
+    </a>
+  </li>
+
+  <!-- Exploring Data tab  -->
+  <li>
+    <a href="exploringdata.html">
+      Exploring Data
+    </a>
+  </li>
+
+  <!-- Naïve Bayes tab  -->
+  <li>
+    <a href="naivebayes.html">
+      Naive Bayes
+    </a>
+  </li>
+
+  <!-- Decision Trees tab  -->
+  <li>
+    <a href="decisiontrees.html">
+      Decision Trees
+    </a>
+  </li>
+
+  <!-- SVM tab  -->
+  <li>
+    <a href="svm.html">
+      SVM
+    </a>
+  </li>
+
+  <!-- Clustering tab  -->
+  <li>
+    <a href="clustering.html">
+      Clustering
+    </a>
+  </li>
+
+  <!-- ARM and Networking tab  -->
+  <li>
+    <a href="armandnetworking.html">
+      ARM and Networking
+    </a>
+  </li>
+
+  <!-- Conclusions tab  -->
+  <li>
+    <a href="conclusions.html">
+      Conclusions
+    </a>
+  </li>
 </ul>
+
 
 
 <!--FOOTER-->
 <footer>
-	<p>
-		Cynthia Ng  |  NetID: cn524  | 
-		<a href="mailto:cn524@georgetown.edu"> cn524@georgetown.edu</a>
-		 |
-		<a href="https://itscynthia.com/">Personal Website</a>
-		 |
-		<a href="https://www.linkedin.com/in/itscynthia/">LinkedIn</a>
-	</p>
+<p>
+  Cynthia Ng  |  NetID: cn524  | 
+  <a href="mailto:cn524@georgetown.edu"> cn524@georgetown.edu</a>
+   |
+  <a href="https://itscynthia.com/">Personal Website</a>
+   |
+  <a href="https://www.linkedin.com/in/itscynthia/">LinkedIn</a>
+</p>
 </footer>
 
 
-<!--MAIN CONTENT-->
-<div id="ARM and Networking" class="section level1">
-    <h1>
-		ARM and Networking
-	</h1>
-	<p>
-		Ongoing project; to be completed. 
-	</p>
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ARM on Workforce Diversity Outcomes Record Dataset</h1>
 </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="associate-rule-mining-arm-on-workforce-diveristy-outcomes-record-dataset" class="level1">
+<h1>Associate Rule Mining (ARM) on Workforce Diveristy Outcomes Record Dataset</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
+<p>Associate rule mining (ARM) is concerned with associations between data items. ARM is an unsupervised machine learning method and is best used with categorical variables, so I am most concerned with the categorical record feature variables in my dataset. I want to find associations between seniority, gender, and ethnicity. There are seven levels of seniority, with 1 being the lowest and 7 being the highest (Revelio Labs, 2022). The dataset only has 2 levels of gender: male and female. Finally, there are six categories of ethnicity: ‘api’, ‘black’, ‘hispanic’, ‘multiple’, ‘native’, ‘white.’ I am not using the discrete variable ‘count’ or continuous variables ‘inflow,’ ‘outflow,’ and ‘salary,’ since ARM works best with categorical variables. Through my ARM analysis, I hope to uncover relationships between gender, ethnicity, and seniority in the six different public companies.</p>
+</section>
+<section id="theory" class="level2">
+<h2 class="anchored" data-anchor-id="theory">2. Theory</h2>
+<p>ARM is used to find associations between items in a set of transactions, or dataset. In particular, it is used for categorical data. ARM can be summarized in if-then statements; the “if” is also called an antecedent, while the “then” is also called a consequent. For example, we can find the association that “if a customer buys succulents, then they will purchase fertilizer”, which can be represented as {“succulents” –&gt; “fertilizer”}; here, “succulents” is the “if” or antecedent, while “fertilizer” is the “then” or consequent. This association is directional, so one direction of the association may not hold true for the other direction (Remanan, 2018). In other words, the association “if X then Y” does not mean “if Y then X”.</p>
+<p>Market basket analysis is a key application of ARM to uncover associations between items purchased by a customer. For example, if people purchase a sponge, they might purchase dish detergent as well since these are complementary cleaning household items. Learning about the strength of associations like this is helpful for companies to place products on aisles. It is important to note that ARM finds associations in a whole group rather than for a single identifier or customer, so we will not use this algorithm to, say, develop personal recommendations for a user given the user’s past purchasing baskets (Garg, 2018).</p>
+<p>Defining several terms in ARM can help us understand ARM further. An itemset is a set of items described in a rule that can be partitioned into a binary “if” and “then”. A rule describes a directional association between items in an itemset. For example, {X, Y, Z} is an itemset while {X -&gt; Y, Z} and {Y -&gt; X, Z} are two example rules that could emerge from this itemset.</p>
+<p>Furthermore, there are several concepts of ARM that are used to evaluate the strength of a rule: 1. Support is the fraction of data containing the itemset. Given itemset {X, Y}, Support(X and Y) = P(X and Y). 2. Confidence is the probability of occurrence of {Y} given {X} is present, or {Y|X}. Confidence(X -&gt; Y) = P(X and Y) / P(X). 3. Lift is the ratio of confidence to baseline probability of occurrence of {Y}. Lift(X -&gt; Y) = Support(X and Y) / (Support(X) * Support(Y)).</p>
+<p>The apriori algorithm is one of many algorithms used for ARM. The apriori algorithm has two main steps: 1. Finds frequent itemsets with only 1 item. Frequent itemsets are defined as itemsets where support is greater than or equal to a minimum threshold, minsup. Apriori iterates this process to find frequent itemsets with only 2 items, then 3 items, and so on. Identifying frequent itemsets reduces the number of iterations apriori would have to perform in the next step. 2. Generates all permutations of “if” and “then” rules from the frequent itemsets. Apriori then prunes to find rules that have a confidence level above the minimum confidence level (minconf).</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">3. Methods</h2>
+<p>To conduct ARM, I first load necessary libraries and read the cleaned data. Then, I conducted further data cleaning by selecting the three relevant columns of gender, ethnicity, and seniority, convert them to string datatype, and then reformat them into a list of lists called ‘temp’ for the apriori algorithm. Each list in ‘temp’ contains 3 items––a given employee’s gender, ethnicity, and seniority.</p>
+<p>Then, I defined three apriori utility functions referenced from Lab 6.1 led by Professor Nakul and Professor Hickman. The function reformat_results converts the apriori algorithm’s output into pandas dataframe with columns “rhs”, “lhs”, “supp”, “conf”, “supp x conf”, and “lift”. Specifically, The apropri model divides the data into LHS and RHS, which are the antecedent (“if”) and consequent (“then”). Then, the function convert_to_network() converts the dataframe to a network graph. Finally, the function plot_network() plots and visualizes the ARM network.</p>
+<p>After defining these utility functions with global variables, I trained the ARM model on my data. I defined the parameters min_support, min_confidence, min_length, and max_length. In short, min_support is the minimum support or minsup variable mentioned in the previous subsection; the algorithm selects support values greater than the value specified in the parameter. Similarly, min_confidence is the minimum confidence or minconf variable and selects confidence values greater than specified. Min_length specifies the minimum number of items in each itemset while max_length specifies the maximum number of items in each itemset. I tried various min_support and min_confidence values and finalized on values that gave me data that made the most sense, while I specified min_length to be 2 and max_length to be 3, since there are only 3 different categories of variables from which associations can emerge. After defining the parameters, I applied the apriori() function to my ‘temp’ list of lists, and then applied the utility functions to the algorithm’s output to generate an ARM network graph.</p>
+<div class="cell" data-execution_count="1">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary libraries </span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> apyori <span class="im">import</span> apriori</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> networkx <span class="im">as</span> nx </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">'../data/cleaned_wf_demo.csv'</span>, index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'ethnicity'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<pre><code>array(['api', 'black', 'hispanic', 'multiple', 'native', 'white'],
+      dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="2">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Clean and reformat data</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert seniority column to string type since convert_to_network takes in string type</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'seniority'</span>] <span class="op">=</span> df.seniority.astype(<span class="bu">str</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Select the columns we need into temporarly dataframes</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>temp_1 <span class="op">=</span> df[<span class="st">'seniority'</span>]</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>temp_2 <span class="op">=</span> df[<span class="st">'gender'</span>]</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>temp_3 <span class="op">=</span> df[<span class="st">'ethnicity'</span>]</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset index for both dataframes</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>temp_1.reset_index(drop<span class="op">=</span><span class="va">True</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>temp_2.reset_index(drop<span class="op">=</span><span class="va">True</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>temp_3.reset_index(drop<span class="op">=</span><span class="va">True</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize list</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>temp <span class="op">=</span> [] </span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of lists of the data we need</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(temp_1)):</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> [temp_1[i], temp_2[i], temp_3[i]]</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    temp.append(x)</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Check temp list</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>temp[<span class="dv">7050</span>:<span class="dv">7070</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="2">
+<pre><code>[['2', 'female', 'api'],
+ ['5', 'female', 'api'],
+ ['2', 'male', 'api'],
+ ['4', 'male', 'api'],
+ ['5', 'female', 'api'],
+ ['6', 'male', 'api'],
+ ['2', 'female', 'black'],
+ ['4', 'female', 'black'],
+ ['2', 'male', 'black'],
+ ['5', 'male', 'black'],
+ ['5', 'female', 'black'],
+ ['6', 'female', 'black'],
+ ['6', 'female', 'black'],
+ ['2', 'male', 'black'],
+ ['6', 'male', 'black'],
+ ['2', 'male', 'black'],
+ ['5', 'female', 'black'],
+ ['6', 'female', 'black'],
+ ['6', 'female', 'black'],
+ ['1', 'male', 'black']]</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="3">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Define apriori utility functions</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Define function that converts apriori output into pandas dataframe with columns "rhs","lhs","supp","conf","supp x conf", and "lift"</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> reformat_results(results):</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    keep <span class="op">=</span> []</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,<span class="bu">len</span>(results)):</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,<span class="bu">len</span>(<span class="bu">list</span>(results[i]))):</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> (j <span class="op">&gt;</span> <span class="dv">1</span>):</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>                <span class="cf">for</span> k <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,<span class="bu">len</span>(<span class="bu">list</span>(results)[i][j])):</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span>(<span class="bu">len</span>(results[i][j][k][<span class="dv">0</span>])<span class="op">!=</span><span class="dv">0</span>):</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>                        rhs <span class="op">=</span> <span class="bu">list</span>(results[i][j][k][<span class="dv">0</span>])</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>                        lhs <span class="op">=</span> <span class="bu">list</span>(results[i][j][k][<span class="dv">1</span>])</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>                        conf <span class="op">=</span> <span class="bu">float</span>(results[i][j][k][<span class="dv">2</span>])</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>                        lift <span class="op">=</span> <span class="bu">float</span>(results[i][j][k][<span class="dv">3</span>])</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>                        keep.append([rhs,lhs,supp,conf,supp<span class="op">*</span>conf,lift])</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> (j <span class="op">==</span> <span class="dv">1</span>):</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>                supp <span class="op">=</span> results[i][j]</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> pd.DataFrame(keep,columns <span class="op">=</span> [<span class="st">"rhs"</span>,<span class="st">"lhs"</span>,<span class="st">"supp"</span>,<span class="st">"conf"</span>,<span class="st">"supp x conf"</span>,<span class="st">"lift"</span>])</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Define convert_to_network function that converts dataframe to network</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> convert_to_network(dfa):</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(dfa)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    <span class="co">#BUILD GRAPH</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    G <span class="op">=</span> nx.DiGraph()  <span class="co"># DIRECTED</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> row <span class="kw">in</span> dfa.iterrows():</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>        <span class="co"># for column in df.columns:</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>        lhs<span class="op">=</span><span class="st">"_"</span>.join(row[<span class="dv">1</span>][<span class="dv">0</span>])</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>        rhs<span class="op">=</span><span class="st">"_"</span>.join(row[<span class="dv">1</span>][<span class="dv">1</span>])</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>        conf<span class="op">=</span>row[<span class="dv">1</span>][<span class="dv">3</span>]<span class="op">;</span> <span class="co">#print(conf)</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(lhs <span class="kw">not</span> <span class="kw">in</span> G.nodes): </span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>            G.add_node(lhs)</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(rhs <span class="kw">not</span> <span class="kw">in</span> G.nodes): </span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>            G.add_node(rhs)</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>        edge<span class="op">=</span>(lhs,rhs)</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> edge <span class="kw">not</span> <span class="kw">in</span> G.edges:</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>            G.add_edge(lhs, rhs, weight<span class="op">=</span>conf)</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> G</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Define plot_network function that plots network</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_network(G):</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>    <span class="co">#SPECIFIY X-Y POSITIONS FOR PLOTTING</span></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>    pos<span class="op">=</span>nx.random_layout(G)</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>    <span class="co">#GENERATE PLOT</span></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>    fig.set_size_inches(<span class="dv">10</span>, <span class="dv">10</span>)</span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>    <span class="co">#assign colors based on attributes</span></span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>    weights_e   <span class="op">=</span> [G[u][v][<span class="st">'weight'</span>] <span class="cf">for</span> u,v <span class="kw">in</span> G.edges()]</span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>    <span class="co">#SAMPLE CMAP FOR COLORS </span></span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>    cmap<span class="op">=</span>plt.cm.get_cmap(<span class="st">'Reds'</span>)</span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>    colors_e    <span class="op">=</span> [cmap(G[u][v][<span class="st">'weight'</span>]<span class="op">*</span><span class="dv">20</span>) <span class="cf">for</span> u,v <span class="kw">in</span> G.edges()]</span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>    <span class="co">#PLOT</span></span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>    nx.draw(</span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a>    G,</span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>    node_color<span class="op">=</span><span class="st">"pink"</span>,</span>
+<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>    node_size<span class="op">=</span><span class="dv">2000</span>,</span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>    linewidths<span class="op">=</span><span class="fl">1.5</span>,</span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>    font_size<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>    font_color<span class="op">=</span><span class="st">"black"</span>,</span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>    font_weight<span class="op">=</span><span class="st">"bold"</span>,</span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a>    width<span class="op">=</span>weights_e,</span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a>    with_labels<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>    pos<span class="op">=</span>pos,</span>
+<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a>    ax<span class="op">=</span>ax</span>
+<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a>    ax.<span class="bu">set</span>(title<span class="op">=</span><span class="st">'Gender and Seniority'</span>)</span>
+<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell" data-execution_count="4">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Train model</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Define paramters</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>minsup <span class="op">=</span> <span class="fl">0.035</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>minconfi <span class="op">=</span> <span class="fl">0.25</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>minlen <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>maxlen <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate results</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> <span class="bu">list</span>(apriori(temp, min_support <span class="op">=</span> minsup, min_confidence <span class="op">=</span> minconfi, min_length <span class="op">=</span> minlen, max_length <span class="op">=</span> maxlen))</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply functions to results</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>pd_results <span class="op">=</span> reformat_results(results)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>G <span class="op">=</span> convert_to_network(pd_results)</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>plot_network(G)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>           rhs       lhs      supp  conf  supp x conf  lift
+0          [1]  [female]  0.081633   0.5     0.040816   1.0
+1          [1]    [male]  0.081633   0.5     0.040816   1.0
+2          [2]  [female]  0.081633   0.5     0.040816   1.0
+3          [2]    [male]  0.081633   0.5     0.040816   1.0
+4          [3]  [female]  0.081633   0.5     0.040816   1.0
+5          [3]    [male]  0.081633   0.5     0.040816   1.0
+6          [4]  [female]  0.079932   0.5     0.039966   1.0
+7          [4]    [male]  0.079932   0.5     0.039966   1.0
+8          [5]  [female]  0.081633   0.5     0.040816   1.0
+9          [5]    [male]  0.081633   0.5     0.040816   1.0
+10         [6]  [female]  0.078231   0.5     0.039116   1.0
+11         [6]    [male]  0.078231   0.5     0.039116   1.0
+12       [api]  [female]  0.083333   0.5     0.041667   1.0
+13       [api]    [male]  0.083333   0.5     0.041667   1.0
+14     [black]  [female]  0.083333   0.5     0.041667   1.0
+15     [black]    [male]  0.083333   0.5     0.041667   1.0
+16  [hispanic]  [female]  0.083333   0.5     0.041667   1.0
+17  [multiple]  [female]  0.083333   0.5     0.041667   1.0
+18    [native]  [female]  0.083333   0.5     0.041667   1.0
+19     [white]  [female]  0.083333   0.5     0.041667   1.0
+20  [hispanic]    [male]  0.083333   0.5     0.041667   1.0
+21  [multiple]    [male]  0.083333   0.5     0.041667   1.0
+22    [native]    [male]  0.083333   0.5     0.041667   1.0
+23     [white]    [male]  0.083333   0.5     0.041667   1.0</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<p><img src="ARM_files/figure-html/cell-5-output-2.png" width="763" height="778"></p>
+</div>
+</div>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">4. Results</h2>
+<p>The results can be summarized in the following points: 1. Employees with either gender identity have strong associations with all ethnicity and job seniority categories. This means that there are no particular associations that are highlighted or revealing. This is confirmed with the generally consistent confidence and lift values. 2. Single-sided arrows in the network indicate that all associations are one-directional. That means that for any given association rule in the network, the other direction does not apply. For example, if we look at the association between male and 5, because the arrow is pointing from 5 to male, that means if someone is male then they have a job seniority of 5, but it does not that if someone has a job seniority of 5 then they are male. In particular, the arrows point towards gender, indicating “if” there’s a given ethnicity or job category, “then” there is an associated gender. 3. There are no associations between the gender categories, between the ethnicity categories, or between the seniority categories––this makes sense because each person can only take one value of each of these three groups.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">5. Conclusion</h2>
+<p>In conclusion, it seems like ARM is not indicating any particular relationships between gender, ethnicity, and job seniority. This finding indicates that there may be other variables that I did not include in my features that affect seniority. If I had more time to conduct this analysis, I would examine other variables further to see if there are any associations. In particular, I would love to include company label, as past analyses in supervised ML algorithms showed me that there is a company-by-company variation in variables like seniority, ethnicity, and gender. Also, since I generated findings from incorporating variables like salary, inflow, and outflow, which cannot be included here since these are not categorical variables, ARM may not the most suitable algorithm for this dataset.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">6. References</h2>
+<ol type="1">
+<li>Edureka!. “Apriori Algorithm Explained | Association Rule Mining | Finding Frequent Itemset | Edureka.” YouTube, YouTube, 19 June 2019, https://www.youtube.com/watch?v=guVvtZ7ZClw.</li>
+<li>Remanan, S. (2018, November 2). Association rule mining. Medium. Retrieved December 1, 2022, from https://towardsdatascience.com/association-rule-mining-be4122fc1793</li>
+<li>Revelio Labs (2022, June 2). “FAQs” Revelio Labs Data Dictionary. Retrieved December 1, 2022, from https://www.data-dictionary.reveliolabs.com/faq.html</li>
+<li>Garg, Anisha (2018, September 3). “Complete guide to Association Rules (1/2).” Medium. Retrieved December 1, 2022, from https://towardsdatascience.com/association-rules-2-aa9a77241654</li>
+<li>Garg, Anisha (2018, September 17). “Complete guide to Association Rules (2/2).” Medium. Retrieved December 1, 2022, from https://towardsdatascience.com/complete-guide-to-association-rules-2-2-c92072b56c84</li>
+</ol>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
