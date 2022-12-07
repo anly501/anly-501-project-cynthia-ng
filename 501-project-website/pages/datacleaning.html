@@ -123,22 +123,76 @@
 
 
 <!--MAIN CONTENT-->
-<div id="Data Cleaning" class="section level1">
-<h1>Data Cleaning</h1>
-
+<div class="section level1">
 
 <!-- USE A TABLE TO ORGANIZE/FORMAT THE WEBPAGE -->
 <table>
-    <!--TABLE ROW-1-->
-   <tr>      
-      <!--ROW-1 COL-1-->
-      <td>
-        <p  style="font-size:13px;"> Data cleaning </p>
-        <p  style="font-size:11px;"> First, I used R to clean the quantitative "wf_dynam_demo_breakdown.csv" data. Please see "employment_cleaning.R" on Github linked in the data tab for more info. 
-        To clean, I first cleaned up the column name "company" and changed the "month" column to "year". Then, I removed columns that are irrelevant to this project. </p>
+    <!--ROW-1 COL-1-->
+    <td>
+	<h1>
+		Data Cleaning
+	</h1>   
+        <p> I cleaned both my record workforce dynamics data as well as my Tweets data. 
+			<br>
+			<br>
+			<br>
+		<h2>Cleaning Record Workforce Dynamics Data in R (<a href="https://github.com/anly501/anly-501-project-cynthia-ng/blob/main/codes/cleaning_R.Rmd">link to code</a>)</h2>
+			<br>
+			I used R to clean one of the three record datasets from Revelio Labs, "wf_dynam_demo_breakdown.csv". 
+			I only cleaned this dataset because the other two datasets are unnecessary for my analysis down the road, as this is the only dataset with demographic data (gender and ethnicity). 
+			As mentioned in the data tab, the raw workforce dynamics datasets cannot be uploaded to GitHub or GU Domains due to their large size.
+			Instead, you can download the raw workforce dynamics dataset from Revelio Labs via AWS (<a href="https://revelio-client-sample.s3.us-east-2.amazonaws.com/latest/revelio_wf_dynam/wf_dynam_demo_breakdown.csv">link</a>)
 
-        <p  style="font-size:11px;"> Next, I used Python to clean the Tweets data. I removed vectorized the dataframe and removed stopwords. Please see "tweet_cleaning.py" on Github linked in the data tab for more info. 
+			<br>
+			<br>
+			
+			I mainly worked column-by-column to clean the data. 
+			First, I removed the rcid column becauase we do not need company id for only six companies. 
+			Second, I removed the ', Inc.' and '\\' substrings in the company column values. 
+			Then, I renamed some of the company names for better readability and consistency.
+
+			For the region column, I filled empty values with 'NA' so that they are more easily retrievable. 
+
+			For the year column, I changed the 'month' column to show only the year since I am not interested in the month-by-month granularity. 
+
+			Because the data is so large, I subsetted the data to data where year is 2020 and region is Northern America. 
+			I also think subsetting would yield interesting and relevant workfroce insights since the pandemic started in 2020 and we are based in Northern America. 
+			After subsetting, I removed the year and region columns since they are all the same (2020 and Northern America). 
+			<br>
+			<br>
+			Then, I moved onto to checking and imputing NA values in the data. I first checked which columns have NAs. 
+			I confirmed that 'salary' is the only column with NA values--which makes sense since this data is especially difficult to obtain.
+			Then, I used ddply from the plyr library to impute NA values in the salary column to the median salary of employees belonging in the same ethnicity. 
+			I chose to impute with the median because medians mitigate the effects of outliers, whereas means take outliers into account.  
+			I chose to use the medians of ethnicity specifically because it is one of only two categorical demographic variables in the data, which means it has more variation compared to gender, for which there are only two values. 
+			If I had more time, I would like to investigate further the relationships between ethnicity, gender and salary before deciding on imputing NAs with medians of the corresponding ethnicity.
+			Because if there are no solid relationships, then I might remove the NAs instead. 
+			<br>
+			<br>
+			While the cleaned data is still a lot smaller in size than the raw data, it is still too large to upload onto GitHub. 
+			Hence, I created a sample of the cleaned data available on GitHub (<a href="https://github.com/anly501/anly-501-project-cynthia-ng/blob/main/data/cleaned_wf_demo_sample.csv">sample data here</a>).
+			<br>
+			<br>
+			For reference, this is a snapshot of the raw workforce demographics data:
+			<br>
+			<br>
+			<img src="../images/wf_demo.png" width="1250" height="350">
+			<br>
+			<br>
+			<br>
+			After cleaning, this what the cleaned data looks like:
+			<br>
+			<br>
+			<img src="../images/wf_demo_cleaned.png" width="900" height="300">
+			<br>
+			<br>
+			<br>
+		<h2>Cleaning Tweets Text Data in Python (<a href="https://github.com/anly501/anly-501-project-cynthia-ng/blob/main/codes/cleaning_py.ipynb">link to code</a>)</h2>
+			<br>
+			I used Python to clean the Tweets data. I removed vectorized the dataframe and removed stopwords. 
+			Please see "tweet_cleaning.py" on Github linked in the data tab for more info. 
             To clean, I 
+			<img src="../images/tweets_cleaned.png" width="800" height="350">
 
       </td>
          
