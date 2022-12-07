@@ -30,11 +30,11 @@
 		</li>
     
     <!-- Data tab -->
-	<li>
-        <a href="data.html">
-				Data
-		</a>
-    </li>
+    <li>
+      <a href="data.html">
+      Data
+  </a>
+  </li>
   
     <!-- Introduction tab  -->
     <li>
@@ -105,7 +105,8 @@
 				Conclusions
 			</a>
 		</li>
-</ul>
+  </ul>
+
 
 
 <!--FOOTER-->
@@ -122,12 +123,72 @@
 
 
 <!--MAIN CONTENT-->
-<div id="Conclusions" class="section level1">
-    <h1>
-		Conclusions
-	</h1>
-	<p>
-		Ongoing project; to be completed.
-	</p>
-</div>
 
+<table>
+  <td>
+    <h1>
+      Conclusions
+    </h1>
+    <p>
+		From gathering data to cleaning and exploring data, and to building supervised and non-supervised machine learning models, I learned so much about the process of data science and about workforce diversity in companies.
+		<br>
+		<br>
+		First, I gathered data from several sources. 
+		I feel tremendously lucky to have obtained Revelio Labs' workforce dynamics dataset, which forms the core part of my project and analysis.
+		I am very glad I reached out to them and did not give up. 
+		Still, I did not expect data gathering to have taken me such a long time, and it did cause a backlog of work once I got my hands on the data.
+		While I thought it was really worth it, I think one key reflection from this part of the step is to make sure that I find the data I need before I solidify a topic.
+		The time constraints of this project meant that I did have to pick a topic before I knew the availability of data, but this is an important reflection for future project work where the timeline is not as tight.
+		<br>
+		<br>
+		After gathering the data, I cleaned and explored the data. 
+		Reflecting on this part of the project, I learned how cleaning data serves the second most important basis of data analysis. 
+		Without clean data, the analysis will be flawed or warped, and the results from model training may be inaccurate.
+		I found it particularly insightful to learn about ways to impute NAs in the data. In the future, I will continue to keep in mind the way I did this time the importance of considering imputing NAs using means, modes, and medians within the groups that a specific NA falls in.
+		In the future, I hope to explore the impact of imputing NAs using different methods before selecting a specific method.
+		<br>
+		<br>
+		When training my Naive Bayes model, the model predicted the training data well at 77%, but the testing data poorly at 20%. 
+		From this process I got to see how un-normalized data makes it perform poorly on test and unfamiliar data. 
+		This taught me to normalize the data first so that the predictions are hopefully more accurate. 
+		From this experience, I also wanted to train the model on several other features such as seniority, outflow/inflow, and gender.
+		<br>
+		<br>
+		Next, I did my decision tree model which turned out to be the most high quality model due to the high accuracy scores for both training and test sets. 
+		Specifically, the model was 99.2% accurate on the training set and 92.8% on the test set. 
+		The accuracy scores exceed the 85% threshold for a model to be considered accurate.
+		<br>
+		<br>
+		When training for SVM, I found that SVM did not fit very well. The SVM model produced the same accuracy of 67% on the training set and 64% on the test set across all four types of kernels. 
+		The accuracy scores of either set did not meet the 85% threshold for a model to be considered accurate. 
+		For next steps, as I have more time to dig deeper into my data and model, I hope to examine where the model is "stuck" at and fix the problem.
+		<br>
+		<br>
+		After working on the supervised machine learning models, I worked on the unsupervised machine learning models of clustering and associate rule mining (ARM). 
+		Compared to the supervised learning algorithms (Naive Bayes, Decision Trees, and SVM), clustering algorithms do not take the target variable into account when building the model. 
+		Learning from the last subsections, I normalized my record data this time in order to make the models more accurate, especially on test data.
+		Still, I expected none of the clustering models seemed to have worked particularly well. 
+		Out of all three methods, k-means did the best in terms of predicting the nuanced clusters in the lower half of the normalized salary range, while DBSCAN did the best in predicting nuances in the upper half of the normalized salary range. 
+		Still, overall, this analysis confirms my understanding that clustering algorithms cannot predict labels very accurately since the target variable is not fed into the model and each company's salary and outflow features are not extremely distinct from each other.
+		Clustering the data has shown that there are distinct differences in companies' salary and outflow features. Generally higher salaries give a higher probability of leaving the company. 
+		For further exploration, I think it would be interesting to explore relationships between salary/outflow and categorical features like ethnicity and gender.
+		<br>
+		<br>
+		Finally, I looked at ARM. It seems like ARM did not indicate any particular relationship between gender, ethnicity, and job seniority. 
+		It might have been because I did not use normalized data for this model, which I will make sure to do in the future. 
+		<br>
+		<br>
+		Reflecting on my results, I was able to achieve what I set out to do, which is to explore workforce diversity data. 
+		I discovered less-obvious trends between demographic data like gender and ethnicity and workforce indicators like salary and income. 
+		However, I did uncover through k-means that higher salaries seem to give a higher probability of leaving the company, which make sense in real life. 
+		The more a person is earning in a company, the more likely a person is skilled and valued in what they do. 
+		This perhaps means the more job options the person has, which would lead them to leave the company. 
+		As someone who cares deeply about workforce diversity, I found this project very insightful and enjoyable. 
+		I hope to grasp more opportunities in the future to examine workforce diversity data further and uncover more insights. 
+		By revealing any trends, I hope that my work in this space can help trigger awareness and more action in creating more diverse workplaces.
+	</p>
+</td>
+</table>
+<br>
+</body>
+</html>
