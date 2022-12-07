@@ -133,7 +133,7 @@
 	<h1>
 		Data Gathering
 	</h1>   
-	<p>Please find my gathering_Twitter_R.Rmd and gathering_py.ipynb files in my GitHub <a href="https://github.com/anly501/anly-501-project-cynthia-ng/tree/main/codes">code folder</a> for API codes.</p>
+	<p>I gathered three main sets of data––3 sets of workforce record data from Revelio labs, 6 sets of Tweets from Twitter via API, and 6 sets of Wikipedia text data via API. Please find my gathering_Twitter_R.Rmd and gathering_py.ipynb files in my GitHub <a href="https://github.com/anly501/anly-501-project-cynthia-ng/tree/main/codes">code folder</a> for API codes.</p>
 	<br>
 	<h2>
 		Workforce Record Data from Revelio Labs
@@ -150,7 +150,7 @@
 		I felt very lucky to have come across Revelio Labs, but quickly learned that they does not have open or public access to their backend data. As a result, I cold-messaged several of their employees on LinkedIn. Paulina Aceves, Research Analyst at Revelio Labs, responded and sent me three large samples of Revelio Labs' employee workforce demographic data. 
 		<br>
 		<br>
-		Together, the three datasets from Revelio Labs totalled 28.6 million rows of data and 4.67 GB of data. That is why I am unable to host the data on GitHub or GU Domains, and have linked the AWS downloading link to the data in the data tab. Please find screenshots and descriptions of the data below:
+		Together, the three datasets from Revelio Labs totalled 28.6 million rows of data and 4.67 GB of data of employees representing six public companies––Goldman Sachs, Apple, Bristol Myers Squibb, Home Depot, Accenture, and Databricks. That is why I am unable to host the data on GitHub or GU Domains, and have linked the AWS downloading link to the data in the data tab. Please find screenshots and descriptions of the data below:
 		<br>
 		<br>
 		1. First, we have workforce dynamics broken down by demographics. There are 7.4 million rows of data with distinct columns 'company', 'region', 'seniority', 'job_category', 'gender', 'ethnicity', 'month', 'count', 'inflow', 'outflow', and 'salary'. 
@@ -178,12 +178,38 @@
 		<p>To further understand workforce dynamics and sentiment, I gathered Tweets data via Twitter API in R. I used the R packages rtweet and twitteR in particular to scrape Tweets via API. 
 		<br>
 		<br>
-		I read the consumer key, consumer secret, access token, and access secret from a .txt file. I then used the rtweet package to scrape Tweets data from Twitter. I used the search_tweets() function to scrape Tweets data from Twitter. 
+		I read Professor Nakul's consumer key, consumer secret, access token, and access secret from a .txt file. 
+		I then used the rtweet package to scrape Tweets data from Twitter. 
+		Finally, I used the twitteR package's searchTwitter() function to scrape Tweets data from Twitter. 
+		In the searchTwitter() function I specified the following parameters: size n=200 to scrape 200 tweets for each company, seach terms are the six respective companies we have record data for––Goldman Sachs, Apple, Bristol Myers Squibb, Home Depot, Accenture, and Databricks––and langauge is English. 
+		I used the twListToDF function to convert the six different groups of Tweets into six respective dataframes. 
+		Finally, I unlisted each dataframes then saved them as separate text files. 
+		<br>
+		<br>
+		<br>
+		Please see the following snapshot of Accenture's raw text files. 
+		<br>
+		<br>
+		<img src="../images/tweets_screenshot.png" width="1200" height="480">
+		<br>
 		</p>
-
+	<br>
+	<br>
 	<h2>
-		Wikipedia Text Data via API in Python (<a href="">link to code</a>)
+		Wikipedia Text Data via API in Python (<a href="https://github.com/anly501/anly-501-project-cynthia-ng/blob/main/codes/gathering_exploring_wikipedia_py.ipynb">link to code</a>)
 	</h2>
+		<p>In addition to Tweets data, I also gathered Wikipedia text data using Wikipedia API in Python. 
+			First, I downloaded necessary packages, including the Wikipedia package in Python. 
+			Then, I used the wikipedia.page() function, specifying the title to be each of the six public companies for consistency––Goldman Sachs, Apple, Bristol Myers Squibb, Home Depot, Accenture, and Databricks.
+			Finally, I printed the content of the Wikipedia page to confirm I have the right data.
+			<br>
+			<br>
+			<br>
+			Please see the following screenshot of Home Depot's Wikipedia page printed in Python:
+			<br>
+			<br>
+			<img src="../images/wikipedia_screenshot.png" width="900" height="400">
+		</p>
 
 
 	

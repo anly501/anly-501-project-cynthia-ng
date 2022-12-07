@@ -46,7 +46,7 @@ setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
 ## Search Tweets
 ```{r parameters}
-# Set paramters
+# Set parameters
 N = 200
 Lang = "en"
 
