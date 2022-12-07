@@ -180,7 +180,7 @@
 			<br>
 			<br>
 			<br>
-			After cleaning, this what the cleaned data looks like:
+			This what the cleaned record data looks like:
 			<br>
 			<br>
 			<img src="../images/wf_demo_cleaned.png" width="900" height="300">
@@ -189,9 +189,48 @@
 			<br>
 		<h2>Cleaning Tweets Text Data in Python (<a href="https://github.com/anly501/anly-501-project-cynthia-ng/blob/main/codes/cleaning_py.ipynb">link to code</a>)</h2>
 			<br>
-			I used Python to clean the Tweets data. I removed vectorized the dataframe and removed stopwords. 
-			Please see "tweet_cleaning.py" on Github linked in the data tab for more info. 
-            To clean, I 
+			I used Python to clean the Tweets data. 
+			Before I started any cleaning, I imported necessary libraries such as nltk, CountVectorizer from sklearn.feature_extraction.text, stopwords from nltk.corpus and word_tokenize from nltk.tokenize. 
+			Then, I read the five Tweets text files into corpa. 
+
+			The first step consisted of splitting the files' text into individual lines, where each tweet was its own line, using the splitlines() function. 
+			Then I convereted each corpus to a dataframe. 
+			I looked at the text files further to see how to clean them further, and realize that each text file had a long list of lines that are obviously not Tweets, and the non-Tweet text occurs after the first occurrence of 'FALSE' in each text file.
+			The screenshot below shows an example of where the long list of non-Tweets starts. 
+			<br>
+			<br>
+			<img src="../images/tweets_false.png" width="700" height="300">
+			<br>
+			<br>
+			Therefore, I used the index of the first occurrence of 'FALSE' to subset the dataframes and only include the Tweets. 
+			<br>
+			<br>
+			<br>
+			Afterwards, I created a clean_tweets() function to make all letters lowercase and remove stopwords like symbols, numbers, and links.
+			I also added stopwords like "href" and "rt". 
+			I ran a for loop to filter out the stopwords. 
+			Then, I used the WordNetLemmatizer() function to lemmatize all words and join them back together. 
+			I applied this function to all of my dataframes. 
+			<br>
+			<br>
+			After cleaning the Tweets, I ran the CountVectorizer() function to generate a matrix where columns are words and rows are Tweets.
+			I also printed the vocabulary to explore object attributes.
+			<br>
+			<br>
+			Finally, I saved the finalized Tweets onto their own files in the data folder of my GitHub repository <a href="https://github.com/anly501/anly-501-project-cynthia-ng/tree/main/data">here</a>. 
+			<br>
+			<br>
+			<br>
+			For reference, this is a snapshot of the raw text data:
+			<br>
+			<br>
+			<img src="../images/tweets_screenshot.png" width="1200" height="480">
+			<br>
+			<br>
+			<br>
+			This what the cleaned text data looks like:
+			<br>
+			<br>
 			<img src="../images/tweets_cleaned.png" width="800" height="350">
 
       </td>

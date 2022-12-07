@@ -123,34 +123,67 @@
 
 
 <!--MAIN CONTENT-->
-<div id="Exploring Data" class="section level1">
-<h1>Exploring Data</h1>
+<div id="Data Gathering" class="section level1">
+
+	<!-- USE A TABLE TO ORGANIZE/FORMAT THE WEBPAGE -->
+	<table>
+		<!--ROW-1 COL-1-->
+		<td>
+		<h1>
+			Exploring Data
+		</h1>           
+        <p>
+			<br>
+			I explored the workforce dynamic record, Wikipedia text, and Twitter text data in R and Python below. 
+			<br>
+			<br>
+			<h2>Wikipedia Data Exploring (<a href="https://github.com/anly501/anly-501-project-cynthia-ng/blob/main/codes/gathering_exploring_wikipedia_py.ipynb">link to code</a>).</h2>
+			I used Wikipedia API to gather Wikipedia pages of five of the companies for which I have record data--I could not locate the Wikipedia article of Databricks, so left it out. Image below shows some of the most common words on the pages. 
+        Some of the most frequently occurring words are "consulting", "technology", and "service" for Accenture;
+		"product", "store", "year", and "job" for Apple; "pharmaceutical", "health", and "donor" for BMS; "store", "supply" and "brand" for Home Depot; 
+		and "bank", "billion", and "securities", and "investment" for Goldmans Sachs. This is not a surprise as the most frequently occurring words
+		are all related to the companies' functioning and operations. 
+		I did not expect seeing some DEI-related words like "gender" at the top left corner of Accenture's wordcloud, but these words are very infrequent. 
+        This indicates that perhaps none of these companies are known for DEI enough for it to be mentioned on their Wikipedia pages, even though these are all extremely large companies. </p>
+				Accenture:
+				<br>
+				<br>
+                <img src="../images/Accenture_Wordcloud.jpg" width="600" height="400">
+				<br>
+				<br>
+				<br>
+				Apple:
+				<br>
+				<br>
+				<img src="../images/Apple_Wordcloud.jpg" width="600" height="400">
+				<br>
+				<br>
+				<br>
+				BMS:
+				<br>
+				<br>
+				<img src="../images/BMS_Wordcloud.jpg" width="600" height="400">
+				<br>
+				<br>
+				<br>
+				Home Depot:
+				<br>
+				<br>
+				<img src="../images/Home_Depot_Wordcloud.jpg" width="600" height="400">
+				<br>
+				<br>
+				<br>
+				Goldman Sachs:
+				<br>
+				<br>
+				<img src="../images/Goldman_Sachs_Wordcloud.jpg" width="600" height="400">
+				<br>
+				<br>
+				<br>
 
 
-<!-- USE A TABLE TO ORGANIZE/FORMAT THE WEBPAGE -->
-<table>
-    <!--TABLE ROW-1-->
-   <tr>      
-      <!--ROW-1 COL-1-->
-      <td>
-            
-        <h2 style="text-align:left; color:blue;">Exploring Data</h2>
-        
-        <p  style="font-size:13px;"> Exploring Data </p>
-        <p  style="font-size:11px;"> Please see this graph for information </p>
 
-        <p  style="font-size:11px;"> Next, I used Python to clean the Tweets data. Please see "tweet_cleaning.py" on Github linked in the data tab for more info. 
-            Below is a heatmap showing the frequency of certain words in this set of Tweets</p>
-            <td>
-                <img src="../images/tweets_heatmap.png" width="600" height="250">
-            </td>
 
-        <p  style="font-size:11px;"> Furthermore, I used Wikipedia API to gather Wikipedia pages of the 6 companies for which I have employment data. Image below shows some of the most common words on the pages. 
-        Some of the most frequently occurring words are "Goldman", "Sachs", "bank", "billion", and "million", which indicates that these companies are associated with financial values on Wikipedia.
-        There is no suggestion of frequently-occurring related to diversity in their pages, except for the word "employee". </p>
-            <td>
-                <img src="../images/wiki-wordcloud.png" width="600" height="250">
-            </td>
 
       </td>
          
